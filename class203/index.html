@@ -1,0 +1,386 @@
+<!DOCTYPE html>
+<html lang="fa" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>کلاس 203 امیرکبیر | صفحه اصلی</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="fix-fstk">
+        <div class="deta-fstk">
+            <div class="deta-head">
+                <img src="icon/close.png" alt="" class="imgc">
+            </div>
+            <div class="div-mtnf">
+                <div class="mtnf"></div>
+                <div class="mtnf-time"><b>مهلت انجام تکالیف :</b> تا فردا چهارشنبه <span>1405/06/18</span></div>
+            </div>
+        </div>
+    </div>
+
+    <div class="big-cont">
+        <div class="head">
+            <div class="div-hat">
+                <img src="icon/student.png" alt="" class="hat">
+            </div>
+            <div class="div-myc">
+                <p class="myc">کلاس ما</p>
+            </div>
+            <div class="div-sm">
+                <img src="icon/moon.png" alt="" class="sm" id="sm">
+            </div>
+        </div>
+        <div class="cont">
+            <div class="menu">
+                <div class="bhs rtp" onclick="srvcH()">
+                    <div class="div-bhsimg">
+                        <img src="icon/home.png" alt="" class="bhsimg">
+                    </div>
+                    <h2 class="bhsmtn">خانه</h2>
+                </div>
+                <div class="bhs" onclick="srvcT()">
+                    <div class="div-bhsimg">
+                        <img src="icon/homework.png" alt="" class="bhsimg">
+                    </div>
+                    <h2 class="bhsmtn">تکالیف</h2>
+                </div>
+                <div class="bhs" onclick="srvcW()">
+                    <div class="div-bhsimg">
+                        <img src="icon/weekly.png" alt="" class="bhsimg">
+                    </div>
+                    <h2 class="bhsmtn">برنامه هفتگی</h2>
+                </div>
+                <div class="bhs" onclick="srvcM()">
+                    <div class="div-bhsimg">
+                        <img src="icon/person.png" alt="" class="bhsimg">
+                    </div>
+                    <h2 class="bhsmtn">دانش آموزان</h2>
+                </div>
+                <div class="bhs" onclick="srvcS()">
+                    <div class="div-bhsimg">
+                        <img src="icon/teacher.png" alt="" class="bhsimg">
+                    </div>
+                    <h2 class="bhsmtn">معلم ها</h2>
+                </div>
+                <div class="bhs" onclick="srvcE()">
+                    <div class="div-bhsimg">
+                        <img src="icon/announcement.png" alt="" class="bhsimg">
+                    </div>
+                    <h2 class="bhsmtn">اطلاعیه ها</h2>
+                </div>
+            </div>
+            <div class="main">
+                <div class="besti" id="target-home">
+                    <div class="boxs box1">
+                        <div class="div-icon">
+                            <img src="icon/homework.png" alt="" class="ic ic1">
+                        </div>
+                        <div class="sgbt" onclick="window.location.href = 'AllHomeWork.html'">
+                            <p class="lg sgbt-mtn1">تکالیف کل</p>
+                            <p class="lg2 sgbt-mtn2">مشاهده تکالیف</p>
+                        </div>
+                    </div>
+                    <div class="boxs box2">
+                        <div class="div-icon">
+                            <img src="icon/weekly.png" alt="" class="ic ic2">
+                        </div>
+                        <div class="sgbt" onclick="srvcW()">
+                            <p class="lg sgbt-mtn3">برنامه هفتگی</p>
+                            <p class="lg2 sgbt-mtn4">لیست دروس</p>
+                        </div>
+                    </div>
+                    <div class="boxs box3">
+                        <div class="div-icon">
+                            <img src="icon/person.png" alt="" class="ic ic3">
+                        </div>
+                        <div class="sgbt" onclick="window.location.href = 'students.html'">
+                            <p class="lg sgbt-mtn5">دانش آموزان</p>
+                            <p class="lg2 sgbt-mtn6">اسامی و ترتیب</p>
+                        </div>
+                    </div>
+                    <div class="boxs box4">
+                        <div class="div-icon">
+                            <img src="icon/teacher.png" alt="" class="ic ic4">
+                        </div>
+                        <div class="sgbt" onclick="window.location.href = 'teachers.html'">
+                            <p class="lg sgbt-mtn7">معلم ها</p>
+                            <p class="lg2 sgbt-mtn8">به همراه دروس</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="besti2" id="target-hw">
+                    <div class="tks">
+                        <div class="tks-head">
+                            <div class="div-tk">
+                                <img src="icon/homework.png" alt="" class="img-tk">
+                            </div>
+                            <div class="div-mtntk">
+                                <p class="mtn-tk">تکالیف فردا</p>
+                            </div>
+                        </div>
+                        <!--  -->
+                        <div class="tksd">
+                            <div class="div-tk">
+                                <img src="icon/red.png" alt="" class="img-tk trfr">
+                            </div>
+                            <div class="div-fstk ijiefh">
+                                <p class="mtn-tk fstk fstk-1"> در این بخش تکالیف روز بعد گفته میشود .</p>
+                            </div>
+                            <div class="div-fstk">
+                                <p class="mtn-tk fstk salti"></p>
+                            </div>
+                        </div>
+                        <div class="tksd">
+                            <div class="div-tk">
+                                <img src="icon/red.png" alt="" class="img-tk trfr">
+                            </div>
+                            <div class="div-fstk ijiefh">
+                                <p class="mtn-tk fstk fstk-2"> در این بخش تکالیف روز بعد گفته میشود .</p>
+                            </div>
+                            <div class="div-fstk">
+                                <p class="mtn-tk fstk salti"></p>
+                            </div>
+                        </div>
+                        <div class="tksd">
+                            <div class="div-tk">
+                                <img src="icon/red.png" alt="" class="img-tk trfr">
+                            </div>
+                            <div class="div-fstk ijiefh">
+                                <p class="mtn-tk fstk fstk-3"> در این بخش تکالیف روز بعد گفته میشود .</p>
+                            </div>
+                            <div class="div-fstk">
+                                <p class="mtn-tk fstk salti"></p>
+                            </div>
+                        </div>
+                        <div class="div-btnall">
+                            <button class="btnall">مشاهده جزئیات</button>
+                        </div>
+                        <!--  -->
+                    </div>
+                </div>
+                <div class="besti3" id="target-weekly">
+                    <div class="thh">
+                        <div class="div-imgt">
+                            <img src="icon/weekly.png" alt="" class="imgt">
+                        </div>
+                        <div class="div-mtnt">
+                            <p class="mtnt">برنامه هفتگی</p>
+                        </div>
+                    </div>
+                    <table class="week">
+                        <thead>
+                            <th>روز | زنگ</th>
+                            <th>اول</th>
+                            <th>دوم</th>
+                            <th>سوم</th>
+                            <th>چهارم</th>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <th>شنبه</th>
+                                <td>درس</td>
+                                <td>درس</td>
+                                <td>درس</td>
+                                <td>درس</td>
+                            </tr>
+                            <tr>
+                                <th>یکشنبه</th>
+                                <td>درس</td>
+                                <td>درس</td>
+                                <td>درس</td>
+                                <td>درس</td>
+                            </tr>
+                            <tr>
+                                <th>دوشنبه</th>
+                                <td>درس</td>
+                                <td>درس</td>
+                                <td>درس</td>
+                                <td>درس</td>
+                            </tr>
+                            <tr>
+                                <th>سشنبه</th>
+                                <td>درس</td>
+                                <td>درس</td>
+                                <td>درس</td>
+                                <td>درس</td>
+                            </tr>
+                            <tr>
+                                <th>چهارشنبه</th>
+                                <td>درس</td>
+                                <td>درس</td>
+                                <td>درس</td>
+                                <td>درس</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+                <div class="besti4">
+                    <div class="teach" id="target-teacher">
+                        <div class="teh">
+                            <div class="div-imgs">
+                                <img src="icon/person.png" alt="" class="imgs">
+                            </div>
+                            <div class="div-mtns">
+                                <p class="mtns">دانش آموزان</p>
+                            </div>
+                        </div>
+                        <div class="tehd">
+                            <div class="tehd-name">فلان فلان شده</div>
+                            <div class="tehd-num">1</div>
+                        </div>
+                        <div class="tehd">
+                            <div class="tehd-name">فلان فلان شده</div>
+                            <div class="tehd-num">2</div>
+                        </div>
+                        <div class="tehd">
+                            <div class="tehd-name">فلان فلان شده</div>
+                            <div class="tehd-num">3</div>
+                        </div>
+                        <div class="tehd">
+                            <div class="tehd-name">فلان فلان شده</div>
+                            <div class="tehd-num">4</div>
+                        </div>
+                        <div class="tehd">
+                            <div class="tehd-name">فلان فلان شده</div>
+                            <div class="tehd-num">5</div>
+                        </div>
+                        <div class="tehd">
+                            <div class="tehd-name">فلان فلان شده</div>
+                            <div class="tehd-num">6</div>
+                        </div>
+                        <div class="tehd">
+                            <div class="div-btnt">
+                                <button class="btnt">لیست کامل دانش آموزان</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="besti5" id="target-student">
+                    <div class="teachs">
+                        <div class="teh">
+                            <div class="div-imgm">
+                                <img src="icon/teacher.png" alt="" class="imgm">
+                            </div>
+                            <div class="div-mtnm">
+                                <p class="mtnm">معلم ها</p>
+                            </div>
+                        </div>
+                        <div class="tehd">
+                            <div class="tehd-name">فلان فلان شده</div>
+                            <div class="tehd-num">1</div>
+                        </div>
+                        <div class="tehd">
+                            <div class="tehd-name">فلان فلان شده</div>
+                            <div class="tehd-num">2</div>
+                        </div>
+                        <div class="tehd">
+                            <div class="tehd-name">فلان فلان شده</div>
+                            <div class="tehd-num">3</div>
+                        </div>
+                        <div class="tehd">
+                            <div class="div-btnt">
+                                <button class="btnt">لیست کامل معلم ها</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="besti6" id="target-etela">
+                    <div class="etela">
+                        <div class="eh">
+                            <div class="div-imge">
+                                <img src="icon/announcement.png" alt="" class="imge">
+                            </div>
+                            <div class="div-mtne">
+                                <p class="mtne">اطلاعیه ها</p>
+                            </div>
+                        </div>
+                        <!--  -->
+                        <div class="news1 new">
+                            <div class="new-title">
+                                <div class="div-imgn">
+                                    <img src="icon/red.png" alt="" class="imgn">
+                                </div>
+                                <div class="div-mtnn">
+                                    <p class="mtnn">اطلاعیه مفید</p>
+                                </div>
+                            </div>
+                            <div class="new-info">
+                                <p class="mtni">در این بخش اطلاهیه هایی از جمله تعطیلی و جلسه و غیره گفته میشود</p>
+                            </div>
+                            <div class="new-date">
+                                <p class="date">1405/07/01 - چهارشنبه</p>
+                            </div>
+                        </div>
+                        <div class="news1 new">
+                            <div class="new-title">
+                                <div class="div-imgn">
+                                    <img src="icon/red.png" alt="" class="imgn">
+                                </div>
+                                <div class="div-mtnn">
+                                    <p class="mtnn">اطلاعیه مفید</p>
+                                </div>
+                            </div>
+                            <div class="new-info">
+                                <p class="mtni">در این بخش اطلاهیه هایی از جمله تعطیلی و جلسه و غیره گفته میشود</p>
+                            </div>
+                            <div class="new-date">
+                                <p class="date">1405/07/01 - چهارشنبه</p>
+                            </div>
+                        </div>
+                        <div class="news1 new">
+                            <div class="new-title">
+                                <div class="div-imgn">
+                                    <img src="icon/red.png" alt="" class="imgn">
+                                </div>
+                                <div class="div-mtnn">
+                                    <p class="mtnn">اطلاعیه مفید</p>
+                                </div>
+                            </div>
+                            <div class="new-info">
+                                <p class="mtni">در این بخش اطلاهیه هایی از جمله تعطیلی و جلسه و غیره گفته میشود</p>
+                            </div>
+                            <div class="new-date">
+                                <p class="date">1405/07/01 - چهارشنبه</p>
+                            </div>
+                        </div>
+                        <!--  -->
+                    </div>
+                </div>
+                <div class="site-footer">
+                    <div class="footer-line"></div>
+
+                    <p class="footer-made">
+                        ساخته شده توسط <span>چرب ترین آدم دنیا</span>
+                    </p>
+
+                    <p class="footer-version">
+                        نسخه سایت <b>1.1</b>
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+
+</body>
+</html>
+                                            <!-- #taklif -->
+                    <!-- 
+                        <div class="tksd">
+                            <div class="div-tk">
+                                <img src="/icon/red.png" alt="" class="img-tk trfr">
+                            </div>
+                            <div class="div-fstk ijiefh">
+                                <p class="mtn-tk fstk">فردا تکلیفی نداریم .</p>
+                            </div>
+                            <div class="div-fstk">
+                                <p class="mtn-tk fstk salti"></p>
+                            </div>
+                        </div>
+                        <div class="div-btnall">
+                            <button class="btnall">مشاهده جزئیات</button>
+                        </div>
+                    -->
