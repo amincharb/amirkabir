@@ -82,7 +82,6 @@ sm.addEventListener("click" , ()=>{
         besti5.style.color = "white"
         besti6.style.color = "white"
         myc.style.color = "white"
-        main.style
     }else {
         sm.src = "icon/moon.png"
         document.body.style.backgroundColor = "white"
@@ -93,4 +92,29 @@ sm.addEventListener("click" , ()=>{
         besti6.style.color = "black"
         myc.style.color = "black"
     }
+    localStorage.setItem("darkness" , JSON.stringify({
+        main: main.classList.contains("dark") ,
+        src: sm.src ,
+        body: document.body.style.backgroundColor,
+        besti2: besti2.style.color,
+        besti3: besti3.style.color,
+        besti4: besti4.style.color,
+        besti5: besti5.style.color,
+        besti6: besti6.style.color,
+        myc: myc.style.color
+    }))
 })
+const getTheme = JSON.parse(localStorage.getItem("darkness"))
+
+if (getTheme) {
+    darkmode = getTheme.main
+    main.classList.toggle("dark" , getTheme.main)
+    sm.src = getTheme.src
+    document.body.style.backgroundColor = getTheme.body
+    besti2.style.color = getTheme.besti2
+    besti3.style.color = getTheme.besti3
+    besti4.style.color = getTheme.besti4
+    besti5.style.color = getTheme.besti5
+    besti6.style.color = getTheme.besti6
+    myc.style.color = getTheme.myc
+}

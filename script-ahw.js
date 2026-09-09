@@ -29,10 +29,14 @@ sm.addEventListener("click" , ()=>{
         myc.style.color = "black"
         main_ahw.style.color = "black"
         back.style.color = "black"
+        hminp.style.color = "black"
         hmbtn.style.backgroundColor = "aliceblue"
         hmbtn.style.color = "black"
         hmbtn.style.border = "none"
     }
+    localStorage.setItem("darkness" , JSON.stringify({
+        
+    }))
 })
     // تبدیل اعداد فارسی به انگلیسی
     function normalizeNumbers(text) {
@@ -116,3 +120,9 @@ sm.addEventListener("click" , ()=>{
         }
 
     });
+
+const getTheme = JSON.parse(localStorage.getItem("darkness"))
+
+if (getTheme) {
+    darkmode = getTheme.main
+}
