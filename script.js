@@ -92,29 +92,88 @@ sm.addEventListener("click" , ()=>{
         besti6.style.color = "black"
         myc.style.color = "black"
     }
-    localStorage.setItem("darkness" , JSON.stringify({
-        main: main.classList.contains("dark") ,
-        src: sm.src ,
-        body: document.body.style.backgroundColor,
-        besti2: besti2.style.color,
-        besti3: besti3.style.color,
-        besti4: besti4.style.color,
-        besti5: besti5.style.color,
-        besti6: besti6.style.color,
-        myc: myc.style.color
-    }))
+    localStorage.setItem("darkmode" , darkmode);
+    // localStorage.setItem("darkness" , JSON.stringify({
+    //     main: main.classList.contains("dark") ,
+    //     src: sm.src ,
+    //     body: document.body.style.backgroundColor,
+    //     besti2: besti2.style.color,
+    //     besti3: besti3.style.color,
+    //     besti4: besti4.style.color,
+    //     besti5: besti5.style.color,
+    //     besti6: besti6.style.color,
+    //     myc: myc.style.color
+    // }))
+    // localStorage.setItem("darkness2" , JSON.stringify({
+    //     src: sm.src,
+    //     body: document.body.style.backgroundColor,
+    //     myc: myc.style.color,
+    //     main_ahw: main_ahw.style.color,
+    //     back: back.style.color,
+    //     hminpbc: hminp.style.backgroundColor,
+    //     hminpc: hminp.style.color,
+    //     hmbtnbc: hmbtn.style.backgroundColor,
+    //     hmbtnc: hmbtn.style.color,
+    //     hmbtnb: hmbtn.style.border
+    // }))
 })
-const getTheme = JSON.parse(localStorage.getItem("darkness"))
+// const getTheme = JSON.parse(localStorage.getItem("darkness"))
 
-if (getTheme) {
-    darkmode = getTheme.main
-    main.classList.toggle("dark" , getTheme.main)
-    sm.src = getTheme.src
-    document.body.style.backgroundColor = getTheme.body
-    besti2.style.color = getTheme.besti2
-    besti3.style.color = getTheme.besti3
-    besti4.style.color = getTheme.besti4
-    besti5.style.color = getTheme.besti5
-    besti6.style.color = getTheme.besti6
-    myc.style.color = getTheme.myc
+// if (getTheme) {
+//     darkmode = getTheme.main
+//     main.classList.toggle("dark" , getTheme.main)
+//     sm.src = getTheme.src
+//     document.body.style.backgroundColor = getTheme.body
+//     besti2.style.color = getTheme.besti2
+//     besti3.style.color = getTheme.besti3
+//     besti4.style.color = getTheme.besti4
+//     besti5.style.color = getTheme.besti5
+//     besti6.style.color = getTheme.besti6
+//     myc.style.color = getTheme.myc
+// }
+
+// const getTheme2 = JSON.parse(localStorage.getItem("darkness2"))
+
+// if (getTheme2) {
+//     darkmode = getTheme2.main_ahw
+//     main_ahw.classList.toggle("dark" , getTheme.main_ahw)
+//     sm.src
+//     document.body.style.backgroundColor = getTheme2.body
+//     myc.style.color = getTheme2.myc
+//     main_ahw.style.color = getTheme2.main_ahw
+//     back.style.color = getTheme2.back
+//     hminp.style.backgroundColor = getTheme2.hminpbc
+//     hminp.style.color = getTheme2.hminpc
+//     hmbtn.style.backgroundColor = getTheme2.hmbtnbc
+//     hmbtn.style.color = getTheme2.hmbtnc
+//     hmbtn.style.border = getTheme2.hmbtnb
+// }
+const savedDarkMode = JSON.parse(localStorage.getItem("darkmode"));
+
+if (savedDarkMode) {
+    darkmode = true;
+    main.classList.add("dark");
+
+    sm.src = "icon/wsun.png";
+    document.body.style.backgroundColor = "black";
+
+    besti2.style.color = "white";
+    besti3.style.color = "white";
+    besti4.style.color = "white";
+    besti5.style.color = "white";
+    besti6.style.color = "white";
+    myc.style.color = "white";
+} else {
+    darkmode = false;
+    main.classList.remove("dark");
+
+    sm.src = "icon/moon.png";
+    document.body.style.backgroundColor = "white";
+
+    besti2.style.color = "black";
+    besti3.style.color = "black";
+    besti4.style.color = "black";
+    besti5.style.color = "black";
+    besti6.style.color = "black";
+    myc.style.color = "black";
 }
