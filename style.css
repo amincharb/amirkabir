@@ -243,7 +243,7 @@ body {
 .fix-fstk {
     width: 100%;
     height: 100%;
-    background-color: rgba(44, 18, 18, 0.5);
+    background-color: rgba(0, 0, 0, 0.82);
     position: fixed;
     z-index: 100;
     display: none;
@@ -1413,7 +1413,7 @@ tr , td , th {
     width: 100%;
     height: 100%;
     z-index: 100;
-    background-color: rgba(44, 18, 18, 0.5);
+    background-color: rgba(0 , 0 , 0 , 0.82);
     display: none;
     align-items: center;
     justify-content: center;
@@ -1421,17 +1421,95 @@ tr , td , th {
 .std-card {
     width: 450px;
     height: 270px;
-    background-color: white;
+    background: linear-gradient(rgb(187, 185, 185) , white , rgb(187, 185, 185));
     border-radius: 12px;
+    display: flex;
+    flex-direction: column;
 }
 .std-deta {
     width: 100%;
     height: 120px;
+    display: flex;
+    align-items: center;
+    /* border-bottom: 1px solid black; */
 }
-
-
-
-
+.details-std {
+    width: 70%;
+    /* border: 1px solid black; */
+    height: 120px;
+}
+.details-std2 {
+    width: 100%;
+    /* border: 1px solid black; */
+    flex: 1;
+}
+.details-std2 p {
+    padding-right: 20px;
+    margin: 0;
+}
+.details-std2 p:nth-child(2) {
+    padding: 20px;
+    margin: 0;
+    display: flex;
+    align-items: center;
+}
+.std-prof {
+    width: 27%;
+    /* border: 1px solid black; */
+    height: 120px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.circle-std {
+    width: 100%;
+    border-radius: 1000%;
+    border: 1px solid black;
+}
+.details-std p {
+    padding-right: 20px;
+    padding-top: 10px;
+    margin: 0;
+}
+.img-stds {
+    width: 40px;
+    padding-right: 10px;
+    cursor: pointer;
+}
+#img-std1 {
+    filter: grayscale(100%);
+    /* position: relative;
+    display: inline-block; */
+}
+/* #img-std1::after {
+    content: "تلگرام";
+    position: absolute;
+    bottom: 100%;
+    left: 50%;
+    transform: translateX(-50%);
+    background: #333;
+    color: white;
+    padding: 5px 8px;
+    border-radius: 5px;
+    opacity: 0;
+    visibility: hidden;
+    transition: 0.2s;
+    white-space: nowrap;
+    z-index: 500;
+}
+#img-std1:hover::after {
+    opacity: 1;
+    visibility: visible;
+} */
+#img-std2 {
+    filter: grayscale(100%);
+}
+#img-std3 {
+    filter: grayscale(100%);
+}
+#img-std4 {
+    filter: grayscale(100%);
+}
 
 
 
@@ -1472,7 +1550,26 @@ tr , td , th {
 }
 @media (max-width: 500px) {
     .std-card {
-        scale: 0.6;
+        scale: 1;
+        width: 80%;
+        height: 260px;
+        font-size: 13px;
+    }
+    .img-stds {
+        width: 30px;
+    }
+    .std-prof {
+        width: 40%;
+    }
+    .circle-std {
+        width: 85%;
+    }
+}
+@media (max-width: 400px) {
+    .std-card {
+        scale: 1;
+        width: 90%;
+        height: auto;
     }
 }
 @media (max-width: 380px) {
