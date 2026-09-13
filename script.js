@@ -35,6 +35,24 @@ function srvcM() {
     });
 }
 
+const splash = document.getElementById("pwa-splash");
+
+const isPWA =
+    window.matchMedia("(display-mode: standalone)").matches ||
+    window.navigator.standalone === true;
+
+if (isPWA) {
+    splash.style.display = "flex";
+
+    setTimeout(() => {
+        splash.style.animation = "splashOut 0.7s ease forwards";
+
+        setTimeout(() => {
+            splash.remove();
+        }, 700);
+
+    }, 2500);
+}
 
 
 
