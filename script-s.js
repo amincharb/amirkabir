@@ -180,9 +180,6 @@ sm.addEventListener("click" , ()=>{
         back.style.color = "black"
         main_s.style.color = "black"
         bigs.style.border = "1px solid black"
-        s1.style.color = "black"
-        s1.style.backgroundColor = "white"
-        s1.style.borderTop = "1px solid black"
             for (let i = 1; i <= 33; i++) {
                 const s = document.getElementById(`s${i}`)
 
