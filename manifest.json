@@ -1,0 +1,22 @@
+{
+  "name": "کلاس ما",
+  "short_name": "امیرکبیر",
+  "start_url": "/amirkabir/",
+  "scope": "/amirkabir/",
+  "display": "standalone",
+  "background_color": "#ffffff",
+  "theme_color": "#000000",
+  "description": "سامانه امیرکبیر",
+  "icons": [
+    {
+      "src": "/amirkabir/icon/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/amirkabir/icon/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    }
+  ]
+}
