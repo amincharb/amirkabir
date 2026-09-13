@@ -505,6 +505,9 @@ tr , td , th {
     display: flex;
     align-items: center;
 }
+.tehd-num2 {
+    font-size: 14px;
+}
 .div-btnt {
     width: 100%;
     height: 60px;
@@ -674,10 +677,14 @@ tr , td , th {
     }
 }
 
-
 /* ========================================
-   موبایل
-   ======================================== */
+موبایل
+======================================== */
+@media (max-width: 800px) {
+    .tehd-num2 {
+        font-size: 12px;
+}
+}
 
 @media (max-width: 700px) {
 
@@ -959,6 +966,11 @@ tr , td , th {
    موبایل‌های خیلی کوچک
    مناسب عرض 300px
    ======================================== */
+@media (max-width: 400px) {
+    .tehd-num2 {
+        font-size: 10px;
+    }
+}
 
 @media (max-width: 380px) {
 
