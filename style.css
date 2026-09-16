@@ -1063,6 +1063,36 @@ tr , td , th {
     color: rgb(145 192 255);
     font-weight: bold;
 }
+.telegram-footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+    flex-wrap: wrap;
+    margin-bottom: 15px;
+    text-align: center;
+    direction: rtl;
+    font-size: 16px;
+}
+
+.telegram-footer a {
+    text-decoration: none;
+    font-weight: bold;
+    transition: 0.2s;
+}
+
+.telegram-footer a:hover {
+    opacity: 0.7;
+}
+
+/* موبایل */
+@media (max-width: 500px) {
+    .telegram-footer {
+        font-size: 14px;
+        gap: 5px;
+        padding: 0 10px;
+    }
+}
 
 
 /* =========================
