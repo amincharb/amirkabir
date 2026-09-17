@@ -176,3 +176,71 @@ if (savedDarkMode) {
     besti6.style.color = "black";
     myc.style.color = "black";
 }
+
+
+
+let startY = 0;
+let pulling = false;
+
+const maxPull = 100;
+const resistance = 0.35;
+
+document.addEventListener("touchstart", (e) => {
+    if (e.touches.length !== 1) return;
+
+    startY = e.touches[0].clientY;
+    pulling = false;
+
+    main.style.transition = "none";
+});
+
+document.addEventListener("touchmove", (e) => {
+    if (e.touches.length !== 1) return;
+
+    const currentY = e.touches[0].clientY;
+    const distance = currentY - startY;
+
+    const atTop = main.scrollTop <= 0;
+
+    const atBottom =
+        main.scrollTop + main.clientHeight >= main.scrollHeight - 1;
+
+    // کشیدن از بالای صفحه به پایین
+    if (atTop && distance > 0) {
+
+        const pull = Math.min(
+            distance * resistance,
+            maxPull
+        );
+
+        main.style.transform = translateY(`${pull}px`);
+
+        pulling = true;
+    }
+
+    // کشیدن از پایین صفحه به بالا
+    else if (atBottom && distance < 0) {
+
+        const pull = Math.max(
+            distance * resistance,
+            -maxPull
+        );
+
+        main.style.transform = translateY(`${pull}px`);
+
+        pulling = true;
+    }
+
+});
+
+document.addEventListener("touchend", () => {
+
+    if (!pulling) return;
+
+    main.style.transition =
+        "transform 0.35s cubic-bezier(0.25, 0.8, 0.25, 1)";
+
+    main.style.transform = "translateY(0)";
+
+    pulling = false;
+});
