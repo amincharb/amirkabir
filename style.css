@@ -117,6 +117,13 @@ body {
     transition: transform 0.35s cubic-bezier(.25, .8, .25, 1);
     will-change: transform;
 }
+.main > * {
+    translate: 0 var(--elastic-y, 0px);
+}
+
+.main.elastic-return > * {
+    transition: translate 0.35s cubic-bezier(.25, .8, .25, 1);
+}
 .main::-webkit-scrollbar {
     width: 4px;
 }
@@ -1154,6 +1161,13 @@ tr , td , th {
     transition: transform 0.35s cubic-bezier(.2, .8, .2, 1);
     will-change: transform;
 }
+.main-ahw > * {
+    translate: 0 var(--elastic-y, 0px);
+}
+
+.main-ahw.elastic-return > * {
+    transition: translate 0.35s cubic-bezier(.25, .8, .25, 1);
+}
 .main-ahw::-webkit-scrollbar {
     width: 4px;
 }
@@ -1378,6 +1392,13 @@ tr , td , th {
     overscroll-behavior: none;
     transition: transform 0.35s cubic-bezier(.2, .8, .2, 1);
     will-change: transform;
+}
+.main-s > * {
+    translate: 0 var(--elastic-y, 0px);
+}
+
+.main-s.elastic-return > * {
+    transition: translate 0.35s cubic-bezier(.25, .8, .25, 1);
 }
 .main-s::-webkit-scrollbar {
     width: 4px;
@@ -1639,6 +1660,13 @@ tr , td , th {
     overscroll-behavior: none;
     transition: transform 0.35s cubic-bezier(.2, .8, .2, 1);
     will-change: transform;
+}
+.main-t > * {
+    translate: 0 var(--elastic-y, 0px);
+}
+
+.main-t.elastic-return > * {
+    transition: translate 0.35s cubic-bezier(.25, .8, .25, 1);
 }
 .main-t::-webkit-scrollbar {
     width: 4px;

@@ -180,67 +180,84 @@ if (savedDarkMode) {
 
 
 let startY = 0;
+let startAtTop = false;
+let startAtBottom = false;
 let pulling = false;
 
 const maxPull = 100;
 const resistance = 0.35;
 
-document.addEventListener("touchstart", (e) => {
+function setElastic(y, animate = false) {
+    main.style.setProperty("--elastic-y", `${y}px`);
+    main.classList.toggle("elastic-return", animate);
+}
+
+main.addEventListener("touchstart", (e) => {
     if (e.touches.length !== 1) return;
 
     startY = e.touches[0].clientY;
+
+    startAtTop = main.scrollTop <= 0;
+
+    startAtBottom =
+        main.scrollTop + main.clientHeight >=
+        main.scrollHeight - 1;
+
     pulling = false;
 
-    main.style.transition = "none";
+    main.classList.remove("elastic-return");
 });
 
-document.addEventListener("touchmove", (e) => {
+main.addEventListener("touchmove", (e) => {
     if (e.touches.length !== 1) return;
 
-    const currentY = e.touches[0].clientY;
-    const distance = currentY - startY;
-
-    const atTop = main.scrollTop <= 0;
-
-    const atBottom =
-        main.scrollTop + main.clientHeight >= main.scrollHeight - 1;
+    const distance =
+        e.touches[0].clientY - startY;
 
     // کشیدن از بالای صفحه به پایین
-    if (atTop && distance > 0) {
-
+    if (startAtTop && distance > 0) {
         const pull = Math.min(
             distance * resistance,
             maxPull
         );
 
-        main.style.transform = translateY(`${pull}px`);
-
+        setElastic(pull);
         pulling = true;
+
+        return;
     }
 
     // کشیدن از پایین صفحه به بالا
-    else if (atBottom && distance < 0) {
-
+    if (startAtBottom && distance < 0) {
         const pull = Math.max(
             distance * resistance,
             -maxPull
         );
 
-        main.style.transform = translateY(`${pull}px`);
-
+        setElastic(pull);
         pulling = true;
+
+        return;
     }
 
-});
+    // اگر جهت حرکت برعکس شد
+    if (pulling) {
+        setElastic(0);
+        pulling = false;
+    }
 
-document.addEventListener("touchend", () => {
+}, { passive: true });
 
+
+function releaseElastic() {
     if (!pulling) return;
 
-    main.style.transition =
-        "transform 0.35s cubic-bezier(0.25, 0.8, 0.25, 1)";
+    main.classList.add("elastic-return");
 
-    main.style.transform = "translateY(0)";
+    setElastic(0, true);
 
     pulling = false;
-});
+}
+
+main.addEventListener("touchend", releaseElastic);
+main.addEventListener("touchcancel", releaseElastic);

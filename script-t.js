@@ -124,3 +124,88 @@ if (savedDarkMode) {
                 s.style.borderTop = "1px solid black"
     })}
 }
+
+
+
+let startY = 0;
+let startAtTop = false;
+let startAtBottom = false;
+let pulling = false;
+
+const maxPull = 100;
+const resistance = 0.35;
+
+function setElastic(y, animate = false) {
+    main_t.style.setProperty("--elastic-y", `${y}px`);
+    main_t.classList.toggle("elastic-return", animate);
+}
+
+main_t.addEventListener("touchstart", (e) => {
+    if (e.touches.length !== 1) return;
+
+    startY = e.touches[0].clientY;
+
+    startAtTop = main_t.scrollTop <= 0;
+
+    startAtBottom =
+        main_t.scrollTop + main_t.clientHeight >=
+        main_t.scrollHeight - 1;
+
+    pulling = false;
+
+    main_t.classList.remove("elastic-return");
+});
+
+main_t.addEventListener("touchmove", (e) => {
+    if (e.touches.length !== 1) return;
+
+    const distance =
+        e.touches[0].clientY - startY;
+
+    // کشیدن از بالای صفحه به پایین
+    if (startAtTop && distance > 0) {
+        const pull = Math.min(
+            distance * resistance,
+            maxPull
+        );
+
+        setElastic(pull);
+        pulling = true;
+
+        return;
+    }
+
+    // کشیدن از پایین صفحه به بالا
+    if (startAtBottom && distance < 0) {
+        const pull = Math.max(
+            distance * resistance,
+            -maxPull
+        );
+
+        setElastic(pull);
+        pulling = true;
+
+        return;
+    }
+
+    // اگر جهت حرکت برعکس شد
+    if (pulling) {
+        setElastic(0);
+        pulling = false;
+    }
+
+}, { passive: true });
+
+
+function releaseElastic() {
+    if (!pulling) return;
+
+    main_t.classList.add("elastic-return");
+
+    setElastic(0, true);
+
+    pulling = false;
+}
+
+main_t.addEventListener("touchend", releaseElastic);
+main_t.addEventListener("touchcancel", releaseElastic);

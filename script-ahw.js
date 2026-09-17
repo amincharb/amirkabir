@@ -212,3 +212,90 @@ if (savedDarkMode) {
     hmbtn.style.color = "black";
     hmbtn.style.border = "none";
 }
+
+
+
+
+
+let startY = 0;
+let startAtTop = false;
+let startAtBottom = false;
+let pulling = false;
+
+const maxPull = 100;
+const resistance = 0.35;
+
+function setElastic(y, animate = false) {
+    main_ahw.style.setProperty("--elastic-y", `${y}px`);
+    main_ahw.classList.toggle("elastic-return", animate);
+}
+
+main_ahw.addEventListener("touchstart", (e) => {
+    if (e.touches.length !== 1) return;
+
+    startY = e.touches[0].clientY;
+
+    startAtTop = main_ahw.scrollTop <= 0;
+
+    startAtBottom =
+        main_ahw.scrollTop + main_ahw.clientHeight >=
+        main_ahw.scrollHeight - 1;
+
+    pulling = false;
+
+    main_ahw.classList.remove("elastic-return");
+});
+
+main_ahw.addEventListener("touchmove", (e) => {
+    if (e.touches.length !== 1) return;
+
+    const distance =
+        e.touches[0].clientY - startY;
+
+    // کشیدن از بالای صفحه به پایین
+    if (startAtTop && distance > 0) {
+        const pull = Math.min(
+            distance * resistance,
+            maxPull
+        );
+
+        setElastic(pull);
+        pulling = true;
+
+        return;
+    }
+
+    // کشیدن از پایین صفحه به بالا
+    if (startAtBottom && distance < 0) {
+        const pull = Math.max(
+            distance * resistance,
+            -maxPull
+        );
+
+        setElastic(pull);
+        pulling = true;
+
+        return;
+    }
+
+    // اگر جهت حرکت برعکس شد
+    if (pulling) {
+        setElastic(0);
+        pulling = false;
+    }
+
+}, { passive: true });
+
+
+function releaseElastic() {
+    if (!pulling) return;
+
+    main_ahw.classList.add("elastic-return");
+
+    setElastic(0, true);
+
+    pulling = false;
+}
+
+main_ahw.addEventListener("touchend", releaseElastic);
+main_ahw.addEventListener("touchcancel", releaseElastic);
