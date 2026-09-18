@@ -1190,6 +1190,7 @@ tr , td , th {
     border: 1px solid rgb(202, 198, 198);
     margin: 20px auto;
     border-radius: 12px;
+    position: relative;
 }
 .div-head-hm {
     width: 100%;
@@ -1293,18 +1294,57 @@ tr , td , th {
     transform: scale(0.97);
 }
 
+.copy-homework-link {
+    position: absolute;
+    left: 20px;
+    bottom: 20px;
+
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    gap: 6px;
+
+    padding: 8px 13px;
+
+    border: 1px solid #dcdcdc;
+    border-radius: 10px;
+
+    background: white;
+    color: #333;
+
+    font-family: inherit;
+    font-size: 13px;
+    cursor: pointer;
+
+    transition: all 0.2s ease;
+}
+
+.copy-homework-link:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.12);
+}
+
+.copy-homework-link:active {
+    transform: scale(0.96);
+}
+
+.copy-homework-link.copied {
+    background: #22c55e;
+    color: white;
+    border-color: #22c55e;
+}
 
 
 
-    .back-home {
-        width: calc(100% - 30px);
-        box-sizing: border-box;
+.back-home {
+    width: calc(100% - 30px);
+    box-sizing: border-box;
 
-        margin: 15px auto;
-        padding: 11px 15px;
+    margin: 15px auto;
+    padding: 11px 15px;
 
-        font-size: 14px;
-    }
+    font-size: 14px;
+}
 
 
 
@@ -1376,6 +1416,10 @@ tr , td , th {
     }
     .hm-mtnt {
         font-size: 13px;
+    }
+    .copy-homework-link {
+        left: 10px;
+        bottom: 10px;
     }
 }
 

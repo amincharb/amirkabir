@@ -212,7 +212,7 @@ function findHomeworkByURL(key) {
         return null;
     }
 
-    const homeworkCards = document.querySelectorAll(".hm-no-1");
+    const homeworkCards = document.querySelectorAll(".hm");
 
     let foundHomework = null;
 
@@ -245,7 +245,7 @@ function goToHomework(card) {
     }
 
     const homeworkCards =
-        document.querySelectorAll(".hm-no-1");
+        document.querySelectorAll(".hm");
 
     homeworkCards.forEach(item => {
         item.classList.remove("homework-found");
@@ -295,7 +295,7 @@ function searchHomework() {
 
 
     const homeworkCards =
-        document.querySelectorAll(".hm-no-1");
+        document.querySelectorAll(".hm");
 
     let foundHomework = null;
 
@@ -396,6 +396,73 @@ if (homeworkURL) {
     });
 
 }
+// ساخت خودکار دکمه کپی لینک برای هر تکلیف
+document.querySelectorAll(".hm").forEach(card => {
+
+    const dateElement = card.querySelector(".hm-dc p:nth-child(2) span");
+
+    if (!dateElement) return;
+
+    const dateText = dateElement.textContent.trim();
+
+    const homeworkKey = createHomeworkURLKey(dateText);
+
+    if (!homeworkKey) return;
+
+    // جلوگیری از ساخته شدن دکمه تکراری
+    if (card.querySelector(".copy-homework-link")) return;
+
+    const button = document.createElement("button");
+
+    button.className = "copy-homework-link";
+    button.type = "button";
+    button.innerHTML = "📋 کپی لینک";
+
+    button.addEventListener("click", async () => {
+
+        const url =
+            window.location.origin +
+            window.location.pathname +
+            "?homework=" +
+            encodeURIComponent(homeworkKey);
+
+        try {
+
+            await navigator.clipboard.writeText(url);
+
+            button.innerHTML = "✓ لینک کپی شد";
+            button.classList.add("copied");
+
+            setTimeout(() => {
+                button.innerHTML = "📋 کپی لینک";
+                button.classList.remove("copied");
+            }, 1500);
+
+        } catch (error) {
+
+            // روش جایگزین برای مرورگرهای قدیمی
+            const textarea = document.createElement("textarea");
+
+            textarea.value = url;
+            document.body.appendChild(textarea);
+
+            textarea.select();
+            document.execCommand("copy");
+
+            textarea.remove();
+
+            button.innerHTML = "✓ لینک کپی شد";
+            button.classList.add("copied");
+
+            setTimeout(() => {
+                button.innerHTML = "📋 کپی لینک";
+                button.classList.remove("copied");
+            }, 1500);
+        }
+    });
+
+    card.appendChild(button);
+});
 
 // const getTheme = JSON.parse(localStorage.getItem("darkness"))
 
