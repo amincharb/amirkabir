@@ -223,7 +223,7 @@ let startAtBottom = false;
 let pulling = false;
 
 const maxPull = 100;
-const resistance = 0.35;
+const resistance = 0.2;
 
 function setElastic(y, animate = false) {
     main_ahw.style.setProperty("--elastic-y", `${y}px`);
