@@ -222,7 +222,7 @@ let startAtTop = false;
 let startAtBottom = false;
 let pulling = false;
 
-const maxPull = 100;
+const maxPull = 300;
 const resistance = 0.2;
 
 function setElastic(y, animate = false) {
