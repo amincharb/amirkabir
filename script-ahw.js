@@ -60,88 +60,342 @@ sm.addEventListener("click" , ()=>{
     //     hmbtnb: hmbtn.style.border
     // }))
 })
-    // تبدیل اعداد فارسی به انگلیسی
-    function normalizeNumbers(text) {
-        return text
-            .replace(/[۰-۹]/g, number => "۰۱۲۳۴۵۶۷۸۹".indexOf(number))
-            .replace(/[٠-٩]/g, number => "٠١٢٣٤٥٦٧٨٩".indexOf(number));
+
+// ============================================================
+    // // تبدیل اعداد فارسی به انگلیسی
+    // function normalizeNumbers(text) {
+    //     return text
+    //         .replace(/[۰-۹]/g, number => "۰۱۲۳۴۵۶۷۸۹".indexOf(number))
+    //         .replace(/[٠-٩]/g, number => "٠١٢٣٤٥٦٧٨٩".indexOf(number));
+    // }
+
+    // // یکسان‌سازی متن جستجو
+    // function normalizeSearch(text) {
+    //     return normalizeNumbers(text)
+    //         .trim()
+    //         .replace(/\s+/g, " ")
+    //         .replace(/\s*([۰-۹0-9]+)\s*مهر/g, "$1 مهر")
+    //         .replace(/مهر\s*([۰-۹0-9]+)/g, "$1 مهر");
+    // }
+
+    // function searchHomework() {
+    //     const input = document.querySelector("#hm-inp");
+
+    //     if (!input) return;
+
+    //     const searchValue = normalizeSearch(input.value);
+
+    //     if (!searchValue) {
+    //         return;
+    //     }
+
+    //     // تمام کارت‌های تکلیف
+    //     const homeworkCards = document.querySelectorAll(".hm-no-1");
+
+    //     let foundHomework = null;
+
+    //     homeworkCards.forEach(card => {
+    //         const cardText = normalizeSearch(card.textContent);
+
+    //         if (cardText.includes(searchValue)) {
+    //             foundHomework = card;
+    //         }
+    //     });
+
+    //     if (foundHomework) {
+
+    //         // حذف هایلایت قبلی
+    //         homeworkCards.forEach(card => {
+    //             card.classList.remove("homework-found");
+    //         });
+
+    //         // اسکرول نرم به تکلیف
+    //         foundHomework.scrollIntoView({
+    //             behavior: "smooth",
+    //             block: "center"
+    //         });
+
+    //         // هایلایت
+    //         setTimeout(() => {
+    //             foundHomework.classList.add("homework-found");
+    //         }, 400);
+
+    //         // بعد از ۲ ثانیه حذف هایلایت
+    //         setTimeout(() => {
+    //             foundHomework.classList.remove("homework-found");
+    //         }, 2400);
+
+    //     } else {
+    //         alert("تکلیفی برای «" + input.value + "» پیدا نشد.");
+    //     }
+    // }
+
+
+    // // کلیک روی دکمه جستجو
+    // document.querySelector("#hm-btn")?.addEventListener("click", searchHomework);
+
+
+    // // جستجو با Enter
+    // document.querySelector("#hm-inp")?.addEventListener("keydown", function(event) {
+
+    //     if (event.key === "Enter") {
+    //         event.preventDefault();
+    //         searchHomework();
+    //     }
+
+    // });
+
+// ===============================================================
+
+// =====================================================
+// جستجوی تکالیف + لینک مستقیم به هر تکلیف
+// =====================================================
+
+
+function normalizeNumbers(text) {
+    return text
+        .replace(/[۰-۹]/g, number => "۰۱۲۳۴۵۶۷۸۹".indexOf(number))
+        .replace(/[٠-٩]/g, number => "٠١٢٣٤٥٦٧٨٩".indexOf(number));
+}
+
+
+const homeworkMonths = {
+    "فروردین": "farvardin",
+    "اردیبهشت": "ordibehesht",
+    "خرداد": "khordad",
+    "تیر": "tir",
+    "مرداد": "mordad",
+    "شهریور": "shahrivar",
+    "مهر": "mehr",
+    "آبان": "aban",
+    "آذر": "azar",
+    "دی": "dey",
+    "بهمن": "bahman",
+    "اسفند": "esfand"
+};
+
+
+function getMonthURL(month) {
+
+    return homeworkMonths[month] || null;
+
+}
+
+function createHomeworkURLKey(dateText) {
+
+    dateText = normalizeNumbers(dateText)
+        .trim()
+        .replace(/\s+/g, " ");
+
+    const parts = dateText.split(" ");
+
+    if (parts.length < 2) {
+        
+        return null;
+
+    }
+    const day = parts[0];
+    const month = parts[1];
+
+    const monthURL = getMonthURL(month);
+
+    if (!monthURL || !/^\d+$/.test(day)) {
+        return null;
     }
 
-    // یکسان‌سازی متن جستجو
-    function normalizeSearch(text) {
-        return normalizeNumbers(text)
-            .trim()
-            .replace(/\s+/g, " ")
-            .replace(/\s*([۰-۹0-9]+)\s*مهر/g, "$1 مهر")
-            .replace(/مهر\s*([۰-۹0-9]+)/g, "$1 مهر");
+    return `${day}${monthURL}`;
+}
+
+function findHomeworkByURL(key) {
+
+    if (!key) {
+        return null;
     }
 
-    function searchHomework() {
-        const input = document.querySelector("#hm-inp");
+    const homeworkCards = document.querySelectorAll(".hm-no-1");
 
-        if (!input) return;
+    let foundHomework = null;
 
-        const searchValue = normalizeSearch(input.value);
+    homeworkCards.forEach(card => {
 
-        if (!searchValue) {
+        const dateElement =
+            card.querySelector(".hm-dc p:nth-child(2) span");
+
+        if (!dateElement) {
             return;
         }
 
-        // تمام کارت‌های تکلیف
-        const homeworkCards = document.querySelectorAll(".hm-no-1");
+        const dateKey =
+            createHomeworkURLKey(dateElement.textContent);
 
-        let foundHomework = null;
-
-        homeworkCards.forEach(card => {
-            const cardText = normalizeSearch(card.textContent);
-
-            if (cardText.includes(searchValue)) {
-                foundHomework = card;
-            }
-        });
-
-        if (foundHomework) {
-
-            // حذف هایلایت قبلی
-            homeworkCards.forEach(card => {
-                card.classList.remove("homework-found");
-            });
-
-            // اسکرول نرم به تکلیف
-            foundHomework.scrollIntoView({
-                behavior: "smooth",
-                block: "center"
-            });
-
-            // هایلایت
-            setTimeout(() => {
-                foundHomework.classList.add("homework-found");
-            }, 400);
-
-            // بعد از ۲ ثانیه حذف هایلایت
-            setTimeout(() => {
-                foundHomework.classList.remove("homework-found");
-            }, 2400);
-
-        } else {
-            alert("تکلیفی برای «" + input.value + "» پیدا نشد.");
-        }
-    }
-
-
-    // کلیک روی دکمه جستجو
-    document.querySelector("#hm-btn")?.addEventListener("click", searchHomework);
-
-
-    // جستجو با Enter
-    document.querySelector("#hm-inp")?.addEventListener("keydown", function(event) {
-
-        if (event.key === "Enter") {
-            event.preventDefault();
-            searchHomework();
+        if (dateKey === key) {
+            foundHomework = card;
         }
 
     });
+
+    return foundHomework;
+}
+
+
+function goToHomework(card) {
+
+    if (!card) {
+        return false;
+    }
+
+    const homeworkCards =
+        document.querySelectorAll(".hm-no-1");
+
+    homeworkCards.forEach(item => {
+        item.classList.remove("homework-found");
+    });
+
+
+    card.scrollIntoView({
+        behavior: "smooth",
+        block: "center"
+    });
+
+
+    setTimeout(() => {
+        card.classList.add("homework-found");
+    }, 400);
+
+    setTimeout(() => {
+        card.classList.remove("homework-found");
+    }, 2400);
+
+    return true;
+}
+
+function searchHomework() {
+
+    const input = hminp;
+
+    if (!input) {
+        return;
+    }
+
+    const searchValue =
+        normalizeNumbers(input.value)
+            .trim()
+            .replace(/\s+/g, " ");
+
+
+    if (!searchValue) {
+        return;
+    }
+
+    const normalizedSearch =
+        searchValue
+            .replace(/\s*(فروردین|اردیبهشت|خرداد|تیر|مرداد|شهریور|مهر|آبان|آذر|دی|بهمن|اسفند)\s*/g, " $1 ")
+            .replace(/\s+/g, " ")
+            .trim();
+
+
+    const homeworkCards =
+        document.querySelectorAll(".hm-no-1");
+
+    let foundHomework = null;
+
+    homeworkCards.forEach(card => {
+
+        const dateElement =
+            card.querySelector(".hm-dc p:nth-child(2) span");
+
+        if (!dateElement) {
+            return;
+        }
+
+        const cardDate =
+            normalizeNumbers(dateElement.textContent)
+                .trim()
+                .replace(/\s+/g, " ");
+
+        if (cardDate === normalizedSearch) {
+            foundHomework = card;
+        }
+
+    });
+
+
+    if (foundHomework) {
+        goToHomework(foundHomework);
+
+        const dateElement =
+            foundHomework.querySelector(
+                ".hm-dc p:nth-child(2) span"
+            );
+
+        const homeworkKey =
+            createHomeworkURLKey(dateElement.textContent);
+
+
+        if (homeworkKey) {
+
+            const newURL =
+                `${window.location.pathname}?homework=${encodeURIComponent(homeworkKey)}`;
+
+            history.pushState(null, "", newURL);
+
+        }
+
+    } else {
+
+        alert(
+            "تکلیفی برای «" +
+            input.value +
+            "» پیدا نشد."
+        );
+
+    }
+
+}
+hmbtn?.addEventListener("click", searchHomework);
+hminp?.addEventListener("keydown", function(event) {
+
+    if (event.key === "Enter") {
+
+        event.preventDefault();
+
+        searchHomework();
+
+    }
+
+});
+
+
+
+const homeworkURL =
+    new URLSearchParams(window.location.search)
+        .get("homework");
+
+
+if (homeworkURL) {
+
+    window.addEventListener("load", function() {
+
+        const foundHomework =
+            findHomeworkByURL(
+                homeworkURL.toLowerCase()
+            );
+
+
+        if (foundHomework) {
+
+            // کمی تأخیر برای اطمینان از آماده بودن صفحه
+            setTimeout(() => {
+
+                goToHomework(foundHomework);
+
+            }, 100);
+
+        }
+
+    });
+
+}
 
 // const getTheme = JSON.parse(localStorage.getItem("darkness"))
 
