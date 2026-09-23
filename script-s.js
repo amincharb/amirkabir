@@ -31,6 +31,7 @@ const s30 = document.getElementById("s30")
 const s31 = document.getElementById("s31")
 const s32 = document.getElementById("s32")
 const s33 = document.getElementById("s33")
+const s34 = document.getElementById("s34")
 const fix = document.querySelector(".fixstd")
 const close = document.querySelector(".imgc")
 const names = document.querySelector(".details-std p span")
@@ -136,6 +137,9 @@ const num32 = document.querySelector("#s32 .div-stdnum p")
 const names33 = document.querySelector("#s33 .div-stdname p span")
 const nameFamily33 = document.querySelector("#s33 .div-stdname p span:nth-child(2)")
 const num33 = document.querySelector("#s33 .div-stdnum p")
+const names34 = document.querySelector("#s34 .div-stdname p span")
+const nameFamily34 = document.querySelector("#s34 .div-stdname p span:nth-child(2)")
+const num34 = document.querySelector("#s34 .div-stdnum p")
 
 const main_s = document.querySelector(".main-s")
 const sm = document.getElementById("sm")
@@ -157,7 +161,7 @@ sm.addEventListener("click" , ()=>{
         main_s.style.color = "white"
         bigs.style.border = "1px solid white"
 
-            for (let i = 1; i <= 33; i++) {
+            for (let i = 1; i <= 34; i++) {
                 const s = document.getElementById(`s${i}`)
 
                 s.style.color = "white"
@@ -180,7 +184,7 @@ sm.addEventListener("click" , ()=>{
         back.style.color = "black"
         main_s.style.color = "black"
         bigs.style.border = "1px solid black"
-            for (let i = 1; i <= 33; i++) {
+            for (let i = 1; i <= 34; i++) {
                 const s = document.getElementById(`s${i}`)
 
                 s.style.color = "black"
@@ -410,7 +414,7 @@ s29.addEventListener("click" , ()=>{
     fix.style.display = "flex"
     names.textContent = names29.textContent
     nameFamily.textContent = nameFamily29.textContent
-    age.textContent = "1405/07/01"
+    age.textContent = "1388/07/15"
     num.textContent = num29.textContent
 })
 s30.addEventListener("click" , ()=>{
@@ -441,6 +445,13 @@ s33.addEventListener("click" , ()=>{
     age.textContent = "1405/07/01"
     num.textContent = num33.textContent
 })
+s34.addEventListener("click" , ()=>{
+    fix.style.display = "flex"
+    names.textContent = names34.textContent
+    nameFamily.textContent = nameFamily34.textContent
+    age.textContent = "1405/07/01"
+    num.textContent = num34.textContent
+})
 
 
 const savedDarkMode = JSON.parse(localStorage.getItem("darkmode"));
@@ -455,7 +466,7 @@ if (savedDarkMode) {
     main_s.style.color = "white"
     bigs.style.border = "1px solid white"
 
-        for (let i = 1; i <= 33; i++) {
+        for (let i = 1; i <= 34; i++) {
             const s = document.getElementById(`s${i}`)
 
             s.style.color = "white"
@@ -482,7 +493,7 @@ if (savedDarkMode) {
     s1.style.color = "black"
     s1.style.backgroundColor = "white"
     s1.style.borderTop = "1px solid black"
-        for (let i = 1; i <= 33; i++) {
+        for (let i = 1; i <= 34; i++) {
             const s = document.getElementById(`s${i}`)
 
             s.style.color = "black"
