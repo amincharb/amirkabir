@@ -1744,8 +1744,13 @@ tr , td , th {
         font-size: 12px;
 }
 }
+@media (max-width: 500px) {
+    .artfelan {
+        width: 100%;
+    }
+}
 @media (max-width: 400px) {
     .artfelan p {
-        font-size: 10px;
+        font-size: 11px;
     }
 }
