@@ -140,6 +140,9 @@ const num33 = document.querySelector("#s33 .div-stdnum p")
 const names34 = document.querySelector("#s34 .div-stdname p span")
 const nameFamily34 = document.querySelector("#s34 .div-stdname p span:nth-child(2)")
 const num34 = document.querySelector("#s34 .div-stdnum p")
+const names35 = document.querySelector("#s35 .div-stdname p span")
+const nameFamily35 = document.querySelector("#s35 .div-stdname p span:nth-child(2)")
+const num35 = document.querySelector("#s35 .div-stdnum p")
 
 const main_s = document.querySelector(".main-s")
 const sm = document.getElementById("sm")
@@ -161,7 +164,7 @@ sm.addEventListener("click" , ()=>{
         main_s.style.color = "white"
         bigs.style.border = "1px solid white"
 
-            for (let i = 1; i <= 34; i++) {
+            for (let i = 1; i <= 35; i++) {
                 const s = document.getElementById(`s${i}`)
 
                 s.style.color = "white"
@@ -184,7 +187,7 @@ sm.addEventListener("click" , ()=>{
         back.style.color = "black"
         main_s.style.color = "black"
         bigs.style.border = "1px solid black"
-            for (let i = 1; i <= 34; i++) {
+            for (let i = 1; i <= 35; i++) {
                 const s = document.getElementById(`s${i}`)
 
                 s.style.color = "black"
@@ -407,14 +410,14 @@ s28.addEventListener("click" , ()=>{
     fix.style.display = "flex"
     names.textContent = names28.textContent
     nameFamily.textContent = nameFamily28.textContent
-    age.textContent = "1405/07/01"
+    age.textContent = "1388/07/15"
     num.textContent = num28.textContent
 })
 s29.addEventListener("click" , ()=>{
     fix.style.display = "flex"
     names.textContent = names29.textContent
     nameFamily.textContent = nameFamily29.textContent
-    age.textContent = "1388/07/15"
+    age.textContent = "1405/07/01"
     num.textContent = num29.textContent
 })
 s30.addEventListener("click" , ()=>{
@@ -442,7 +445,7 @@ s33.addEventListener("click" , ()=>{
     fix.style.display = "flex"
     names.textContent = names33.textContent
     nameFamily.textContent = nameFamily33.textContent
-    age.textContent = "1405/07/01"
+    age.textContent = "1388/08/28"
     num.textContent = num33.textContent
 })
 s34.addEventListener("click" , ()=>{
@@ -451,6 +454,13 @@ s34.addEventListener("click" , ()=>{
     nameFamily.textContent = nameFamily34.textContent
     age.textContent = "1405/07/01"
     num.textContent = num34.textContent
+})
+s35.addEventListener("click" , ()=>{
+    fix.style.display = "flex"
+    names.textContent = names35.textContent
+    nameFamily.textContent = nameFamily35.textContent
+    age.textContent = "1405/07/01"
+    num.textContent = num35.textContent
 })
 
 
@@ -466,7 +476,7 @@ if (savedDarkMode) {
     main_s.style.color = "white"
     bigs.style.border = "1px solid white"
 
-        for (let i = 1; i <= 34; i++) {
+        for (let i = 1; i <= 35; i++) {
             const s = document.getElementById(`s${i}`)
 
             s.style.color = "white"
@@ -493,7 +503,7 @@ if (savedDarkMode) {
     s1.style.color = "black"
     s1.style.backgroundColor = "white"
     s1.style.borderTop = "1px solid black"
-        for (let i = 1; i <= 34; i++) {
+        for (let i = 1; i <= 35; i++) {
             const s = document.getElementById(`s${i}`)
 
             s.style.color = "black"

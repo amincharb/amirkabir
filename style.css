@@ -1671,6 +1671,12 @@ tr , td , th {
         width: 85%;
     }
 }
+@media (max-width: 420px) {
+    .div-stdname {
+        font-size: 14px;
+        width: 100%;
+    }
+}
 @media (max-width: 400px) {
     .std-card {
         scale: 1;
