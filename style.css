@@ -975,7 +975,7 @@ tr , td , th {
    ======================================== */
 @media (max-width: 400px) {
     .tehd-num2 {
-        font-size: 10px;
+        font-size: 12px;
     }
 }
 
@@ -1751,6 +1751,6 @@ tr , td , th {
 }
 @media (max-width: 400px) {
     .artfelan p {
-        font-size: 11px;
+        font-size: 12px;
     }
 }
