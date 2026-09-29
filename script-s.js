@@ -140,6 +140,10 @@ const num33 = document.querySelector("#s33 .div-stdnum p")
 const names34 = document.querySelector("#s34 .div-stdname p span")
 const nameFamily34 = document.querySelector("#s34 .div-stdname p span:nth-child(2)")
 const num34 = document.querySelector("#s34 .div-stdnum p")
+const img_std1 = document.getElementById("img-std1")
+const img_std2 = document.getElementById("img-std2")
+const img_std3 = document.getElementById("img-std3")
+const img_std4 = document.getElementById("img-std4")
 
 const main_s = document.querySelector(".main-s")
 const sm = document.getElementById("sm")
@@ -220,6 +224,16 @@ s1.addEventListener("click" , ()=>{
     nameFamily.textContent = nameFamily1.textContent
     age.textContent = "1405/07/01"
     num.textContent = num1.textContent
+    img_std1.style.filter = "grayscale(100)"
+    img_std2.style.filter = "grayscale(100)"
+    img_std3.style.filter = "grayscale(100)"
+    img_std4.style.filter = "grayscale(0)"
+    img_std1.addEventListener("click" , ()=>{
+        window.location.href = "#"
+    })
+    img_std4.addEventListener("click" , ()=>{
+        window.location.href = "https://shad.ir/@paoluo2417"
+    })
 })
 s2.addEventListener("click" , ()=>{
     fix.style.display = "flex"
@@ -227,6 +241,16 @@ s2.addEventListener("click" , ()=>{
     nameFamily.textContent = nameFamily2.textContent
     age.textContent = "1405/07/01"
     num.textContent = num2.textContent
+    img_std1.style.filter = "grayscale(100)"
+    img_std2.style.filter = "grayscale(100)"
+    img_std3.style.filter = "grayscale(100)"
+    img_std4.style.filter = "grayscale(0)"
+    img_std1.addEventListener("click" , ()=>{
+        window.location.href = "#"
+    })
+    img_std4.addEventListener("click" , ()=>{
+        window.location.href = "https://shad.ir/@mumied8653"
+    })
 })
 s3.addEventListener("click" , ()=>{
     fix.style.display = "flex"
@@ -234,6 +258,16 @@ s3.addEventListener("click" , ()=>{
     nameFamily.textContent = nameFamily3.textContent
     age.textContent = "1405/07/01"
     num.textContent = num3.textContent
+    img_std1.style.filter = "grayscale(100)"
+    img_std2.style.filter = "grayscale(100)"
+    img_std3.style.filter = "grayscale(100)"
+    img_std4.style.filter = "grayscale(0)"
+    img_std1.addEventListener("click" , ()=>{
+        window.location.href = "#"
+    })
+    img_std4.addEventListener("click" , ()=>{
+        window.location.href = "https://shad.ir/@armin2h"
+    })
 })
 s4.addEventListener("click" , ()=>{
     fix.style.display = "flex"
@@ -241,6 +275,16 @@ s4.addEventListener("click" , ()=>{
     nameFamily.textContent = nameFamily4.textContent
     age.textContent = "1405/07/01"
     num.textContent = num4.textContent
+    img_std1.style.filter = "grayscale(100)"
+    img_std2.style.filter = "grayscale(100)"
+    img_std3.style.filter = "grayscale(100)"
+    img_std4.style.filter = "grayscale(0)"
+    img_std1.addEventListener("click" , ()=>{
+        window.location.href = "#"
+    })
+    img_std4.addEventListener("click" , ()=>{
+        window.location.href = "https://shad.ir/@mk14151"
+    })
 })
 s5.addEventListener("click" , ()=>{
     fix.style.display = "flex"
@@ -248,6 +292,16 @@ s5.addEventListener("click" , ()=>{
     nameFamily.textContent = nameFamily5.textContent
     age.textContent = "1405/07/01"
     num.textContent = num5.textContent
+    img_std1.style.filter = "grayscale(100)"
+    img_std2.style.filter = "grayscale(100)"
+    img_std3.style.filter = "grayscale(100)"
+    img_std4.style.filter = "grayscale(0)"
+    img_std1.addEventListener("click" , ()=>{
+        window.location.href = "#"
+    })
+    img_std4.addEventListener("click" , ()=>{
+        window.location.href = "https://shad.ir/@mqeask7060"
+    })
 })
 s6.addEventListener("click" , ()=>{
     fix.style.display = "flex"
@@ -255,6 +309,16 @@ s6.addEventListener("click" , ()=>{
     nameFamily.textContent = nameFamily6.textContent
     age.textContent = "1405/07/01"
     num.textContent = num6.textContent
+    img_std1.style.filter = "grayscale(100)"
+    img_std2.style.filter = "grayscale(100)"
+    img_std3.style.filter = "grayscale(100)"
+    img_std4.style.filter = "grayscale(0)"
+    img_std1.addEventListener("click" , ()=>{
+        window.location.href = "#"
+    })
+    img_std4.addEventListener("click" , ()=>{
+        window.location.href = "https://shad.ir/@mohammadaminbaradary"
+    })
 })
 s7.addEventListener("click" , ()=>{
     fix.style.display = "flex"
@@ -262,6 +326,16 @@ s7.addEventListener("click" , ()=>{
     nameFamily.textContent = nameFamily7.textContent
     age.textContent = "1405/07/01"
     num.textContent = num7.textContent
+    img_std1.style.filter = "grayscale(100)"
+    img_std2.style.filter = "grayscale(100)"
+    img_std3.style.filter = "grayscale(100)"
+    img_std4.style.filter = "grayscale(0)"
+    img_std1.addEventListener("click" , ()=>{
+        window.location.href = "#"
+    })
+    img_std4.addEventListener("click" , ()=>{
+        window.location.href = "https://shad.ir/@hasanbaghaeel3489"
+    })
 })
 s8.addEventListener("click" , ()=>{
     fix.style.display = "flex"
@@ -269,6 +343,16 @@ s8.addEventListener("click" , ()=>{
     nameFamily.textContent = nameFamily8.textContent
     age.textContent = "1405/07/01"
     num.textContent = num8.textContent
+    img_std1.style.filter = "grayscale(0)"
+    img_std2.style.filter = "grayscale(100)"
+    img_std3.style.filter = "grayscale(100)"
+    img_std4.style.filter = "grayscale(0)"
+    img_std1.addEventListener("click" , ()=>{
+        window.location.href = "tg://resolve?domain=realuser8"
+    })
+    img_std4.addEventListener("click" , ()=>{
+        window.location.href = "https://shad.ir/@itstahaaa"
+    })
 })
 s9.addEventListener("click" , ()=>{
     fix.style.display = "flex"
@@ -276,6 +360,16 @@ s9.addEventListener("click" , ()=>{
     nameFamily.textContent = nameFamily9.textContent
     age.textContent = "1405/07/01"
     num.textContent = num9.textContent
+    img_std1.style.filter = "grayscale(0)"
+    img_std2.style.filter = "grayscale(100)"
+    img_std3.style.filter = "grayscale(100)"
+    img_std4.style.filter = "grayscale(0)"
+    img_std1.addEventListener("click" , ()=>{
+        window.location.href = "tg://resolve?domain=mohs_en_4"
+    })
+    img_std4.addEventListener("click" , ()=>{
+        window.location.href = "https://shad.ir/@iqozsv9880"
+    })
 })
 s10.addEventListener("click" , ()=>{
     fix.style.display = "flex"
@@ -283,6 +377,16 @@ s10.addEventListener("click" , ()=>{
     nameFamily.textContent = nameFamily10.textContent
     age.textContent = "1405/07/01"
     num.textContent = num10.textContent
+    img_std1.style.filter = "grayscale(0)"
+    img_std2.style.filter = "grayscale(100)"
+    img_std3.style.filter = "grayscale(100)"
+    img_std4.style.filter = "grayscale(0)"
+    img_std1.addEventListener("click" , ()=>{
+        window.location.href = "tg://resolve?domain=zelaty"
+    })
+    img_std4.addEventListener("click" , ()=>{
+        window.location.href = "https://shad.ir/@iamirata"
+    })
 })
 s11.addEventListener("click" , ()=>{
     fix.style.display = "flex"
@@ -290,6 +394,16 @@ s11.addEventListener("click" , ()=>{
     nameFamily.textContent = nameFamily11.textContent
     age.textContent = "1405/07/01"
     num.textContent = num11.textContent
+    img_std1.style.filter = "grayscale(0)"
+    img_std2.style.filter = "grayscale(100)"
+    img_std3.style.filter = "grayscale(100)"
+    img_std4.style.filter = "grayscale(0)"
+    img_std1.addEventListener("click" , ()=>{
+        window.location.href = "tg://resolve?domain=vempireboy"
+    })
+    img_std4.addEventListener("click" , ()=>{
+        window.location.href = "https://shad.ir/@knxcimc"
+    })
 })
 s12.addEventListener("click" , ()=>{
     fix.style.display = "flex"
@@ -297,6 +411,16 @@ s12.addEventListener("click" , ()=>{
     nameFamily.textContent = nameFamily12.textContent
     age.textContent = "1405/07/01"
     num.textContent = num12.textContent
+    img_std1.style.filter = "grayscale(100)"
+    img_std2.style.filter = "grayscale(100)"
+    img_std3.style.filter = "grayscale(100)"
+    img_std4.style.filter = "grayscale(0)"
+    img_std1.addEventListener("click" , ()=>{
+        window.location.href = "#"
+    })
+    img_std4.addEventListener("click" , ()=>{
+        window.location.href = "https://shad.ir/@trrhxo4857"
+    })
 })
 s13.addEventListener("click" , ()=>{
     fix.style.display = "flex"
@@ -304,6 +428,16 @@ s13.addEventListener("click" , ()=>{
     nameFamily.textContent = nameFamily13.textContent
     age.textContent = "1405/07/01"
     num.textContent = num13.textContent
+    img_std1.style.filter = "grayscale(100)"
+    img_std2.style.filter = "grayscale(100)"
+    img_std3.style.filter = "grayscale(100)"
+    img_std4.style.filter = "grayscale(0)"
+    img_std1.addEventListener("click" , ()=>{
+        window.location.href = "#"
+    })
+    img_std4.addEventListener("click" , ()=>{
+        window.location.href = "https://shad.ir/@mohamad138992"
+    })
 })
 s14.addEventListener("click" , ()=>{
     fix.style.display = "flex"
@@ -311,6 +445,16 @@ s14.addEventListener("click" , ()=>{
     nameFamily.textContent = nameFamily14.textContent
     age.textContent = "1405/07/01"
     num.textContent = num14.textContent
+    img_std1.style.filter = "grayscale(100)"
+    img_std2.style.filter = "grayscale(100)"
+    img_std3.style.filter = "grayscale(100)"
+    img_std4.style.filter = "grayscale(0)"
+    img_std1.addEventListener("click" , ()=>{
+        window.location.href = "#"
+    })
+    img_std4.addEventListener("click" , ()=>{
+        window.location.href = "https://shad.ir/@pzpehh593"
+    })
 })
 s15.addEventListener("click" , ()=>{
     fix.style.display = "flex"
@@ -318,6 +462,16 @@ s15.addEventListener("click" , ()=>{
     nameFamily.textContent = nameFamily15.textContent
     age.textContent = "1405/07/01"
     num.textContent = num15.textContent
+    img_std1.style.filter = "grayscale(0)"
+    img_std2.style.filter = "grayscale(100)"
+    img_std3.style.filter = "grayscale(100)"
+    img_std4.style.filter = "grayscale(0)"
+    img_std1.addEventListener("click" , ()=>{
+        window.location.href = "tg://resolve?domain=userhiden"
+    })
+    img_std4.addEventListener("click" , ()=>{
+        window.location.href = "https://shad.ir/@dejavopv"
+    })
 })
 s16.addEventListener("click" , ()=>{
     fix.style.display = "flex"
@@ -325,6 +479,16 @@ s16.addEventListener("click" , ()=>{
     nameFamily.textContent = nameFamily16.textContent
     age.textContent = "1405/07/01"
     num.textContent = num16.textContent
+    img_std1.style.filter = "grayscale(100)"
+    img_std2.style.filter = "grayscale(100)"
+    img_std3.style.filter = "grayscale(100)"
+    img_std4.style.filter = "grayscale(0)"
+    img_std1.addEventListener("click" , ()=>{
+        window.location.href = "#"
+    })
+    img_std4.addEventListener("click" , ()=>{
+        window.location.href = "https://shad.ir/@ehsansalimi12"
+    })
 })
 s17.addEventListener("click" , ()=>{
     fix.style.display = "flex"
@@ -332,6 +496,16 @@ s17.addEventListener("click" , ()=>{
     nameFamily.textContent = nameFamily17.textContent
     age.textContent = "1405/07/01"
     num.textContent = num17.textContent
+    img_std1.style.filter = "grayscale(0)"
+    img_std2.style.filter = "grayscale(100)"
+    img_std3.style.filter = "grayscale(100)"
+    img_std4.style.filter = "grayscale(0)"
+    img_std1.addEventListener("click" , ()=>{
+        window.location.href = "tg://resolve?domain=amirsh233"
+    })
+    img_std4.addEventListener("click" , ()=>{
+        window.location.href = "https://shad.ir/@amirsoli23"
+    })
 })
 s18.addEventListener("click" , ()=>{
     fix.style.display = "flex"
@@ -339,6 +513,16 @@ s18.addEventListener("click" , ()=>{
     nameFamily.textContent = nameFamily18.textContent
     age.textContent = "1405/07/01"
     num.textContent = num18.textContent
+    img_std1.style.filter = "grayscale(0)"
+    img_std2.style.filter = "grayscale(100)"
+    img_std3.style.filter = "grayscale(100)"
+    img_std4.style.filter = "grayscale(0)"
+    img_std1.addEventListener("click" , ()=>{
+        window.location.href = "tg://resolve?domain=amirpersia_official"
+    })
+    img_std4.addEventListener("click" , ()=>{
+        window.location.href = "https://shad.ir/@amirsadri1"
+    })
 })
 s19.addEventListener("click" , ()=>{
     fix.style.display = "flex"
@@ -346,6 +530,16 @@ s19.addEventListener("click" , ()=>{
     nameFamily.textContent = nameFamily19.textContent
     age.textContent = "1405/07/01"
     num.textContent = num19.textContent
+    img_std1.style.filter = "grayscale(100)"
+    img_std2.style.filter = "grayscale(100)"
+    img_std3.style.filter = "grayscale(100)"
+    img_std4.style.filter = "grayscale(0)"
+    img_std1.addEventListener("click" , ()=>{
+        window.location.href = "#"
+    })
+    img_std4.addEventListener("click" , ()=>{
+        window.location.href = "https://shad.ir/@amiralifatolah"
+    })
 })
 s20.addEventListener("click" , ()=>{
     fix.style.display = "flex"
@@ -353,6 +547,16 @@ s20.addEventListener("click" , ()=>{
     nameFamily.textContent = nameFamily20.textContent
     age.textContent = "1405/07/01"
     num.textContent = num20.textContent
+    img_std1.style.filter = "grayscale(100)"
+    img_std2.style.filter = "grayscale(100)"
+    img_std3.style.filter = "grayscale(100)"
+    img_std4.style.filter = "grayscale(0)"
+    img_std1.addEventListener("click" , ()=>{
+        window.location.href = "#"
+    })
+    img_std4.addEventListener("click" , ()=>{
+        window.location.href = "https://shad.ir/@manimestr"
+    })
 })
 s21.addEventListener("click" , ()=>{
     fix.style.display = "flex"
@@ -360,6 +564,16 @@ s21.addEventListener("click" , ()=>{
     nameFamily.textContent = nameFamily21.textContent
     age.textContent = "1405/07/01"
     num.textContent = num21.textContent
+    img_std1.style.filter = "grayscale(100)"
+    img_std2.style.filter = "grayscale(100)"
+    img_std3.style.filter = "grayscale(100)"
+    img_std4.style.filter = "grayscale(0)"
+    img_std1.addEventListener("click" , ()=>{
+        window.location.href = "#"
+    })
+    img_std4.addEventListener("click" , ()=>{
+        window.location.href = "https://shad.ir/@danirom"
+    })
 })
 s22.addEventListener("click" , ()=>{
     fix.style.display = "flex"
@@ -367,6 +581,16 @@ s22.addEventListener("click" , ()=>{
     nameFamily.textContent = nameFamily22.textContent
     age.textContent = "1405/07/01"
     num.textContent = num22.textContent
+    img_std1.style.filter = "grayscale(100)"
+    img_std2.style.filter = "grayscale(100)"
+    img_std3.style.filter = "grayscale(100)"
+    img_std4.style.filter = "grayscale(0)"
+    img_std1.addEventListener("click" , ()=>{
+        window.location.href = "#"
+    })
+    img_std4.addEventListener("click" , ()=>{
+        window.location.href = "https://shad.ir/@amirkamali_i"
+    })
 })
 s23.addEventListener("click" , ()=>{
     fix.style.display = "flex"
@@ -374,6 +598,16 @@ s23.addEventListener("click" , ()=>{
     nameFamily.textContent = nameFamily23.textContent
     age.textContent = "1405/07/01"
     num.textContent = num23.textContent
+    img_std1.style.filter = "grayscale(0)"
+    img_std2.style.filter = "grayscale(100)"
+    img_std3.style.filter = "grayscale(100)"
+    img_std4.style.filter = "grayscale(0)"
+    img_std1.addEventListener("click" , ()=>{
+        window.location.href = "tg://resolve?domain=goliy_tt"
+    })
+    img_std4.addEventListener("click" , ()=>{
+        window.location.href = "https://shad.ir/@amirali_201"
+    })
 })
 s24.addEventListener("click" , ()=>{
     fix.style.display = "flex"
@@ -381,6 +615,16 @@ s24.addEventListener("click" , ()=>{
     nameFamily.textContent = nameFamily24.textContent
     age.textContent = "1405/07/01"
     num.textContent = num24.textContent
+    img_std1.style.filter = "grayscale(100)"
+    img_std2.style.filter = "grayscale(100)"
+    img_std3.style.filter = "grayscale(100)"
+    img_std4.style.filter = "grayscale(0)"
+    img_std1.addEventListener("click" , ()=>{
+        window.location.href = "#"
+    })
+    img_std4.addEventListener("click" , ()=>{
+        window.location.href = "https://shad.ir/@zewxec9359"
+    })
 })
 s25.addEventListener("click" , ()=>{
     fix.style.display = "flex"
@@ -388,6 +632,16 @@ s25.addEventListener("click" , ()=>{
     nameFamily.textContent = nameFamily25.textContent
     age.textContent = "1405/07/01"
     num.textContent = num25.textContent
+    img_std1.style.filter = "grayscale(100)"
+    img_std2.style.filter = "grayscale(100)"
+    img_std3.style.filter = "grayscale(100)"
+    img_std4.style.filter = "grayscale(0)"
+    img_std1.addEventListener("click" , ()=>{
+        window.location.href = "#"
+    })
+    img_std4.addEventListener("click" , ()=>{
+        window.location.href = "https://shad.ir/@mahanmohseny"
+    })
 })
 s26.addEventListener("click" , ()=>{
     fix.style.display = "flex"
@@ -395,6 +649,16 @@ s26.addEventListener("click" , ()=>{
     nameFamily.textContent = nameFamily26.textContent
     age.textContent = "1405/07/01"
     num.textContent = num26.textContent
+    img_std1.style.filter = "grayscale(100)"
+    img_std2.style.filter = "grayscale(100)"
+    img_std3.style.filter = "grayscale(100)"
+    img_std4.style.filter = "grayscale(0)"
+    img_std1.addEventListener("click" , ()=>{
+        window.location.href = "#"
+    })
+    img_std4.addEventListener("click" , ()=>{
+        window.location.href = "https://shad.ir/@alire20za10"
+    })
 })
 s27.addEventListener("click" , ()=>{
     fix.style.display = "flex"
@@ -402,6 +666,16 @@ s27.addEventListener("click" , ()=>{
     nameFamily.textContent = nameFamily27.textContent
     age.textContent = "1405/07/01"
     num.textContent = num27.textContent
+    img_std1.style.filter = "grayscale(0)"
+    img_std2.style.filter = "grayscale(100)"
+    img_std3.style.filter = "grayscale(100)"
+    img_std4.style.filter = "grayscale(0)"
+    img_std1.addEventListener("click" , ()=>{
+        window.location.href = "tg://resolve?domain=limkasra"
+    })
+    img_std4.addEventListener("click" , ()=>{
+        window.location.href = "https://shad.ir/@limkasra"
+    })
 })
 s28.addEventListener("click" , ()=>{
     fix.style.display = "flex"
@@ -409,6 +683,16 @@ s28.addEventListener("click" , ()=>{
     nameFamily.textContent = nameFamily28.textContent
     age.textContent = "1388/07/15"
     num.textContent = num28.textContent
+    img_std1.style.filter = "grayscale(0)"
+    img_std2.style.filter = "grayscale(100)"
+    img_std3.style.filter = "grayscale(100)"
+    img_std4.style.filter = "grayscale(0)"
+    img_std1.addEventListener("click" , ()=>{
+        window.location.href = "tg://resolve?domain=chqrb"
+    })
+    img_std4.addEventListener("click" , ()=>{
+        window.location.href = "https://shad.ir/@backgroundcolor"
+    })
 })
 s29.addEventListener("click" , ()=>{
     fix.style.display = "flex"
@@ -416,6 +700,16 @@ s29.addEventListener("click" , ()=>{
     nameFamily.textContent = nameFamily29.textContent
     age.textContent = "1405/07/01"
     num.textContent = num29.textContent
+    img_std1.style.filter = "grayscale(100)"
+    img_std2.style.filter = "grayscale(100)"
+    img_std3.style.filter = "grayscale(100)"
+    img_std4.style.filter = "grayscale(0)"
+    img_std1.addEventListener("click" , ()=>{
+        window.location.href = "#"
+    })
+    img_std4.addEventListener("click" , ()=>{
+        window.location.href = "https://shad.ir/@alirezamacki"
+    })
 })
 s30.addEventListener("click" , ()=>{
     fix.style.display = "flex"
@@ -423,6 +717,16 @@ s30.addEventListener("click" , ()=>{
     nameFamily.textContent = nameFamily30.textContent
     age.textContent = "1405/07/01"
     num.textContent = num30.textContent
+    img_std1.style.filter = "grayscale(100)"
+    img_std2.style.filter = "grayscale(100)"
+    img_std3.style.filter = "grayscale(100)"
+    img_std4.style.filter = "grayscale(0)"
+    img_std1.addEventListener("click" , ()=>{
+        window.location.href = "#"
+    })
+    img_std4.addEventListener("click" , ()=>{
+        window.location.href = "https://shad.ir/@saeedmehravar"
+    })
 })
 s31.addEventListener("click" , ()=>{
     fix.style.display = "flex"
@@ -430,6 +734,16 @@ s31.addEventListener("click" , ()=>{
     nameFamily.textContent = nameFamily31.textContent
     age.textContent = "1405/07/01"
     num.textContent = num31.textContent
+    img_std1.style.filter = "grayscale(100)"
+    img_std2.style.filter = "grayscale(100)"
+    img_std3.style.filter = "grayscale(100)"
+    img_std4.style.filter = "grayscale(0)"
+    img_std1.addEventListener("click" , ()=>{
+        window.location.href = "#"
+    })
+    img_std4.addEventListener("click" , ()=>{
+        window.location.href = "https://shad.ir/@eevcgs25"
+    })
 })
 s32.addEventListener("click" , ()=>{
     fix.style.display = "flex"
@@ -437,6 +751,16 @@ s32.addEventListener("click" , ()=>{
     nameFamily.textContent = nameFamily32.textContent
     age.textContent = "1388/08/28"
     num.textContent = num32.textContent
+    img_std1.style.filter = "grayscale(0)"
+    img_std2.style.filter = "grayscale(100)"
+    img_std3.style.filter = "grayscale(100)"
+    img_std4.style.filter = "grayscale(0)"
+    img_std1.addEventListener("click" , ()=>{
+        window.location.href = "tg://resolve?domain=a3ha1"
+    })
+    img_std4.addEventListener("click" , ()=>{
+        window.location.href = "https://shad.ir/@ashaaaa1"
+    })
 })
 s33.addEventListener("click" , ()=>{
     fix.style.display = "flex"
@@ -444,6 +768,16 @@ s33.addEventListener("click" , ()=>{
     nameFamily.textContent = nameFamily33.textContent
     age.textContent = "1405/07/01"
     num.textContent = num33.textContent
+    img_std1.style.filter = "grayscale(100)"
+    img_std2.style.filter = "grayscale(100)"
+    img_std3.style.filter = "grayscale(100)"
+    img_std4.style.filter = "grayscale(0)"
+    img_std1.addEventListener("click" , ()=>{
+        window.location.href = "#"
+    })
+    img_std4.addEventListener("click" , ()=>{
+        window.location.href = "https://shad.ir/@arashnz89"
+    })
 })
 s34.addEventListener("click" , ()=>{
     fix.style.display = "flex"
@@ -451,6 +785,22 @@ s34.addEventListener("click" , ()=>{
     nameFamily.textContent = nameFamily34.textContent
     age.textContent = "1405/07/01"
     num.textContent = num34.textContent
+    img_std1.style.filter = "grayscale(100)"
+    img_std2.style.filter = "grayscale(100)"
+    img_std3.style.filter = "grayscale(100)"
+    img_std4.style.filter = "grayscale(100)"
+    img_std1.addEventListener("click" , ()=>{
+        window.location.href = "#"
+    })
+    img_std2.addEventListener("click" , ()=>{
+        window.location.href = "#"
+    })
+    img_std3.addEventListener("click" , ()=>{
+        window.location.href = "#"
+    })
+    img_std4.addEventListener("click" , ()=>{
+        window.location.href = "#"
+    })
 })
 
 
