@@ -1693,6 +1693,243 @@ tr , td , th {
 
 
 
+/* =========================
+   گالری تصاویر تکالیف
+   ========================= */
+
+.hm-gallery-toggle {
+    width: calc(100% - 30px);
+    margin: 10px 15px;
+    padding: 11px 15px;
+
+    border: 1px solid rgb(202, 198, 198);
+    border-radius: 9px;
+
+    background-color: aliceblue;
+
+    font-family: inherit;
+    font-size: 15px;
+
+    cursor: pointer;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 8px;
+
+    transition: all 0.2s ease;
+}
+
+.hm-gallery-toggle:hover {
+    background-color: rgb(228 236 255);
+}
+
+.hm-gallery-toggle span {
+    font-size: 20px;
+    line-height: 1;
+
+    transition: transform 0.3s ease;
+}
+
+
+
+
+/* خود گالری */
+
+.hm-gallery {
+    width: calc(100% - 30px);
+    margin: 0 15px;
+
+    display: grid;
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+    gap: 10px;
+
+    max-height: 0;
+    overflow: hidden;
+
+    opacity: 0;
+
+    transition:
+        max-height 0.45s ease,
+        opacity 0.3s ease,
+        margin 0.45s ease;
+}
+
+
+/* گالری باز */
+
+.hm-gallery.open {
+    max-height: 3000px;
+    opacity: 1;
+    margin-top: 10px;
+    margin-bottom: 15px;
+}
+
+
+/* تصاویر */
+
+.hm-gallery img {
+    width: 100%;
+    aspect-ratio: 1 / 1;
+
+    object-fit: cover;
+
+    border-radius: 8px;
+
+    cursor: pointer;
+
+    display: block;
+
+    transition: transform 0.2s ease;
+}
+
+.hm-gallery img:hover {
+    transform: scale(1.03);
+}
+
+
+/* =========================
+   نمایش تمام صفحه عکس
+   ========================= */
+
+.hm-image-viewer {
+    position: fixed;
+
+    inset: 0;
+
+    width: 100%;
+    height: 100%;
+
+    background-color: rgba(0, 0, 0, 0.92);
+
+    z-index: 10000;
+
+    display: none;
+
+    align-items: center;
+    justify-content: center;
+
+    padding: 20px;
+
+    box-sizing: border-box;
+}
+
+.hm-image-viewer.open {
+    display: flex;
+}
+
+
+/* عکس بزرگ */
+
+.hm-image-viewer img {
+    max-width: 95%;
+    max-height: 90%;
+
+    width: auto;
+    height: auto;
+
+    object-fit: contain;
+
+    border-radius: 8px;
+}
+
+
+/* دکمه خروج */
+
+.hm-image-close {
+    position: absolute;
+
+    top: 20px;
+    left: 20px;
+
+    width: 45px;
+    height: 45px;
+
+    border: none;
+    border-radius: 50%;
+
+    background-color: white;
+    color: black;
+
+    font-family: inherit;
+    font-size: 25px;
+
+    cursor: pointer;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    z-index: 10001;
+}
+
+.hm-image-close:hover {
+    background-color: #eee;
+}
+
+
+/* موبایل */
+
+@media (max-width: 600px) {
+
+    .hm-gallery {
+        gap: 6px;
+    }
+
+    .hm-gallery img {
+        border-radius: 6px;
+    }
+
+    .hm-gallery-toggle {
+        font-size: 14px;
+    }
+
+    .hm-image-viewer {
+        padding: 10px;
+    }
+
+    .hm-image-viewer img {
+        max-width: 98%;
+        max-height: 88%;
+    }
+
+    .hm-image-close {
+        top: 12px;
+        left: 12px;
+
+        width: 40px;
+        height: 40px;
+
+        font-size: 22px;
+    }
+}
+.hm-download-all {
+    grid-column: 1 / -1;
+
+    width: 100%;
+    padding: 11px 15px;
+
+    border: 1px solid rgb(202, 198, 198);
+    border-radius: 9px;
+
+    background-color: aliceblue;
+
+    font-family: inherit;
+    font-size: 14px;
+
+    cursor: pointer;
+
+    transition: all 0.2s ease;
+}
+
+.hm-download-all:hover {
+    background-color: rgb(228 236 255);
+}
+
+.hm-download-all:active {
+    transform: scale(0.98);
+}
+
 
 
 

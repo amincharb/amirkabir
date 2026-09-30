@@ -620,3 +620,146 @@ function releaseElastic() {
 
 main_ahw.addEventListener("touchend", releaseElastic);
 main_ahw.addEventListener("touchcancel", releaseElastic);
+
+/* =========================
+   گالری تصاویر تکالیف
+   ========================= */
+
+document.querySelectorAll(".hm-gallery-toggle").forEach(function (button) {
+
+    button.addEventListener("click", function () {
+
+        const hm = button.closest(".hm");
+
+        const gallery = hm.querySelector(".hm-gallery");
+
+        gallery.classList.toggle("open");
+
+        button.classList.toggle("open");
+
+    });
+
+});
+
+
+/* =========================
+   نمایش عکس به صورت تمام صفحه
+   ========================= */
+
+const hmImageViewer = document.getElementById("hm-image-viewer");
+const hmFullImage = document.getElementById("hm-full-image");
+const hmImageClose = document.getElementById("hm-image-close");
+
+
+document.querySelectorAll(".hm-gallery img").forEach(function (image) {
+
+    image.addEventListener("click", function () {
+
+        hmFullImage.src = image.src;
+
+        hmImageViewer.classList.add("open");
+
+        document.body.style.overflow = "hidden";
+
+    });
+
+});
+
+
+/* خروج */
+
+hmImageClose.addEventListener("click", function () {
+
+    hmImageViewer.classList.remove("open");
+
+    hmFullImage.src = "";
+
+    document.body.style.overflow = "";
+
+});
+
+
+/* کلیک روی فضای خالی هم خروج باشد */
+
+hmImageViewer.addEventListener("click", function (event) {
+
+    if (event.target === hmImageViewer) {
+
+        hmImageViewer.classList.remove("open");
+
+        hmFullImage.src = "";
+
+        document.body.style.overflow = "";
+
+    }
+
+});
+
+
+/* خروج با دکمه ESC */
+
+document.addEventListener("keydown", function (event) {
+
+    if (event.key === "Escape") {
+
+        hmImageViewer.classList.remove("open");
+
+        hmFullImage.src = "";
+
+        document.body.style.overflow = "";
+
+    }
+
+});
+
+document.querySelectorAll(".hm-download-all").forEach(function (button) {
+
+    button.addEventListener("click", async function () {
+
+        const hm = button.closest(".hm");
+
+        const images = hm.querySelectorAll(".hm-gallery img");
+
+        for (let i = 0; i < images.length; i++) {
+
+            try {
+
+                const response = await fetch(images[i].src);
+
+                const blob = await response.blob();
+
+                const url = URL.createObjectURL(blob);
+
+                const link = document.createElement("a");
+
+                link.href = url;
+
+                link.download = "homework-image-" + (i + 1) + ".jpg";
+
+                document.body.appendChild(link);
+
+                link.click();
+
+                link.remove();
+
+                URL.revokeObjectURL(url);
+
+                await new Promise(function (resolve) {
+                    setTimeout(resolve, 200);
+                });
+
+            } catch (error) {
+
+                console.error(
+                    "خطا در دانلود تصویر:",
+                    images[i].src,
+                    error
+                );
+
+            }
+
+        }
+
+    });
+
+});
