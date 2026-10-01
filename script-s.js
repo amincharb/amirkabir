@@ -229,7 +229,13 @@ s1.addEventListener("click" , ()=>{
     img_std3.style.filter = "grayscale(100)"
     img_std4.style.filter = "grayscale(0)"
     img_std1.addEventListener("click" , ()=>{
-        window.location.href = "#"
+        window.location.href = "tg://resolve?domain=charbkabir"
+    })
+    img_std2.addEventListener("click" , ()=>{
+        window.location.href = "tg://resolve?domain=charbkabir"
+    })
+    img_std3.addEventListener("click" , ()=>{
+        window.location.href = "tg://resolve?domain=charbkabir"
     })
     img_std4.addEventListener("click" , ()=>{
         window.location.href = "https://shad.ir/@paoluo2417"
@@ -246,7 +252,13 @@ s2.addEventListener("click" , ()=>{
     img_std3.style.filter = "grayscale(100)"
     img_std4.style.filter = "grayscale(0)"
     img_std1.addEventListener("click" , ()=>{
-        window.location.href = "#"
+        window.location.href = "tg://resolve?domain=charbkabir"
+    })
+    img_std2.addEventListener("click" , ()=>{
+        window.location.href = "tg://resolve?domain=charbkabir"
+    })
+    img_std3.addEventListener("click" , ()=>{
+        window.location.href = "tg://resolve?domain=charbkabir"
     })
     img_std4.addEventListener("click" , ()=>{
         window.location.href = "https://shad.ir/@mumied8653"
@@ -263,7 +275,13 @@ s3.addEventListener("click" , ()=>{
     img_std3.style.filter = "grayscale(100)"
     img_std4.style.filter = "grayscale(0)"
     img_std1.addEventListener("click" , ()=>{
-        window.location.href = "#"
+        window.location.href = "tg://resolve?domain=charbkabir"
+    })
+    img_std2.addEventListener("click" , ()=>{
+        window.location.href = "tg://resolve?domain=charbkabir"
+    })
+    img_std3.addEventListener("click" , ()=>{
+        window.location.href = "tg://resolve?domain=charbkabir"
     })
     img_std4.addEventListener("click" , ()=>{
         window.location.href = "https://shad.ir/@armin2h"
@@ -280,7 +298,13 @@ s4.addEventListener("click" , ()=>{
     img_std3.style.filter = "grayscale(100)"
     img_std4.style.filter = "grayscale(0)"
     img_std1.addEventListener("click" , ()=>{
-        window.location.href = "#"
+        window.location.href = "tg://resolve?domain=charbkabir"
+    })
+    img_std2.addEventListener("click" , ()=>{
+        window.location.href = "tg://resolve?domain=charbkabir"
+    })
+    img_std3.addEventListener("click" , ()=>{
+        window.location.href = "tg://resolve?domain=charbkabir"
     })
     img_std4.addEventListener("click" , ()=>{
         window.location.href = "https://shad.ir/@mk14151"
@@ -297,7 +321,13 @@ s5.addEventListener("click" , ()=>{
     img_std3.style.filter = "grayscale(100)"
     img_std4.style.filter = "grayscale(0)"
     img_std1.addEventListener("click" , ()=>{
-        window.location.href = "#"
+        window.location.href = "tg://resolve?domain=charbkabir"
+    })
+    img_std2.addEventListener("click" , ()=>{
+        window.location.href = "tg://resolve?domain=charbkabir"
+    })
+    img_std3.addEventListener("click" , ()=>{
+        window.location.href = "tg://resolve?domain=charbkabir"
     })
     img_std4.addEventListener("click" , ()=>{
         window.location.href = "https://shad.ir/@mqeask7060"
@@ -314,7 +344,13 @@ s6.addEventListener("click" , ()=>{
     img_std3.style.filter = "grayscale(100)"
     img_std4.style.filter = "grayscale(0)"
     img_std1.addEventListener("click" , ()=>{
-        window.location.href = "#"
+        window.location.href = "tg://resolve?domain=charbkabir"
+    })
+    img_std2.addEventListener("click" , ()=>{
+        window.location.href = "tg://resolve?domain=charbkabir"
+    })
+    img_std3.addEventListener("click" , ()=>{
+        window.location.href = "tg://resolve?domain=charbkabir"
     })
     img_std4.addEventListener("click" , ()=>{
         window.location.href = "https://shad.ir/@mohammadaminbaradary"
@@ -331,7 +367,13 @@ s7.addEventListener("click" , ()=>{
     img_std3.style.filter = "grayscale(100)"
     img_std4.style.filter = "grayscale(0)"
     img_std1.addEventListener("click" , ()=>{
-        window.location.href = "#"
+        window.location.href = "tg://resolve?domain=charbkabir"
+    })
+    img_std2.addEventListener("click" , ()=>{
+        window.location.href = "tg://resolve?domain=charbkabir"
+    })
+    img_std3.addEventListener("click" , ()=>{
+        window.location.href = "tg://resolve?domain=charbkabir"
     })
     img_std4.addEventListener("click" , ()=>{
         window.location.href = "https://shad.ir/@hasanbaghaeel3489"
@@ -350,6 +392,12 @@ s8.addEventListener("click" , ()=>{
     img_std1.addEventListener("click" , ()=>{
         window.location.href = "tg://resolve?domain=realuser8"
     })
+    img_std2.addEventListener("click" , ()=>{
+        window.location.href = "tg://resolve?domain=charbkabir"
+    })
+    img_std3.addEventListener("click" , ()=>{
+        window.location.href = "tg://resolve?domain=charbkabir"
+    })
     img_std4.addEventListener("click" , ()=>{
         window.location.href = "https://shad.ir/@itstahaaa"
     })
@@ -366,6 +414,12 @@ s9.addEventListener("click" , ()=>{
     img_std4.style.filter = "grayscale(0)"
     img_std1.addEventListener("click" , ()=>{
         window.location.href = "tg://resolve?domain=mohs_en_4"
+    })
+    img_std2.addEventListener("click" , ()=>{
+        window.location.href = "tg://resolve?domain=charbkabir"
+    })
+    img_std3.addEventListener("click" , ()=>{
+        window.location.href = "tg://resolve?domain=charbkabir"
     })
     img_std4.addEventListener("click" , ()=>{
         window.location.href = "https://shad.ir/@iqozsv9880"
@@ -384,6 +438,12 @@ s10.addEventListener("click" , ()=>{
     img_std1.addEventListener("click" , ()=>{
         window.location.href = "tg://resolve?domain=zelaty"
     })
+    img_std2.addEventListener("click" , ()=>{
+        window.location.href = "tg://resolve?domain=charbkabir"
+    })
+    img_std3.addEventListener("click" , ()=>{
+        window.location.href = "tg://resolve?domain=charbkabir"
+    })
     img_std4.addEventListener("click" , ()=>{
         window.location.href = "https://shad.ir/@iamirata"
     })
@@ -401,6 +461,12 @@ s11.addEventListener("click" , ()=>{
     img_std1.addEventListener("click" , ()=>{
         window.location.href = "tg://resolve?domain=vempireboy"
     })
+    img_std2.addEventListener("click" , ()=>{
+        window.location.href = "tg://resolve?domain=charbkabir"
+    })
+    img_std3.addEventListener("click" , ()=>{
+        window.location.href = "tg://resolve?domain=charbkabir"
+    })
     img_std4.addEventListener("click" , ()=>{
         window.location.href = "https://shad.ir/@knxcimc"
     })
@@ -416,7 +482,13 @@ s12.addEventListener("click" , ()=>{
     img_std3.style.filter = "grayscale(100)"
     img_std4.style.filter = "grayscale(0)"
     img_std1.addEventListener("click" , ()=>{
-        window.location.href = "#"
+        window.location.href = "tg://resolve?domain=charbkabir"
+    })
+    img_std2.addEventListener("click" , ()=>{
+        window.location.href = "tg://resolve?domain=charbkabir"
+    })
+    img_std3.addEventListener("click" , ()=>{
+        window.location.href = "tg://resolve?domain=charbkabir"
     })
     img_std4.addEventListener("click" , ()=>{
         window.location.href = "https://shad.ir/@trrhxo4857"
@@ -433,7 +505,13 @@ s13.addEventListener("click" , ()=>{
     img_std3.style.filter = "grayscale(100)"
     img_std4.style.filter = "grayscale(0)"
     img_std1.addEventListener("click" , ()=>{
-        window.location.href = "#"
+        window.location.href = "tg://resolve?domain=charbkabir"
+    })
+    img_std2.addEventListener("click" , ()=>{
+        window.location.href = "tg://resolve?domain=charbkabir"
+    })
+    img_std3.addEventListener("click" , ()=>{
+        window.location.href = "tg://resolve?domain=charbkabir"
     })
     img_std4.addEventListener("click" , ()=>{
         window.location.href = "https://shad.ir/@mohamad138992"
@@ -450,7 +528,13 @@ s14.addEventListener("click" , ()=>{
     img_std3.style.filter = "grayscale(100)"
     img_std4.style.filter = "grayscale(0)"
     img_std1.addEventListener("click" , ()=>{
-        window.location.href = "#"
+        window.location.href = "tg://resolve?domain=charbkabir"
+    })
+    img_std2.addEventListener("click" , ()=>{
+        window.location.href = "tg://resolve?domain=charbkabir"
+    })
+    img_std3.addEventListener("click" , ()=>{
+        window.location.href = "tg://resolve?domain=charbkabir"
     })
     img_std4.addEventListener("click" , ()=>{
         window.location.href = "https://shad.ir/@pzpehh593"
@@ -469,6 +553,12 @@ s15.addEventListener("click" , ()=>{
     img_std1.addEventListener("click" , ()=>{
         window.location.href = "tg://resolve?domain=userhiden"
     })
+    img_std2.addEventListener("click" , ()=>{
+        window.location.href = "tg://resolve?domain=charbkabir"
+    })
+    img_std3.addEventListener("click" , ()=>{
+        window.location.href = "tg://resolve?domain=charbkabir"
+    })
     img_std4.addEventListener("click" , ()=>{
         window.location.href = "https://shad.ir/@dejavopv"
     })
@@ -484,7 +574,13 @@ s16.addEventListener("click" , ()=>{
     img_std3.style.filter = "grayscale(100)"
     img_std4.style.filter = "grayscale(0)"
     img_std1.addEventListener("click" , ()=>{
-        window.location.href = "#"
+        window.location.href = "tg://resolve?domain=charbkabir"
+    })
+    img_std2.addEventListener("click" , ()=>{
+        window.location.href = "tg://resolve?domain=charbkabir"
+    })
+    img_std3.addEventListener("click" , ()=>{
+        window.location.href = "tg://resolve?domain=charbkabir"
     })
     img_std4.addEventListener("click" , ()=>{
         window.location.href = "https://shad.ir/@ehsansalimi12"
@@ -503,6 +599,12 @@ s17.addEventListener("click" , ()=>{
     img_std1.addEventListener("click" , ()=>{
         window.location.href = "tg://resolve?domain=amirsh233"
     })
+    img_std2.addEventListener("click" , ()=>{
+        window.location.href = "tg://resolve?domain=charbkabir"
+    })
+    img_std3.addEventListener("click" , ()=>{
+        window.location.href = "tg://resolve?domain=charbkabir"
+    })
     img_std4.addEventListener("click" , ()=>{
         window.location.href = "https://shad.ir/@amirsoli23"
     })
@@ -520,6 +622,12 @@ s18.addEventListener("click" , ()=>{
     img_std1.addEventListener("click" , ()=>{
         window.location.href = "tg://resolve?domain=amirpersia_official"
     })
+    img_std2.addEventListener("click" , ()=>{
+        window.location.href = "tg://resolve?domain=charbkabir"
+    })
+    img_std3.addEventListener("click" , ()=>{
+        window.location.href = "tg://resolve?domain=charbkabir"
+    })
     img_std4.addEventListener("click" , ()=>{
         window.location.href = "https://shad.ir/@amirsadri1"
     })
@@ -535,7 +643,13 @@ s19.addEventListener("click" , ()=>{
     img_std3.style.filter = "grayscale(100)"
     img_std4.style.filter = "grayscale(0)"
     img_std1.addEventListener("click" , ()=>{
-        window.location.href = "#"
+        window.location.href = "tg://resolve?domain=charbkabir"
+    })
+    img_std2.addEventListener("click" , ()=>{
+        window.location.href = "tg://resolve?domain=charbkabir"
+    })
+    img_std3.addEventListener("click" , ()=>{
+        window.location.href = "tg://resolve?domain=charbkabir"
     })
     img_std4.addEventListener("click" , ()=>{
         window.location.href = "https://shad.ir/@amiralifatolah"
@@ -552,7 +666,13 @@ s20.addEventListener("click" , ()=>{
     img_std3.style.filter = "grayscale(100)"
     img_std4.style.filter = "grayscale(0)"
     img_std1.addEventListener("click" , ()=>{
-        window.location.href = "#"
+        window.location.href = "tg://resolve?domain=charbkabir"
+    })
+    img_std2.addEventListener("click" , ()=>{
+        window.location.href = "tg://resolve?domain=charbkabir"
+    })
+    img_std3.addEventListener("click" , ()=>{
+        window.location.href = "tg://resolve?domain=charbkabir"
     })
     img_std4.addEventListener("click" , ()=>{
         window.location.href = "https://shad.ir/@manimestr"
@@ -569,7 +689,13 @@ s21.addEventListener("click" , ()=>{
     img_std3.style.filter = "grayscale(100)"
     img_std4.style.filter = "grayscale(0)"
     img_std1.addEventListener("click" , ()=>{
-        window.location.href = "#"
+        window.location.href = "tg://resolve?domain=charbkabir"
+    })
+    img_std2.addEventListener("click" , ()=>{
+        window.location.href = "tg://resolve?domain=charbkabir"
+    })
+    img_std3.addEventListener("click" , ()=>{
+        window.location.href = "tg://resolve?domain=charbkabir"
     })
     img_std4.addEventListener("click" , ()=>{
         window.location.href = "https://shad.ir/@danirom"
@@ -586,7 +712,13 @@ s22.addEventListener("click" , ()=>{
     img_std3.style.filter = "grayscale(100)"
     img_std4.style.filter = "grayscale(0)"
     img_std1.addEventListener("click" , ()=>{
-        window.location.href = "#"
+        window.location.href = "tg://resolve?domain=charbkabir"
+    })
+    img_std2.addEventListener("click" , ()=>{
+        window.location.href = "tg://resolve?domain=charbkabir"
+    })
+    img_std3.addEventListener("click" , ()=>{
+        window.location.href = "tg://resolve?domain=charbkabir"
     })
     img_std4.addEventListener("click" , ()=>{
         window.location.href = "https://shad.ir/@amirkamali_i"
@@ -605,6 +737,12 @@ s23.addEventListener("click" , ()=>{
     img_std1.addEventListener("click" , ()=>{
         window.location.href = "tg://resolve?domain=goliy_tt"
     })
+    img_std2.addEventListener("click" , ()=>{
+        window.location.href = "tg://resolve?domain=charbkabir"
+    })
+    img_std3.addEventListener("click" , ()=>{
+        window.location.href = "tg://resolve?domain=charbkabir"
+    })
     img_std4.addEventListener("click" , ()=>{
         window.location.href = "https://shad.ir/@amirali_201"
     })
@@ -620,7 +758,13 @@ s24.addEventListener("click" , ()=>{
     img_std3.style.filter = "grayscale(100)"
     img_std4.style.filter = "grayscale(0)"
     img_std1.addEventListener("click" , ()=>{
-        window.location.href = "#"
+        window.location.href = "tg://resolve?domain=charbkabir"
+    })
+    img_std2.addEventListener("click" , ()=>{
+        window.location.href = "tg://resolve?domain=charbkabir"
+    })
+    img_std3.addEventListener("click" , ()=>{
+        window.location.href = "tg://resolve?domain=charbkabir"
     })
     img_std4.addEventListener("click" , ()=>{
         window.location.href = "https://shad.ir/@zewxec9359"
@@ -637,7 +781,13 @@ s25.addEventListener("click" , ()=>{
     img_std3.style.filter = "grayscale(100)"
     img_std4.style.filter = "grayscale(0)"
     img_std1.addEventListener("click" , ()=>{
-        window.location.href = "#"
+        window.location.href = "tg://resolve?domain=charbkabir"
+    })
+    img_std2.addEventListener("click" , ()=>{
+        window.location.href = "tg://resolve?domain=charbkabir"
+    })
+    img_std3.addEventListener("click" , ()=>{
+        window.location.href = "tg://resolve?domain=charbkabir"
     })
     img_std4.addEventListener("click" , ()=>{
         window.location.href = "https://shad.ir/@mahanmohseny"
@@ -654,7 +804,13 @@ s26.addEventListener("click" , ()=>{
     img_std3.style.filter = "grayscale(100)"
     img_std4.style.filter = "grayscale(0)"
     img_std1.addEventListener("click" , ()=>{
-        window.location.href = "#"
+        window.location.href = "tg://resolve?domain=charbkabir"
+    })
+    img_std2.addEventListener("click" , ()=>{
+        window.location.href = "tg://resolve?domain=charbkabir"
+    })
+    img_std3.addEventListener("click" , ()=>{
+        window.location.href = "tg://resolve?domain=charbkabir"
     })
     img_std4.addEventListener("click" , ()=>{
         window.location.href = "https://shad.ir/@alire20za10"
@@ -673,6 +829,12 @@ s27.addEventListener("click" , ()=>{
     img_std1.addEventListener("click" , ()=>{
         window.location.href = "tg://resolve?domain=limkasra"
     })
+    img_std2.addEventListener("click" , ()=>{
+        window.location.href = "tg://resolve?domain=charbkabir"
+    })
+    img_std3.addEventListener("click" , ()=>{
+        window.location.href = "tg://resolve?domain=charbkabir"
+    })
     img_std4.addEventListener("click" , ()=>{
         window.location.href = "https://shad.ir/@limkasra"
     })
@@ -690,6 +852,12 @@ s28.addEventListener("click" , ()=>{
     img_std1.addEventListener("click" , ()=>{
         window.location.href = "tg://resolve?domain=chqrb"
     })
+    img_std2.addEventListener("click" , ()=>{
+        window.location.href = "https://rubika.ir/@AminCharb"
+    })
+    img_std3.addEventListener("click" , ()=>{
+        window.location.href = "tg://resolve?domain=charbkabir"
+    })
     img_std4.addEventListener("click" , ()=>{
         window.location.href = "https://shad.ir/@backgroundcolor"
     })
@@ -705,7 +873,13 @@ s29.addEventListener("click" , ()=>{
     img_std3.style.filter = "grayscale(100)"
     img_std4.style.filter = "grayscale(0)"
     img_std1.addEventListener("click" , ()=>{
-        window.location.href = "#"
+        window.location.href = "tg://resolve?domain=charbkabir"
+    })
+    img_std2.addEventListener("click" , ()=>{
+        window.location.href = "tg://resolve?domain=charbkabir"
+    })
+    img_std3.addEventListener("click" , ()=>{
+        window.location.href = "tg://resolve?domain=charbkabir"
     })
     img_std4.addEventListener("click" , ()=>{
         window.location.href = "https://shad.ir/@alirezamacki"
@@ -722,7 +896,13 @@ s30.addEventListener("click" , ()=>{
     img_std3.style.filter = "grayscale(100)"
     img_std4.style.filter = "grayscale(0)"
     img_std1.addEventListener("click" , ()=>{
-        window.location.href = "#"
+        window.location.href = "tg://resolve?domain=charbkabir"
+    })
+    img_std2.addEventListener("click" , ()=>{
+        window.location.href = "tg://resolve?domain=charbkabir"
+    })
+    img_std3.addEventListener("click" , ()=>{
+        window.location.href = "tg://resolve?domain=charbkabir"
     })
     img_std4.addEventListener("click" , ()=>{
         window.location.href = "https://shad.ir/@saeedmehravar"
@@ -739,7 +919,13 @@ s31.addEventListener("click" , ()=>{
     img_std3.style.filter = "grayscale(100)"
     img_std4.style.filter = "grayscale(0)"
     img_std1.addEventListener("click" , ()=>{
-        window.location.href = "#"
+        window.location.href = "tg://resolve?domain=charbkabir"
+    })
+    img_std2.addEventListener("click" , ()=>{
+        window.location.href = "tg://resolve?domain=charbkabir"
+    })
+    img_std3.addEventListener("click" , ()=>{
+        window.location.href = "tg://resolve?domain=charbkabir"
     })
     img_std4.addEventListener("click" , ()=>{
         window.location.href = "https://shad.ir/@eevcgs25"
@@ -758,6 +944,12 @@ s32.addEventListener("click" , ()=>{
     img_std1.addEventListener("click" , ()=>{
         window.location.href = "tg://resolve?domain=a3ha1"
     })
+    img_std2.addEventListener("click" , ()=>{
+        window.location.href = "tg://resolve?domain=charbkabir"
+    })
+    img_std3.addEventListener("click" , ()=>{
+        window.location.href = "tg://resolve?domain=charbkabir"
+    })
     img_std4.addEventListener("click" , ()=>{
         window.location.href = "https://shad.ir/@ashaaaa1"
     })
@@ -773,7 +965,13 @@ s33.addEventListener("click" , ()=>{
     img_std3.style.filter = "grayscale(100)"
     img_std4.style.filter = "grayscale(0)"
     img_std1.addEventListener("click" , ()=>{
-        window.location.href = "#"
+        window.location.href = "tg://resolve?domain=charbkabir"
+    })
+    img_std2.addEventListener("click" , ()=>{
+        window.location.href = "tg://resolve?domain=charbkabir"
+    })
+    img_std3.addEventListener("click" , ()=>{
+        window.location.href = "tg://resolve?domain=charbkabir"
     })
     img_std4.addEventListener("click" , ()=>{
         window.location.href = "https://shad.ir/@arashnz89"
@@ -790,13 +988,13 @@ s34.addEventListener("click" , ()=>{
     img_std3.style.filter = "grayscale(100)"
     img_std4.style.filter = "grayscale(100)"
     img_std1.addEventListener("click" , ()=>{
-        window.location.href = "#"
+        window.location.href = "tg://resolve?domain=charbkabir"
     })
     img_std2.addEventListener("click" , ()=>{
-        window.location.href = "#"
+        window.location.href = "tg://resolve?domain=charbkabir"
     })
     img_std3.addEventListener("click" , ()=>{
-        window.location.href = "#"
+        window.location.href = "tg://resolve?domain=charbkabir"
     })
     img_std4.addEventListener("click" , ()=>{
         window.location.href = "#"
