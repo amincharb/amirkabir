@@ -1868,7 +1868,6 @@ tr , td , th {
 }
 
 
-/* موبایل */
 
 @media (max-width: 600px) {
 
@@ -1929,9 +1928,111 @@ tr , td , th {
 .hm-download-all:active {
     transform: scale(0.98);
 }
+.hm-file {
+    width: 100%;
+    aspect-ratio: 1 / 1;
+
+    border-radius: 8px;
+
+    border: 1px solid rgb(202, 198, 198);
+
+    text-decoration: none;
+    color: inherit;
+
+    display: flex;
+    flex-direction: column;
+
+    align-items: center;
+    justify-content: center;
+
+    gap: 8px;
+
+    box-sizing: border-box;
+
+    background-color: aliceblue;
+
+    transition: 0.2s;
+}
+
+.hm-file:hover {
+    background-color: rgb(228 236 255);
+    transform: scale(1.03);
+}
+
+.hm-file-icon {
+    font-size: 42px;
+}
+
+.hm-file-name {
+    max-width: 90%;
+
+    font-size: 13px;
+
+    text-align: center;
+
+    overflow: hidden;
+
+    text-overflow: ellipsis;
+
+    white-space: nowrap;
+}
 
 
 
+.hm-download-all {
+    grid-column: 1 / -1;
+
+    width: 100%;
+
+    padding: 11px 15px;
+
+    border: none;
+
+    border-radius: 9px;
+
+    background-color: aliceblue;
+
+    border: 1px solid rgb(202, 198, 198);
+
+    color: inherit;
+
+    font-family: inherit;
+
+    font-size: 14px;
+
+    cursor: pointer;
+
+    transition: all 0.2s ease;
+}
+
+.hm-download-all:hover {
+    background-color: rgb(228 236 255);
+}
+
+.hm-download-all:active {
+    transform: scale(0.98);
+}
+
+@media (max-width: 600px) {
+    .hm-file {
+        min-width: 0;
+        padding: 8px 4px;
+        gap: 5px;
+    }
+    .hm-file-icon {
+        font-size: 30px;
+        line-height: 1;
+    }
+    .hm-file-name {
+        width: 90%;
+        font-size: 11px;
+        line-height: 1.4;
+        text-align: center;
+        overflow: hidden;
+        text-overflow: ellipsis;
+        white-space: nowrap;
+    }
+}
 
 
 

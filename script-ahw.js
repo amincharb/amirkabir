@@ -718,13 +718,25 @@ document.querySelectorAll(".hm-download-all").forEach(function (button) {
 
         const hm = button.closest(".hm");
 
-        const images = hm.querySelectorAll(".hm-gallery img");
+        const files = hm.querySelectorAll(
+            ".hm-gallery img, .hm-gallery a"
+        );
 
-        for (let i = 0; i < images.length; i++) {
+        for (let i = 0; i < files.length; i++) {
+
+            const element = files[i];
 
             try {
 
-                const response = await fetch(images[i].src);
+                let fileUrl;
+
+                if (element.tagName === "IMG") {
+                    fileUrl = element.src;
+                } else {
+                    fileUrl = element.href;
+                }
+
+                const response = await fetch(fileUrl);
 
                 const blob = await response.blob();
 
@@ -734,7 +746,23 @@ document.querySelectorAll(".hm-download-all").forEach(function (button) {
 
                 link.href = url;
 
-                link.download = "homework-image-" + (i + 1) + ".jpg";
+                /* اسم فایل اصلی */
+
+                let fileName;
+
+                if (element.tagName === "IMG") {
+
+                    fileName =
+                        element.src.split("/").pop();
+
+                } else {
+
+                    fileName =
+                        element.href.split("/").pop();
+
+                }
+
+                link.download = decodeURIComponent(fileName);
 
                 document.body.appendChild(link);
 
@@ -745,14 +773,15 @@ document.querySelectorAll(".hm-download-all").forEach(function (button) {
                 URL.revokeObjectURL(url);
 
                 await new Promise(function (resolve) {
-                    setTimeout(resolve, 200);
+
+                    setTimeout(resolve, 300);
+
                 });
 
             } catch (error) {
 
                 console.error(
-                    "خطا در دانلود تصویر:",
-                    images[i].src,
+                    "خطا در دانلود فایل:",
                     error
                 );
 
