@@ -1937,7 +1937,7 @@ tr , td , th {
     border: 1px solid rgb(202, 198, 198);
 
     text-decoration: none;
-    color: inherit;
+    color: black;
 
     display: flex;
     flex-direction: column;
