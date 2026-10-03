@@ -140,6 +140,7 @@ const num33 = document.querySelector("#s33 .div-stdnum p")
 const names34 = document.querySelector("#s34 .div-stdname p span")
 const nameFamily34 = document.querySelector("#s34 .div-stdname p span:nth-child(2)")
 const num34 = document.querySelector("#s34 .div-stdnum p")
+const profile = document.querySelector(".circle-std")
 const img_std1 = document.getElementById("img-std1")
 const img_std2 = document.getElementById("img-std2")
 const img_std3 = document.getElementById("img-std3")
@@ -240,6 +241,7 @@ s1.addEventListener("click" , ()=>{
     img_std4.addEventListener("click" , ()=>{
         window.location.href = "https://shad.ir/@paoluo2417"
     })
+    profile.src = "profiles/1.webp"
 })
 s2.addEventListener("click" , ()=>{
     fix.style.display = "flex"
@@ -263,6 +265,7 @@ s2.addEventListener("click" , ()=>{
     img_std4.addEventListener("click" , ()=>{
         window.location.href = "https://shad.ir/@mumied8653"
     })
+    profile.src = "profiles/2.webp"
 })
 s3.addEventListener("click" , ()=>{
     fix.style.display = "flex"
@@ -286,6 +289,7 @@ s3.addEventListener("click" , ()=>{
     img_std4.addEventListener("click" , ()=>{
         window.location.href = "https://shad.ir/@armin2h"
     })
+    profile.src = "profiles/3.webp"
 })
 s4.addEventListener("click" , ()=>{
     fix.style.display = "flex"
@@ -309,6 +313,7 @@ s4.addEventListener("click" , ()=>{
     img_std4.addEventListener("click" , ()=>{
         window.location.href = "https://shad.ir/@mk14151"
     })
+    profile.src = "profiles/4.webp"
 })
 s5.addEventListener("click" , ()=>{
     fix.style.display = "flex"
@@ -332,6 +337,7 @@ s5.addEventListener("click" , ()=>{
     img_std4.addEventListener("click" , ()=>{
         window.location.href = "https://shad.ir/@mqeask7060"
     })
+    profile.src = "profiles/5.webp"
 })
 s6.addEventListener("click" , ()=>{
     fix.style.display = "flex"
@@ -355,6 +361,7 @@ s6.addEventListener("click" , ()=>{
     img_std4.addEventListener("click" , ()=>{
         window.location.href = "https://shad.ir/@mohammadaminbaradary"
     })
+    profile.src = "profiles/6.webp"
 })
 s7.addEventListener("click" , ()=>{
     fix.style.display = "flex"
@@ -378,6 +385,7 @@ s7.addEventListener("click" , ()=>{
     img_std4.addEventListener("click" , ()=>{
         window.location.href = "https://shad.ir/@hasanbaghaeel3489"
     })
+    profile.src = "profiles/7.webp"
 })
 s8.addEventListener("click" , ()=>{
     fix.style.display = "flex"
@@ -401,6 +409,7 @@ s8.addEventListener("click" , ()=>{
     img_std4.addEventListener("click" , ()=>{
         window.location.href = "https://shad.ir/@itstahaaa"
     })
+    profile.src = "profiles/9.webp"
 })
 s9.addEventListener("click" , ()=>{
     fix.style.display = "flex"
@@ -424,6 +433,7 @@ s9.addEventListener("click" , ()=>{
     img_std4.addEventListener("click" , ()=>{
         window.location.href = "https://shad.ir/@iqozsv9880"
     })
+    profile.src = "profiles/10.webp"
 })
 s10.addEventListener("click" , ()=>{
     fix.style.display = "flex"
@@ -447,6 +457,7 @@ s10.addEventListener("click" , ()=>{
     img_std4.addEventListener("click" , ()=>{
         window.location.href = "https://shad.ir/@iamirata"
     })
+    profile.src = "profiles/11.webp"
 })
 s11.addEventListener("click" , ()=>{
     fix.style.display = "flex"
@@ -470,6 +481,7 @@ s11.addEventListener("click" , ()=>{
     img_std4.addEventListener("click" , ()=>{
         window.location.href = "https://shad.ir/@knxcimc"
     })
+    profile.src = "profiles/12.webp"
 })
 s12.addEventListener("click" , ()=>{
     fix.style.display = "flex"
@@ -493,6 +505,7 @@ s12.addEventListener("click" , ()=>{
     img_std4.addEventListener("click" , ()=>{
         window.location.href = "https://shad.ir/@trrhxo4857"
     })
+    profile.src = "profiles/13.webp"
 })
 s13.addEventListener("click" , ()=>{
     fix.style.display = "flex"
@@ -516,6 +529,7 @@ s13.addEventListener("click" , ()=>{
     img_std4.addEventListener("click" , ()=>{
         window.location.href = "https://shad.ir/@mohamad138992"
     })
+    profile.src = "profiles/14.webp"
 })
 s14.addEventListener("click" , ()=>{
     fix.style.display = "flex"
@@ -539,6 +553,7 @@ s14.addEventListener("click" , ()=>{
     img_std4.addEventListener("click" , ()=>{
         window.location.href = "https://shad.ir/@pzpehh593"
     })
+    profile.src = "profiles/15.webp"
 })
 s15.addEventListener("click" , ()=>{
     fix.style.display = "flex"
@@ -562,6 +577,7 @@ s15.addEventListener("click" , ()=>{
     img_std4.addEventListener("click" , ()=>{
         window.location.href = "https://shad.ir/@dejavopv"
     })
+    profile.src = "profiles/16.webp"
 })
 s16.addEventListener("click" , ()=>{
     fix.style.display = "flex"
@@ -585,6 +601,7 @@ s16.addEventListener("click" , ()=>{
     img_std4.addEventListener("click" , ()=>{
         window.location.href = "https://shad.ir/@ehsansalimi12"
     })
+    profile.src = "profiles/17.webp"
 })
 s17.addEventListener("click" , ()=>{
     fix.style.display = "flex"
@@ -608,6 +625,7 @@ s17.addEventListener("click" , ()=>{
     img_std4.addEventListener("click" , ()=>{
         window.location.href = "https://shad.ir/@amirsoli23"
     })
+    profile.src = "profiles/18.webp"
 })
 s18.addEventListener("click" , ()=>{
     fix.style.display = "flex"
@@ -631,6 +649,7 @@ s18.addEventListener("click" , ()=>{
     img_std4.addEventListener("click" , ()=>{
         window.location.href = "https://shad.ir/@amirsadri1"
     })
+    profile.src = "profiles/19.webp"
 })
 s19.addEventListener("click" , ()=>{
     fix.style.display = "flex"
@@ -654,6 +673,7 @@ s19.addEventListener("click" , ()=>{
     img_std4.addEventListener("click" , ()=>{
         window.location.href = "https://shad.ir/@amiralifatolah"
     })
+    profile.src = "profiles/20.webp"
 })
 s20.addEventListener("click" , ()=>{
     fix.style.display = "flex"
@@ -677,6 +697,7 @@ s20.addEventListener("click" , ()=>{
     img_std4.addEventListener("click" , ()=>{
         window.location.href = "https://shad.ir/@manimestr"
     })
+    profile.src = "profiles/21.webp"
 })
 s21.addEventListener("click" , ()=>{
     fix.style.display = "flex"
@@ -700,6 +721,7 @@ s21.addEventListener("click" , ()=>{
     img_std4.addEventListener("click" , ()=>{
         window.location.href = "https://shad.ir/@danirom"
     })
+    profile.src = "profiles/22.webp"
 })
 s22.addEventListener("click" , ()=>{
     fix.style.display = "flex"
@@ -723,6 +745,7 @@ s22.addEventListener("click" , ()=>{
     img_std4.addEventListener("click" , ()=>{
         window.location.href = "https://shad.ir/@amirkamali_i"
     })
+    profile.src = "profiles/23.webp"
 })
 s23.addEventListener("click" , ()=>{
     fix.style.display = "flex"
@@ -746,6 +769,7 @@ s23.addEventListener("click" , ()=>{
     img_std4.addEventListener("click" , ()=>{
         window.location.href = "https://shad.ir/@amirali_201"
     })
+    profile.src = "profiles/24.webp"
 })
 s24.addEventListener("click" , ()=>{
     fix.style.display = "flex"
@@ -769,6 +793,7 @@ s24.addEventListener("click" , ()=>{
     img_std4.addEventListener("click" , ()=>{
         window.location.href = "https://shad.ir/@zewxec9359"
     })
+    profile.src = "profiles/25.webp"
 })
 s25.addEventListener("click" , ()=>{
     fix.style.display = "flex"
@@ -792,6 +817,7 @@ s25.addEventListener("click" , ()=>{
     img_std4.addEventListener("click" , ()=>{
         window.location.href = "https://shad.ir/@mahanmohseny"
     })
+    profile.src = "profiles/26.webp"
 })
 s26.addEventListener("click" , ()=>{
     fix.style.display = "flex"
@@ -815,6 +841,7 @@ s26.addEventListener("click" , ()=>{
     img_std4.addEventListener("click" , ()=>{
         window.location.href = "https://shad.ir/@alire20za10"
     })
+    profile.src = "profiles/27.webp"
 })
 s27.addEventListener("click" , ()=>{
     fix.style.display = "flex"
@@ -838,6 +865,7 @@ s27.addEventListener("click" , ()=>{
     img_std4.addEventListener("click" , ()=>{
         window.location.href = "https://shad.ir/@limkasra"
     })
+    profile.src = "profiles/28.webp"
 })
 s28.addEventListener("click" , ()=>{
     fix.style.display = "flex"
@@ -861,6 +889,7 @@ s28.addEventListener("click" , ()=>{
     img_std4.addEventListener("click" , ()=>{
         window.location.href = "https://shad.ir/@backgroundcolor"
     })
+    profile.src = "profiles/29.webp"
 })
 s29.addEventListener("click" , ()=>{
     fix.style.display = "flex"
@@ -884,6 +913,7 @@ s29.addEventListener("click" , ()=>{
     img_std4.addEventListener("click" , ()=>{
         window.location.href = "https://shad.ir/@alirezamacki"
     })
+    profile.src = "profiles/30.webp"
 })
 s30.addEventListener("click" , ()=>{
     fix.style.display = "flex"
@@ -907,6 +937,7 @@ s30.addEventListener("click" , ()=>{
     img_std4.addEventListener("click" , ()=>{
         window.location.href = "https://shad.ir/@saeedmehravar"
     })
+    profile.src = "profiles/31.webp"
 })
 s31.addEventListener("click" , ()=>{
     fix.style.display = "flex"
@@ -930,6 +961,7 @@ s31.addEventListener("click" , ()=>{
     img_std4.addEventListener("click" , ()=>{
         window.location.href = "https://shad.ir/@eevcgs25"
     })
+    profile.src = "profiles/32.webp"
 })
 s32.addEventListener("click" , ()=>{
     fix.style.display = "flex"
@@ -953,6 +985,7 @@ s32.addEventListener("click" , ()=>{
     img_std4.addEventListener("click" , ()=>{
         window.location.href = "https://shad.ir/@ashaaaa1"
     })
+    profile.src = "profiles/33.webp"
 })
 s33.addEventListener("click" , ()=>{
     fix.style.display = "flex"
@@ -976,6 +1009,7 @@ s33.addEventListener("click" , ()=>{
     img_std4.addEventListener("click" , ()=>{
         window.location.href = "https://shad.ir/@arashnz89"
     })
+    profile.src = "profiles/34.webp"
 })
 s34.addEventListener("click" , ()=>{
     fix.style.display = "flex"
@@ -997,8 +1031,9 @@ s34.addEventListener("click" , ()=>{
         window.location.href = "tg://resolve?domain=charbkabir"
     })
     img_std4.addEventListener("click" , ()=>{
-        window.location.href = "#"
+        window.location.href = "tg://resolve?domain=charbkabir"
     })
+    profile.src = "profiles/8.webp"
 })
 
 

@@ -1569,7 +1569,7 @@ tr , td , th {
 }
 .circle-std {
     width: 100%;
-    border-radius: 1000%;
+    border-radius: 100%;
     border: 1px solid black;
 }
 .details-std p {
