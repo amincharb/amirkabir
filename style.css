@@ -289,6 +289,30 @@ body {
 .div-mtnf:nth-child(2) {
     padding: 0px 15px 0px 0px;
 }
+.randomaqua {
+    cursor: pointer;
+    animation: colormtnf infinite 2s ease-in;
+}
+.randomaqua:hover {
+    color: rgb(0, 180, 251);
+    transition: all .2s ease;
+    text-decoration: underline;
+    text-underline-offset: 8px;
+}
+.randomaqua span {
+    color: red;
+}
+@keyframes colormtnf {
+    0% {
+        color: black;
+    }
+    50% {
+        color: red;
+    }
+    100% {
+        color: black;
+    }
+}
 .mtnf-time {
     text-align: justify;
     padding: 8px;
