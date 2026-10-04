@@ -283,11 +283,15 @@ body {
 }
 .mtnf {
     text-align: justify;
+    width: 85%;
     padding: 15px;
+}
+.div-mtnf:nth-child(2) {
+    padding: 0px 15px 0px 0px;
 }
 .mtnf-time {
     text-align: justify;
-    padding: 15px;
+    padding: 8px;
 }
 .tksd {
     margin: 0 auto;
@@ -1788,6 +1792,162 @@ tr , td , th {
 .hm-gallery img:hover {
     transform: scale(1.03);
 }
+/* خود گالری */
+
+.hm-gallery-2 {
+    width: calc(100% - 30px);
+    margin: 0 15px;
+
+    display: grid;
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+    gap: 10px;
+
+    max-height: 0;
+    overflow: hidden;
+
+    opacity: 0;
+
+    transition:
+        max-height 0.45s ease,
+        opacity 0.3s ease,
+        margin 0.45s ease;
+}
+
+
+/* گالری باز */
+
+.hm-gallery-2.open {
+    max-height: 3000px;
+    opacity: 1;
+    margin-top: 10px;
+    margin-bottom: 15px;
+}
+
+
+/* تصاویر */
+
+.hm-gallery-2 img {
+    width: 100%;
+    aspect-ratio: 1 / 1;
+
+    object-fit: cover;
+
+    border-radius: 8px;
+
+    cursor: pointer;
+
+    display: block;
+
+    transition: transform 0.2s ease;
+}
+
+.hm-gallery-2 img:hover {
+    transform: scale(1.03);
+}
+/* خود گالری */
+
+.hm-gallery-3 {
+    width: calc(100% - 30px);
+    margin: 0 15px;
+
+    display: grid;
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+    gap: 10px;
+
+    max-height: 0;
+    overflow: hidden;
+
+    opacity: 0;
+
+    transition:
+        max-height 0.45s ease,
+        opacity 0.3s ease,
+        margin 0.45s ease;
+}
+
+
+/* گالری باز */
+
+.hm-gallery-3.open {
+    max-height: 3000px;
+    opacity: 1;
+    margin-top: 10px;
+    margin-bottom: 15px;
+}
+
+
+/* تصاویر */
+
+.hm-gallery-3 img {
+    width: 100%;
+    aspect-ratio: 1 / 1;
+
+    object-fit: cover;
+
+    border-radius: 8px;
+
+    cursor: pointer;
+
+    display: block;
+
+    transition: transform 0.2s ease;
+}
+
+.hm-gallery-3 img:hover {
+    transform: scale(1.03);
+}
+/* خود گالری */
+
+.hm-gallery-4 {
+    width: calc(100% - 30px);
+    margin: 0 15px;
+
+    display: grid;
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+    gap: 10px;
+
+    max-height: 0;
+    overflow: hidden;
+
+    opacity: 0;
+
+    transition:
+        max-height 0.45s ease,
+        opacity 0.3s ease,
+        margin 0.45s ease;
+}
+
+
+/* گالری باز */
+
+.hm-gallery-4.open {
+    max-height: 3000px;
+    opacity: 1;
+    margin-top: 10px;
+    margin-bottom: 15px;
+}
+
+
+/* تصاویر */
+
+.hm-gallery-4 img {
+    width: 100%;
+    aspect-ratio: 1 / 1;
+
+    object-fit: cover;
+
+    border-radius: 8px;
+
+    cursor: pointer;
+
+    display: block;
+
+    transition: transform 0.2s ease;
+}
+
+.hm-gallery-4 img:hover {
+    transform: scale(1.03);
+}
 
 
 /* =========================
@@ -1873,11 +2033,17 @@ tr , td , th {
 
 @media (max-width: 600px) {
 
-    .hm-gallery {
+    .hm-gallery,
+    .hm-gallery-2,
+    .hm-gallery-3,
+    .hm-gallery-4 {
         gap: 6px;
     }
 
-    .hm-gallery img {
+    .hm-gallery img,
+    .hm-gallery-2 img,
+    .hm-gallery-3 img,
+    .hm-gallery-4 img {
         border-radius: 6px;
     }
 

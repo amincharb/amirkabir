@@ -792,3 +792,507 @@ document.querySelectorAll(".hm-download-all").forEach(function (button) {
     });
 
 });
+/* =========================
+   گالری تصاویر تکالیف
+   ========================= */
+
+document.querySelectorAll(".hm-gallery-toggle").forEach(function (button) {
+
+    button.addEventListener("click", function () {
+
+        const hm = button.closest(".hm");
+
+        const gallery = hm.querySelector(".hm-gallery-2");
+
+        gallery.classList.toggle("open");
+
+        button.classList.toggle("open");
+
+    });
+
+});
+
+
+/* =========================
+   نمایش عکس به صورت تمام صفحه
+   ========================= */
+
+
+
+document.querySelectorAll(".hm-gallery-2 img").forEach(function (image) {
+
+    image.addEventListener("click", function () {
+
+        hmFullImage.src = image.src;
+
+        hmImageViewer.classList.add("open");
+
+        document.body.style.overflow = "hidden";
+
+    });
+
+});
+
+
+/* خروج */
+
+hmImageClose.addEventListener("click", function () {
+
+    hmImageViewer.classList.remove("open");
+
+    hmFullImage.src = "";
+
+    document.body.style.overflow = "";
+
+});
+
+
+/* کلیک روی فضای خالی هم خروج باشد */
+
+hmImageViewer.addEventListener("click", function (event) {
+
+    if (event.target === hmImageViewer) {
+
+        hmImageViewer.classList.remove("open");
+
+        hmFullImage.src = "";
+
+        document.body.style.overflow = "";
+
+    }
+
+});
+
+
+/* خروج با دکمه ESC */
+
+document.addEventListener("keydown", function (event) {
+
+    if (event.key === "Escape") {
+
+        hmImageViewer.classList.remove("open");
+
+        hmFullImage.src = "";
+
+        document.body.style.overflow = "";
+
+    }
+
+});
+
+document.querySelectorAll(".hm-download-all").forEach(function (button) {
+
+    button.addEventListener("click", async function () {
+
+        const hm = button.closest(".hm");
+
+        const files = hm.querySelectorAll(
+            ".hm-gallery-2 img, .hm-gallery-2 a"
+        );
+
+        for (let i = 0; i < files.length; i++) {
+
+            const element = files[i];
+
+            try {
+
+                let fileUrl;
+
+                if (element.tagName === "IMG") {
+                    fileUrl = element.src;
+                } else {
+                    fileUrl = element.href;
+                }
+
+                const response = await fetch(fileUrl);
+
+                const blob = await response.blob();
+
+                const url = URL.createObjectURL(blob);
+
+                const link = document.createElement("a");
+
+                link.href = url;
+
+                /* اسم فایل اصلی */
+
+                let fileName;
+
+                if (element.tagName === "IMG") {
+
+                    fileName =
+                        element.src.split("/").pop();
+
+                } else {
+
+                    fileName =
+                        element.href.split("/").pop();
+
+                }
+
+                link.download = decodeURIComponent(fileName);
+
+                document.body.appendChild(link);
+
+                link.click();
+
+                link.remove();
+
+                URL.revokeObjectURL(url);
+
+                await new Promise(function (resolve) {
+
+                    setTimeout(resolve, 300);
+
+                });
+
+            } catch (error) {
+
+                console.error(
+                    "خطا در دانلود فایل:",
+                    error
+                );
+
+            }
+
+        }
+
+    });
+
+});
+/* =========================
+   گالری تصاویر تکالیف
+   ========================= */
+
+document.querySelectorAll(".hm-gallery-toggle").forEach(function (button) {
+
+    button.addEventListener("click", function () {
+
+        const hm = button.closest(".hm");
+
+        const gallery = hm.querySelector(".hm-gallery-3");
+
+        gallery.classList.toggle("open");
+
+        button.classList.toggle("open");
+
+    });
+
+});
+
+
+/* =========================
+   نمایش عکس به صورت تمام صفحه
+   ========================= */
+
+
+
+document.querySelectorAll(".hm-gallery-3 img").forEach(function (image) {
+
+    image.addEventListener("click", function () {
+
+        hmFullImage.src = image.src;
+
+        hmImageViewer.classList.add("open");
+
+        document.body.style.overflow = "hidden";
+
+    });
+
+});
+
+
+/* خروج */
+
+hmImageClose.addEventListener("click", function () {
+
+    hmImageViewer.classList.remove("open");
+
+    hmFullImage.src = "";
+
+    document.body.style.overflow = "";
+
+});
+
+
+/* کلیک روی فضای خالی هم خروج باشد */
+
+hmImageViewer.addEventListener("click", function (event) {
+
+    if (event.target === hmImageViewer) {
+
+        hmImageViewer.classList.remove("open");
+
+        hmFullImage.src = "";
+
+        document.body.style.overflow = "";
+
+    }
+
+});
+
+
+/* خروج با دکمه ESC */
+
+document.addEventListener("keydown", function (event) {
+
+    if (event.key === "Escape") {
+
+        hmImageViewer.classList.remove("open");
+
+        hmFullImage.src = "";
+
+        document.body.style.overflow = "";
+
+    }
+
+});
+
+document.querySelectorAll(".hm-download-all").forEach(function (button) {
+
+    button.addEventListener("click", async function () {
+
+        const hm = button.closest(".hm");
+
+        const files = hm.querySelectorAll(
+            ".hm-gallery-3 img, .hm-gallery-3 a"
+        );
+
+        for (let i = 0; i < files.length; i++) {
+
+            const element = files[i];
+
+            try {
+
+                let fileUrl;
+
+                if (element.tagName === "IMG") {
+                    fileUrl = element.src;
+                } else {
+                    fileUrl = element.href;
+                }
+
+                const response = await fetch(fileUrl);
+
+                const blob = await response.blob();
+
+                const url = URL.createObjectURL(blob);
+
+                const link = document.createElement("a");
+
+                link.href = url;
+
+                /* اسم فایل اصلی */
+
+                let fileName;
+
+                if (element.tagName === "IMG") {
+
+                    fileName =
+                        element.src.split("/").pop();
+
+                } else {
+
+                    fileName =
+                        element.href.split("/").pop();
+
+                }
+
+                link.download = decodeURIComponent(fileName);
+
+                document.body.appendChild(link);
+
+                link.click();
+
+                link.remove();
+
+                URL.revokeObjectURL(url);
+
+                await new Promise(function (resolve) {
+
+                    setTimeout(resolve, 300);
+
+                });
+
+            } catch (error) {
+
+                console.error(
+                    "خطا در دانلود فایل:",
+                    error
+                );
+
+            }
+
+        }
+
+    });
+
+});
+/* =========================
+   گالری تصاویر تکالیف
+   ========================= */
+
+document.querySelectorAll(".hm-gallery-toggle").forEach(function (button) {
+
+    button.addEventListener("click", function () {
+
+        const hm = button.closest(".hm");
+
+        const gallery = hm.querySelector(".hm-gallery-4");
+
+        gallery.classList.toggle("open");
+
+        button.classList.toggle("open");
+
+    });
+
+});
+
+
+/* =========================
+   نمایش عکس به صورت تمام صفحه
+   ========================= */
+
+
+
+document.querySelectorAll(".hm-gallery-4 img").forEach(function (image) {
+
+    image.addEventListener("click", function () {
+
+        hmFullImage.src = image.src;
+
+        hmImageViewer.classList.add("open");
+
+        document.body.style.overflow = "hidden";
+
+    });
+
+});
+
+
+/* خروج */
+
+hmImageClose.addEventListener("click", function () {
+
+    hmImageViewer.classList.remove("open");
+
+    hmFullImage.src = "";
+
+    document.body.style.overflow = "";
+
+});
+
+
+/* کلیک روی فضای خالی هم خروج باشد */
+
+hmImageViewer.addEventListener("click", function (event) {
+
+    if (event.target === hmImageViewer) {
+
+        hmImageViewer.classList.remove("open");
+
+        hmFullImage.src = "";
+
+        document.body.style.overflow = "";
+
+    }
+
+});
+
+
+/* خروج با دکمه ESC */
+
+document.addEventListener("keydown", function (event) {
+
+    if (event.key === "Escape") {
+
+        hmImageViewer.classList.remove("open");
+
+        hmFullImage.src = "";
+
+        document.body.style.overflow = "";
+
+    }
+
+});
+
+document.querySelectorAll(".hm-download-all").forEach(function (button) {
+
+    button.addEventListener("click", async function () {
+
+        const hm = button.closest(".hm");
+
+        const files = hm.querySelectorAll(
+            ".hm-gallery-4 img, .hm-gallery-4 a"
+        );
+
+        for (let i = 0; i < files.length; i++) {
+
+            const element = files[i];
+
+            try {
+
+                let fileUrl;
+
+                if (element.tagName === "IMG") {
+                    fileUrl = element.src;
+                } else {
+                    fileUrl = element.href;
+                }
+
+                const response = await fetch(fileUrl);
+
+                const blob = await response.blob();
+
+                const url = URL.createObjectURL(blob);
+
+                const link = document.createElement("a");
+
+                link.href = url;
+
+                /* اسم فایل اصلی */
+
+                let fileName;
+
+                if (element.tagName === "IMG") {
+
+                    fileName =
+                        element.src.split("/").pop();
+
+                } else {
+
+                    fileName =
+                        element.href.split("/").pop();
+
+                }
+
+                link.download = decodeURIComponent(fileName);
+
+                document.body.appendChild(link);
+
+                link.click();
+
+                link.remove();
+
+                URL.revokeObjectURL(url);
+
+                await new Promise(function (resolve) {
+
+                    setTimeout(resolve, 300);
+
+                });
+
+            } catch (error) {
+
+                console.error(
+                    "خطا در دانلود فایل:",
+                    error
+                );
+
+            }
+
+        }
+
+    });
+
+});
