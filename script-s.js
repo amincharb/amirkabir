@@ -219,822 +219,461 @@ close.addEventListener("click" , ()=>{
     fix.style.display = "none"
 })
 
-s1.addEventListener("click" , ()=>{
-    fix.style.display = "flex"
-    names.textContent = names1.textContent
-    nameFamily.textContent = nameFamily1.textContent
-    age.textContent = "1405/07/01"
-    num.textContent = num1.textContent
-    img_std1.style.filter = "grayscale(100)"
-    img_std2.style.filter = "grayscale(100)"
-    img_std3.style.filter = "grayscale(100)"
-    img_std4.style.filter = "grayscale(0)"
-    img_std1.addEventListener("click" , ()=>{
-        window.location.href = "tg://resolve?domain=charbkabir"
-    })
-    img_std2.addEventListener("click" , ()=>{
-        window.location.href = "tg://resolve?domain=charbkabir"
-    })
-    img_std3.addEventListener("click" , ()=>{
-        window.location.href = "tg://resolve?domain=charbkabir"
-    })
-    img_std4.addEventListener("click" , ()=>{
-        window.location.href = "https://shad.ir/@paoluo2417"
-    })
-    profile.src = "profiles/1.webp"
-})
-s2.addEventListener("click" , ()=>{
-    fix.style.display = "flex"
-    names.textContent = names2.textContent
-    nameFamily.textContent = nameFamily2.textContent
-    age.textContent = "1405/07/01"
-    num.textContent = num2.textContent
-    img_std1.style.filter = "grayscale(100)"
-    img_std2.style.filter = "grayscale(100)"
-    img_std3.style.filter = "grayscale(100)"
-    img_std4.style.filter = "grayscale(0)"
-    img_std1.addEventListener("click" , ()=>{
-        window.location.href = "tg://resolve?domain=charbkabir"
-    })
-    img_std2.addEventListener("click" , ()=>{
-        window.location.href = "tg://resolve?domain=charbkabir"
-    })
-    img_std3.addEventListener("click" , ()=>{
-        window.location.href = "tg://resolve?domain=charbkabir"
-    })
-    img_std4.addEventListener("click" , ()=>{
-        window.location.href = "https://shad.ir/@mumied8653"
-    })
-    profile.src = "profiles/2.webp"
-})
-s3.addEventListener("click" , ()=>{
-    fix.style.display = "flex"
-    names.textContent = names3.textContent
-    nameFamily.textContent = nameFamily3.textContent
-    age.textContent = "1405/07/01"
-    num.textContent = num3.textContent
-    img_std1.style.filter = "grayscale(100)"
-    img_std2.style.filter = "grayscale(100)"
-    img_std3.style.filter = "grayscale(100)"
-    img_std4.style.filter = "grayscale(0)"
-    img_std1.addEventListener("click" , ()=>{
-        window.location.href = "tg://resolve?domain=charbkabir"
-    })
-    img_std2.addEventListener("click" , ()=>{
-        window.location.href = "tg://resolve?domain=charbkabir"
-    })
-    img_std3.addEventListener("click" , ()=>{
-        window.location.href = "tg://resolve?domain=charbkabir"
-    })
-    img_std4.addEventListener("click" , ()=>{
-        window.location.href = "https://shad.ir/@armin2h"
-    })
-    profile.src = "profiles/3.webp"
-})
-s4.addEventListener("click" , ()=>{
-    fix.style.display = "flex"
-    names.textContent = names4.textContent
-    nameFamily.textContent = nameFamily4.textContent
-    age.textContent = "1405/07/01"
-    num.textContent = num4.textContent
-    img_std1.style.filter = "grayscale(100)"
-    img_std2.style.filter = "grayscale(100)"
-    img_std3.style.filter = "grayscale(100)"
-    img_std4.style.filter = "grayscale(0)"
-    img_std1.addEventListener("click" , ()=>{
-        window.location.href = "tg://resolve?domain=charbkabir"
-    })
-    img_std2.addEventListener("click" , ()=>{
-        window.location.href = "tg://resolve?domain=charbkabir"
-    })
-    img_std3.addEventListener("click" , ()=>{
-        window.location.href = "tg://resolve?domain=charbkabir"
-    })
-    img_std4.addEventListener("click" , ()=>{
-        window.location.href = "https://shad.ir/@mk14151"
-    })
-    profile.src = "profiles/4.webp"
-})
-s5.addEventListener("click" , ()=>{
-    fix.style.display = "flex"
-    names.textContent = names5.textContent
-    nameFamily.textContent = nameFamily5.textContent
-    age.textContent = "1405/07/01"
-    num.textContent = num5.textContent
-    img_std1.style.filter = "grayscale(100)"
-    img_std2.style.filter = "grayscale(100)"
-    img_std3.style.filter = "grayscale(100)"
-    img_std4.style.filter = "grayscale(0)"
-    img_std1.addEventListener("click" , ()=>{
-        window.location.href = "tg://resolve?domain=charbkabir"
-    })
-    img_std2.addEventListener("click" , ()=>{
-        window.location.href = "tg://resolve?domain=charbkabir"
-    })
-    img_std3.addEventListener("click" , ()=>{
-        window.location.href = "tg://resolve?domain=charbkabir"
-    })
-    img_std4.addEventListener("click" , ()=>{
-        window.location.href = "https://shad.ir/@mqeask7060"
-    })
-    profile.src = "profiles/5.webp"
-})
-s6.addEventListener("click" , ()=>{
-    fix.style.display = "flex"
-    names.textContent = names6.textContent
-    nameFamily.textContent = nameFamily6.textContent
-    age.textContent = "1405/07/01"
-    num.textContent = num6.textContent
-    img_std1.style.filter = "grayscale(100)"
-    img_std2.style.filter = "grayscale(100)"
-    img_std3.style.filter = "grayscale(100)"
-    img_std4.style.filter = "grayscale(0)"
-    img_std1.addEventListener("click" , ()=>{
-        window.location.href = "tg://resolve?domain=charbkabir"
-    })
-    img_std2.addEventListener("click" , ()=>{
-        window.location.href = "tg://resolve?domain=charbkabir"
-    })
-    img_std3.addEventListener("click" , ()=>{
-        window.location.href = "tg://resolve?domain=charbkabir"
-    })
-    img_std4.addEventListener("click" , ()=>{
-        window.location.href = "https://shad.ir/@mohammadaminbaradary"
-    })
-    profile.src = "profiles/6.webp"
-})
-s7.addEventListener("click" , ()=>{
-    fix.style.display = "flex"
-    names.textContent = names7.textContent
-    nameFamily.textContent = nameFamily7.textContent
-    age.textContent = "1405/07/01"
-    num.textContent = num7.textContent
-    img_std1.style.filter = "grayscale(100)"
-    img_std2.style.filter = "grayscale(100)"
-    img_std3.style.filter = "grayscale(100)"
-    img_std4.style.filter = "grayscale(0)"
-    img_std1.addEventListener("click" , ()=>{
-        window.location.href = "tg://resolve?domain=charbkabir"
-    })
-    img_std2.addEventListener("click" , ()=>{
-        window.location.href = "tg://resolve?domain=charbkabir"
-    })
-    img_std3.addEventListener("click" , ()=>{
-        window.location.href = "tg://resolve?domain=charbkabir"
-    })
-    img_std4.addEventListener("click" , ()=>{
-        window.location.href = "https://shad.ir/@hasanbaghaeel3489"
-    })
-    profile.src = "profiles/7.webp"
-})
-s8.addEventListener("click" , ()=>{
-    fix.style.display = "flex"
-    names.textContent = names8.textContent
-    nameFamily.textContent = nameFamily8.textContent
-    age.textContent = "1405/07/01"
-    num.textContent = num8.textContent
-    img_std1.style.filter = "grayscale(0)"
-    img_std2.style.filter = "grayscale(100)"
-    img_std3.style.filter = "grayscale(100)"
-    img_std4.style.filter = "grayscale(0)"
-    img_std1.addEventListener("click" , ()=>{
-        window.location.href = "tg://resolve?domain=realuser8"
-    })
-    img_std2.addEventListener("click" , ()=>{
-        window.location.href = "tg://resolve?domain=charbkabir"
-    })
-    img_std3.addEventListener("click" , ()=>{
-        window.location.href = "tg://resolve?domain=charbkabir"
-    })
-    img_std4.addEventListener("click" , ()=>{
-        window.location.href = "https://shad.ir/@itstahaaa"
-    })
-    profile.src = "profiles/9.webp"
-})
-s9.addEventListener("click" , ()=>{
-    fix.style.display = "flex"
-    names.textContent = names9.textContent
-    nameFamily.textContent = nameFamily9.textContent
-    age.textContent = "1405/07/01"
-    num.textContent = num9.textContent
-    img_std1.style.filter = "grayscale(0)"
-    img_std2.style.filter = "grayscale(100)"
-    img_std3.style.filter = "grayscale(100)"
-    img_std4.style.filter = "grayscale(0)"
-    img_std1.addEventListener("click" , ()=>{
-        window.location.href = "tg://resolve?domain=mohs_en_4"
-    })
-    img_std2.addEventListener("click" , ()=>{
-        window.location.href = "tg://resolve?domain=charbkabir"
-    })
-    img_std3.addEventListener("click" , ()=>{
-        window.location.href = "tg://resolve?domain=charbkabir"
-    })
-    img_std4.addEventListener("click" , ()=>{
-        window.location.href = "https://shad.ir/@iqozsv9880"
-    })
-    profile.src = "profiles/10.webp"
-})
-s10.addEventListener("click" , ()=>{
-    fix.style.display = "flex"
-    names.textContent = names10.textContent
-    nameFamily.textContent = nameFamily10.textContent
-    age.textContent = "1405/07/01"
-    num.textContent = num10.textContent
-    img_std1.style.filter = "grayscale(0)"
-    img_std2.style.filter = "grayscale(100)"
-    img_std3.style.filter = "grayscale(100)"
-    img_std4.style.filter = "grayscale(0)"
-    img_std1.addEventListener("click" , ()=>{
-        window.location.href = "tg://resolve?domain=zelaty"
-    })
-    img_std2.addEventListener("click" , ()=>{
-        window.location.href = "tg://resolve?domain=charbkabir"
-    })
-    img_std3.addEventListener("click" , ()=>{
-        window.location.href = "tg://resolve?domain=charbkabir"
-    })
-    img_std4.addEventListener("click" , ()=>{
-        window.location.href = "https://shad.ir/@iamirata"
-    })
-    profile.src = "profiles/11.webp"
-})
-s11.addEventListener("click" , ()=>{
-    fix.style.display = "flex"
-    names.textContent = names11.textContent
-    nameFamily.textContent = nameFamily11.textContent
-    age.textContent = "1405/07/01"
-    num.textContent = num11.textContent
-    img_std1.style.filter = "grayscale(0)"
-    img_std2.style.filter = "grayscale(100)"
-    img_std3.style.filter = "grayscale(100)"
-    img_std4.style.filter = "grayscale(0)"
-    img_std1.addEventListener("click" , ()=>{
-        window.location.href = "tg://resolve?domain=vempireboy"
-    })
-    img_std2.addEventListener("click" , ()=>{
-        window.location.href = "tg://resolve?domain=charbkabir"
-    })
-    img_std3.addEventListener("click" , ()=>{
-        window.location.href = "tg://resolve?domain=charbkabir"
-    })
-    img_std4.addEventListener("click" , ()=>{
-        window.location.href = "https://shad.ir/@knxcimc"
-    })
-    profile.src = "profiles/12.webp"
-})
-s12.addEventListener("click" , ()=>{
-    fix.style.display = "flex"
-    names.textContent = names12.textContent
-    nameFamily.textContent = nameFamily12.textContent
-    age.textContent = "1405/07/01"
-    num.textContent = num12.textContent
-    img_std1.style.filter = "grayscale(100)"
-    img_std2.style.filter = "grayscale(100)"
-    img_std3.style.filter = "grayscale(100)"
-    img_std4.style.filter = "grayscale(0)"
-    img_std1.addEventListener("click" , ()=>{
-        window.location.href = "tg://resolve?domain=charbkabir"
-    })
-    img_std2.addEventListener("click" , ()=>{
-        window.location.href = "tg://resolve?domain=charbkabir"
-    })
-    img_std3.addEventListener("click" , ()=>{
-        window.location.href = "tg://resolve?domain=charbkabir"
-    })
-    img_std4.addEventListener("click" , ()=>{
-        window.location.href = "https://shad.ir/@trrhxo4857"
-    })
-    profile.src = "profiles/13.webp"
-})
-s13.addEventListener("click" , ()=>{
-    fix.style.display = "flex"
-    names.textContent = names13.textContent
-    nameFamily.textContent = nameFamily13.textContent
-    age.textContent = "1405/07/01"
-    num.textContent = num13.textContent
-    img_std1.style.filter = "grayscale(100)"
-    img_std2.style.filter = "grayscale(100)"
-    img_std3.style.filter = "grayscale(100)"
-    img_std4.style.filter = "grayscale(0)"
-    img_std1.addEventListener("click" , ()=>{
-        window.location.href = "tg://resolve?domain=charbkabir"
-    })
-    img_std2.addEventListener("click" , ()=>{
-        window.location.href = "tg://resolve?domain=charbkabir"
-    })
-    img_std3.addEventListener("click" , ()=>{
-        window.location.href = "tg://resolve?domain=charbkabir"
-    })
-    img_std4.addEventListener("click" , ()=>{
-        window.location.href = "https://shad.ir/@mohamad138992"
-    })
-    profile.src = "profiles/14.webp"
-})
-s14.addEventListener("click" , ()=>{
-    fix.style.display = "flex"
-    names.textContent = names14.textContent
-    nameFamily.textContent = nameFamily14.textContent
-    age.textContent = "1405/07/01"
-    num.textContent = num14.textContent
-    img_std1.style.filter = "grayscale(100)"
-    img_std2.style.filter = "grayscale(100)"
-    img_std3.style.filter = "grayscale(100)"
-    img_std4.style.filter = "grayscale(0)"
-    img_std1.addEventListener("click" , ()=>{
-        window.location.href = "tg://resolve?domain=charbkabir"
-    })
-    img_std2.addEventListener("click" , ()=>{
-        window.location.href = "tg://resolve?domain=charbkabir"
-    })
-    img_std3.addEventListener("click" , ()=>{
-        window.location.href = "tg://resolve?domain=charbkabir"
-    })
-    img_std4.addEventListener("click" , ()=>{
-        window.location.href = "https://shad.ir/@pzpehh593"
-    })
-    profile.src = "profiles/15.webp"
-})
-s15.addEventListener("click" , ()=>{
-    fix.style.display = "flex"
-    names.textContent = names15.textContent
-    nameFamily.textContent = nameFamily15.textContent
-    age.textContent = "1388/08/27"
-    num.textContent = num15.textContent
-    img_std1.style.filter = "grayscale(0)"
-    img_std2.style.filter = "grayscale(100)"
-    img_std3.style.filter = "grayscale(100)"
-    img_std4.style.filter = "grayscale(0)"
-    img_std1.addEventListener("click" , ()=>{
-        window.location.href = "tg://resolve?domain=userhiden"
-    })
-    img_std2.addEventListener("click" , ()=>{
-        window.location.href = "tg://resolve?domain=charbkabir"
-    })
-    img_std3.addEventListener("click" , ()=>{
-        window.location.href = "tg://resolve?domain=charbkabir"
-    })
-    img_std4.addEventListener("click" , ()=>{
-        window.location.href = "https://shad.ir/@dejavopv"
-    })
-    profile.src = "profiles/16.webp"
-})
-s16.addEventListener("click" , ()=>{
-    fix.style.display = "flex"
-    names.textContent = names16.textContent
-    nameFamily.textContent = nameFamily16.textContent
-    age.textContent = "1405/07/01"
-    num.textContent = num16.textContent
-    img_std1.style.filter = "grayscale(100)"
-    img_std2.style.filter = "grayscale(100)"
-    img_std3.style.filter = "grayscale(100)"
-    img_std4.style.filter = "grayscale(0)"
-    img_std1.addEventListener("click" , ()=>{
-        window.location.href = "tg://resolve?domain=charbkabir"
-    })
-    img_std2.addEventListener("click" , ()=>{
-        window.location.href = "tg://resolve?domain=charbkabir"
-    })
-    img_std3.addEventListener("click" , ()=>{
-        window.location.href = "tg://resolve?domain=charbkabir"
-    })
-    img_std4.addEventListener("click" , ()=>{
-        window.location.href = "https://shad.ir/@ehsansalimi12"
-    })
-    profile.src = "profiles/17.webp"
-})
-s17.addEventListener("click" , ()=>{
-    fix.style.display = "flex"
-    names.textContent = names17.textContent
-    nameFamily.textContent = nameFamily17.textContent
-    age.textContent = "1405/07/01"
-    num.textContent = num17.textContent
-    img_std1.style.filter = "grayscale(0)"
-    img_std2.style.filter = "grayscale(100)"
-    img_std3.style.filter = "grayscale(100)"
-    img_std4.style.filter = "grayscale(0)"
-    img_std1.addEventListener("click" , ()=>{
-        window.location.href = "tg://resolve?domain=amirsh233"
-    })
-    img_std2.addEventListener("click" , ()=>{
-        window.location.href = "tg://resolve?domain=charbkabir"
-    })
-    img_std3.addEventListener("click" , ()=>{
-        window.location.href = "tg://resolve?domain=charbkabir"
-    })
-    img_std4.addEventListener("click" , ()=>{
-        window.location.href = "https://shad.ir/@amirsoli23"
-    })
-    profile.src = "profiles/18.webp"
-})
-s18.addEventListener("click" , ()=>{
-    fix.style.display = "flex"
-    names.textContent = names18.textContent
-    nameFamily.textContent = nameFamily18.textContent
-    age.textContent = "1405/07/01"
-    num.textContent = num18.textContent
-    img_std1.style.filter = "grayscale(0)"
-    img_std2.style.filter = "grayscale(100)"
-    img_std3.style.filter = "grayscale(100)"
-    img_std4.style.filter = "grayscale(0)"
-    img_std1.addEventListener("click" , ()=>{
-        window.location.href = "tg://resolve?domain=amirpersia_official"
-    })
-    img_std2.addEventListener("click" , ()=>{
-        window.location.href = "tg://resolve?domain=charbkabir"
-    })
-    img_std3.addEventListener("click" , ()=>{
-        window.location.href = "tg://resolve?domain=charbkabir"
-    })
-    img_std4.addEventListener("click" , ()=>{
-        window.location.href = "https://shad.ir/@amirsadri1"
-    })
-    profile.src = "profiles/19.webp"
-})
-s19.addEventListener("click" , ()=>{
-    fix.style.display = "flex"
-    names.textContent = names19.textContent
-    nameFamily.textContent = nameFamily19.textContent
-    age.textContent = "1405/07/01"
-    num.textContent = num19.textContent
-    img_std1.style.filter = "grayscale(100)"
-    img_std2.style.filter = "grayscale(100)"
-    img_std3.style.filter = "grayscale(100)"
-    img_std4.style.filter = "grayscale(0)"
-    img_std1.addEventListener("click" , ()=>{
-        window.location.href = "tg://resolve?domain=charbkabir"
-    })
-    img_std2.addEventListener("click" , ()=>{
-        window.location.href = "tg://resolve?domain=charbkabir"
-    })
-    img_std3.addEventListener("click" , ()=>{
-        window.location.href = "tg://resolve?domain=charbkabir"
-    })
-    img_std4.addEventListener("click" , ()=>{
-        window.location.href = "https://shad.ir/@amiralifatolah"
-    })
-    profile.src = "profiles/20.webp"
-})
-s20.addEventListener("click" , ()=>{
-    fix.style.display = "flex"
-    names.textContent = names20.textContent
-    nameFamily.textContent = nameFamily20.textContent
-    age.textContent = "1405/07/01"
-    num.textContent = num20.textContent
-    img_std1.style.filter = "grayscale(100)"
-    img_std2.style.filter = "grayscale(100)"
-    img_std3.style.filter = "grayscale(100)"
-    img_std4.style.filter = "grayscale(0)"
-    img_std1.addEventListener("click" , ()=>{
-        window.location.href = "tg://resolve?domain=charbkabir"
-    })
-    img_std2.addEventListener("click" , ()=>{
-        window.location.href = "tg://resolve?domain=charbkabir"
-    })
-    img_std3.addEventListener("click" , ()=>{
-        window.location.href = "tg://resolve?domain=charbkabir"
-    })
-    img_std4.addEventListener("click" , ()=>{
-        window.location.href = "https://shad.ir/@manimestr"
-    })
-    profile.src = "profiles/21.webp"
-})
-s21.addEventListener("click" , ()=>{
-    fix.style.display = "flex"
-    names.textContent = names21.textContent
-    nameFamily.textContent = nameFamily21.textContent
-    age.textContent = "1405/07/01"
-    num.textContent = num21.textContent
-    img_std1.style.filter = "grayscale(100)"
-    img_std2.style.filter = "grayscale(100)"
-    img_std3.style.filter = "grayscale(100)"
-    img_std4.style.filter = "grayscale(0)"
-    img_std1.addEventListener("click" , ()=>{
-        window.location.href = "tg://resolve?domain=charbkabir"
-    })
-    img_std2.addEventListener("click" , ()=>{
-        window.location.href = "tg://resolve?domain=charbkabir"
-    })
-    img_std3.addEventListener("click" , ()=>{
-        window.location.href = "tg://resolve?domain=charbkabir"
-    })
-    img_std4.addEventListener("click" , ()=>{
-        window.location.href = "https://shad.ir/@danirom"
-    })
-    profile.src = "profiles/22.webp"
-})
-s22.addEventListener("click" , ()=>{
-    fix.style.display = "flex"
-    names.textContent = names22.textContent
-    nameFamily.textContent = nameFamily22.textContent
-    age.textContent = "1405/07/01"
-    num.textContent = num22.textContent
-    img_std1.style.filter = "grayscale(100)"
-    img_std2.style.filter = "grayscale(100)"
-    img_std3.style.filter = "grayscale(100)"
-    img_std4.style.filter = "grayscale(0)"
-    img_std1.addEventListener("click" , ()=>{
-        window.location.href = "tg://resolve?domain=charbkabir"
-    })
-    img_std2.addEventListener("click" , ()=>{
-        window.location.href = "tg://resolve?domain=charbkabir"
-    })
-    img_std3.addEventListener("click" , ()=>{
-        window.location.href = "tg://resolve?domain=charbkabir"
-    })
-    img_std4.addEventListener("click" , ()=>{
-        window.location.href = "https://shad.ir/@amirkamali_i"
-    })
-    profile.src = "profiles/23.webp"
-})
-s23.addEventListener("click" , ()=>{
-    fix.style.display = "flex"
-    names.textContent = names23.textContent
-    nameFamily.textContent = nameFamily23.textContent
-    age.textContent = "1405/07/01"
-    num.textContent = num23.textContent
-    img_std1.style.filter = "grayscale(0)"
-    img_std2.style.filter = "grayscale(100)"
-    img_std3.style.filter = "grayscale(100)"
-    img_std4.style.filter = "grayscale(0)"
-    img_std1.addEventListener("click" , ()=>{
-        window.location.href = "tg://resolve?domain=goliy_tt"
-    })
-    img_std2.addEventListener("click" , ()=>{
-        window.location.href = "tg://resolve?domain=charbkabir"
-    })
-    img_std3.addEventListener("click" , ()=>{
-        window.location.href = "tg://resolve?domain=charbkabir"
-    })
-    img_std4.addEventListener("click" , ()=>{
-        window.location.href = "https://shad.ir/@amirali_201"
-    })
-    profile.src = "profiles/24.webp"
-})
-s24.addEventListener("click" , ()=>{
-    fix.style.display = "flex"
-    names.textContent = names24.textContent
-    nameFamily.textContent = nameFamily24.textContent
-    age.textContent = "1405/07/01"
-    num.textContent = num24.textContent
-    img_std1.style.filter = "grayscale(100)"
-    img_std2.style.filter = "grayscale(100)"
-    img_std3.style.filter = "grayscale(100)"
-    img_std4.style.filter = "grayscale(0)"
-    img_std1.addEventListener("click" , ()=>{
-        window.location.href = "tg://resolve?domain=charbkabir"
-    })
-    img_std2.addEventListener("click" , ()=>{
-        window.location.href = "tg://resolve?domain=charbkabir"
-    })
-    img_std3.addEventListener("click" , ()=>{
-        window.location.href = "tg://resolve?domain=charbkabir"
-    })
-    img_std4.addEventListener("click" , ()=>{
-        window.location.href = "https://shad.ir/@zewxec9359"
-    })
-    profile.src = "profiles/25.webp"
-})
-s25.addEventListener("click" , ()=>{
-    fix.style.display = "flex"
-    names.textContent = names25.textContent
-    nameFamily.textContent = nameFamily25.textContent
-    age.textContent = "1405/07/01"
-    num.textContent = num25.textContent
-    img_std1.style.filter = "grayscale(100)"
-    img_std2.style.filter = "grayscale(100)"
-    img_std3.style.filter = "grayscale(100)"
-    img_std4.style.filter = "grayscale(0)"
-    img_std1.addEventListener("click" , ()=>{
-        window.location.href = "tg://resolve?domain=charbkabir"
-    })
-    img_std2.addEventListener("click" , ()=>{
-        window.location.href = "tg://resolve?domain=charbkabir"
-    })
-    img_std3.addEventListener("click" , ()=>{
-        window.location.href = "tg://resolve?domain=charbkabir"
-    })
-    img_std4.addEventListener("click" , ()=>{
-        window.location.href = "https://shad.ir/@mahanmohseny"
-    })
-    profile.src = "profiles/26.webp"
-})
-s26.addEventListener("click" , ()=>{
-    fix.style.display = "flex"
-    names.textContent = names26.textContent
-    nameFamily.textContent = nameFamily26.textContent
-    age.textContent = "1405/07/01"
-    num.textContent = num26.textContent
-    img_std1.style.filter = "grayscale(100)"
-    img_std2.style.filter = "grayscale(100)"
-    img_std3.style.filter = "grayscale(100)"
-    img_std4.style.filter = "grayscale(0)"
-    img_std1.addEventListener("click" , ()=>{
-        window.location.href = "tg://resolve?domain=charbkabir"
-    })
-    img_std2.addEventListener("click" , ()=>{
-        window.location.href = "tg://resolve?domain=charbkabir"
-    })
-    img_std3.addEventListener("click" , ()=>{
-        window.location.href = "tg://resolve?domain=charbkabir"
-    })
-    img_std4.addEventListener("click" , ()=>{
-        window.location.href = "https://shad.ir/@alire20za10"
-    })
-    profile.src = "profiles/27.webp"
-})
-s27.addEventListener("click" , ()=>{
-    fix.style.display = "flex"
-    names.textContent = names27.textContent
-    nameFamily.textContent = nameFamily27.textContent
-    age.textContent = "1405/07/01"
-    num.textContent = num27.textContent
-    img_std1.style.filter = "grayscale(0)"
-    img_std2.style.filter = "grayscale(100)"
-    img_std3.style.filter = "grayscale(100)"
-    img_std4.style.filter = "grayscale(0)"
-    img_std1.addEventListener("click" , ()=>{
-        window.location.href = "tg://resolve?domain=limkasra"
-    })
-    img_std2.addEventListener("click" , ()=>{
-        window.location.href = "tg://resolve?domain=charbkabir"
-    })
-    img_std3.addEventListener("click" , ()=>{
-        window.location.href = "tg://resolve?domain=charbkabir"
-    })
-    img_std4.addEventListener("click" , ()=>{
-        window.location.href = "https://shad.ir/@limkasra"
-    })
-    profile.src = "profiles/28.webp"
-})
-s28.addEventListener("click" , ()=>{
-    fix.style.display = "flex"
-    names.textContent = names28.textContent
-    nameFamily.textContent = nameFamily28.textContent
-    age.textContent = "1388/07/15"
-    num.textContent = num28.textContent
-    img_std1.style.filter = "grayscale(0)"
-    img_std2.style.filter = "grayscale(100)"
-    img_std3.style.filter = "grayscale(0)"
-    img_std4.style.filter = "grayscale(0)"
-    img_std1.addEventListener("click" , ()=>{
-        window.location.href = "tg://resolve?domain=chqrb"
-    })
-    img_std2.addEventListener("click" , ()=>{
-        window.location.href = "https://rubika.ir/@AminCharb"
-    })
-    img_std3.addEventListener("click" , ()=>{
-        window.location.href = "tg://resolve?domain=charbkabir"
-    })
-    img_std4.addEventListener("click" , ()=>{
-        window.location.href = "https://shad.ir/@backgroundcolor"
-    })
-    profile.src = "profiles/29.webp"
-})
-s29.addEventListener("click" , ()=>{
-    fix.style.display = "flex"
-    names.textContent = names29.textContent
-    nameFamily.textContent = nameFamily29.textContent
-    age.textContent = "1405/07/01"
-    num.textContent = num29.textContent
-    img_std1.style.filter = "grayscale(100)"
-    img_std2.style.filter = "grayscale(100)"
-    img_std3.style.filter = "grayscale(100)"
-    img_std4.style.filter = "grayscale(0)"
-    img_std1.addEventListener("click" , ()=>{
-        window.location.href = "tg://resolve?domain=charbkabir"
-    })
-    img_std2.addEventListener("click" , ()=>{
-        window.location.href = "tg://resolve?domain=charbkabir"
-    })
-    img_std3.addEventListener("click" , ()=>{
-        window.location.href = "tg://resolve?domain=charbkabir"
-    })
-    img_std4.addEventListener("click" , ()=>{
-        window.location.href = "https://shad.ir/@alirezamacki"
-    })
-    profile.src = "profiles/30.webp"
-})
-s30.addEventListener("click" , ()=>{
-    fix.style.display = "flex"
-    names.textContent = names30.textContent
-    nameFamily.textContent = nameFamily30.textContent
-    age.textContent = "1405/07/01"
-    num.textContent = num30.textContent
-    img_std1.style.filter = "grayscale(100)"
-    img_std2.style.filter = "grayscale(100)"
-    img_std3.style.filter = "grayscale(100)"
-    img_std4.style.filter = "grayscale(0)"
-    img_std1.addEventListener("click" , ()=>{
-        window.location.href = "tg://resolve?domain=charbkabir"
-    })
-    img_std2.addEventListener("click" , ()=>{
-        window.location.href = "tg://resolve?domain=charbkabir"
-    })
-    img_std3.addEventListener("click" , ()=>{
-        window.location.href = "tg://resolve?domain=charbkabir"
-    })
-    img_std4.addEventListener("click" , ()=>{
-        window.location.href = "https://shad.ir/@saeedmehravar"
-    })
-    profile.src = "profiles/31.webp"
-})
-s31.addEventListener("click" , ()=>{
-    fix.style.display = "flex"
-    names.textContent = names31.textContent
-    nameFamily.textContent = nameFamily31.textContent
-    age.textContent = "1405/07/01"
-    num.textContent = num31.textContent
-    img_std1.style.filter = "grayscale(100)"
-    img_std2.style.filter = "grayscale(100)"
-    img_std3.style.filter = "grayscale(100)"
-    img_std4.style.filter = "grayscale(0)"
-    img_std1.addEventListener("click" , ()=>{
-        window.location.href = "tg://resolve?domain=charbkabir"
-    })
-    img_std2.addEventListener("click" , ()=>{
-        window.location.href = "tg://resolve?domain=charbkabir"
-    })
-    img_std3.addEventListener("click" , ()=>{
-        window.location.href = "tg://resolve?domain=charbkabir"
-    })
-    img_std4.addEventListener("click" , ()=>{
-        window.location.href = "https://shad.ir/@eevcgs25"
-    })
-    profile.src = "profiles/32.webp"
-})
-s32.addEventListener("click" , ()=>{
-    fix.style.display = "flex"
-    names.textContent = names32.textContent
-    nameFamily.textContent = nameFamily32.textContent
-    age.textContent = "1388/08/28"
-    num.textContent = num32.textContent
-    img_std1.style.filter = "grayscale(0)"
-    img_std2.style.filter = "grayscale(100)"
-    img_std3.style.filter = "grayscale(100)"
-    img_std4.style.filter = "grayscale(0)"
-    img_std1.addEventListener("click" , ()=>{
-        window.location.href = "tg://resolve?domain=a3ha1"
-    })
-    img_std2.addEventListener("click" , ()=>{
-        window.location.href = "tg://resolve?domain=charbkabir"
-    })
-    img_std3.addEventListener("click" , ()=>{
-        window.location.href = "tg://resolve?domain=charbkabir"
-    })
-    img_std4.addEventListener("click" , ()=>{
-        window.location.href = "https://shad.ir/@ashaaaa1"
-    })
-    profile.src = "profiles/33.webp"
-})
-s33.addEventListener("click" , ()=>{
-    fix.style.display = "flex"
-    names.textContent = names33.textContent
-    nameFamily.textContent = nameFamily33.textContent
-    age.textContent = "1405/07/01"
-    num.textContent = num33.textContent
-    img_std1.style.filter = "grayscale(100)"
-    img_std2.style.filter = "grayscale(100)"
-    img_std3.style.filter = "grayscale(100)"
-    img_std4.style.filter = "grayscale(0)"
-    img_std1.addEventListener("click" , ()=>{
-        window.location.href = "tg://resolve?domain=charbkabir"
-    })
-    img_std2.addEventListener("click" , ()=>{
-        window.location.href = "tg://resolve?domain=charbkabir"
-    })
-    img_std3.addEventListener("click" , ()=>{
-        window.location.href = "tg://resolve?domain=charbkabir"
-    })
-    img_std4.addEventListener("click" , ()=>{
-        window.location.href = "https://shad.ir/@arashnz89"
-    })
-    profile.src = "profiles/34.webp"
-})
-s34.addEventListener("click" , ()=>{
-    fix.style.display = "flex"
-    names.textContent = names34.textContent
-    nameFamily.textContent = nameFamily34.textContent
-    age.textContent = "1405/07/01"
-    num.textContent = num34.textContent
-    img_std1.style.filter = "grayscale(100)"
-    img_std2.style.filter = "grayscale(100)"
-    img_std3.style.filter = "grayscale(100)"
-    img_std4.style.filter = "grayscale(100)"
-    img_std1.addEventListener("click" , ()=>{
-        window.location.href = "tg://resolve?domain=charbkabir"
-    })
-    img_std2.addEventListener("click" , ()=>{
-        window.location.href = "tg://resolve?domain=charbkabir"
-    })
-    img_std3.addEventListener("click" , ()=>{
-        window.location.href = "tg://resolve?domain=charbkabir"
-    })
-    img_std4.addEventListener("click" , ()=>{
-        window.location.href = "tg://resolve?domain=charbkabir"
-    })
-    profile.src = "profiles/8.webp"
-})
+const students = {
+
+    1: {
+        age: "1405/07/01",
+        filters: [100, 100, 100, 0],
+        links: [
+            "tg://resolve?domain=charbkabir",
+            "tg://resolve?domain=charbkabir",
+            "tg://resolve?domain=charbkabir",
+            "https://shad.ir/@paoluo2417"
+        ],
+        profile: "profiles/1.webp"
+    },
+
+    2: {
+        age: "1405/07/01",
+        filters: [100, 100, 100, 0],
+        links: [
+            "tg://resolve?domain=charbkabir",
+            "tg://resolve?domain=charbkabir",
+            "tg://resolve?domain=charbkabir",
+            "https://shad.ir/@mumied8653"
+        ],
+        profile: "profiles/2.webp"
+    },
+
+    3: {
+        age: "1405/07/01",
+        filters: [100, 100, 100, 0],
+        links: [
+            "tg://resolve?domain=charbkabir",
+            "tg://resolve?domain=charbkabir",
+            "tg://resolve?domain=charbkabir",
+            "https://shad.ir/@armin2h"
+        ],
+        profile: "profiles/3.webp"
+    },
+
+    4: {
+        age: "1405/07/01",
+        filters: [100, 100, 100, 0],
+        links: [
+            "tg://resolve?domain=charbkabir",
+            "tg://resolve?domain=charbkabir",
+            "tg://resolve?domain=charbkabir",
+            "https://shad.ir/@mk14151"
+        ],
+        profile: "profiles/4.webp"
+    },
+
+    5: {
+        age: "1405/07/01",
+        filters: [100, 100, 100, 0],
+        links: [
+            "tg://resolve?domain=charbkabir",
+            "tg://resolve?domain=charbkabir",
+            "tg://resolve?domain=charbkabir",
+            "https://shad.ir/@mqeask7060"
+        ],
+        profile: "profiles/5.webp"
+    },
+
+    6: {
+        age: "1405/07/01",
+        filters: [100, 100, 100, 0],
+        links: [
+            "tg://resolve?domain=charbkabir",
+            "tg://resolve?domain=charbkabir",
+            "tg://resolve?domain=charbkabir",
+            "https://shad.ir/@mohammadaminbaradary"
+        ],
+        profile: "profiles/6.webp"
+    },
+
+    7: {
+        age: "1405/07/01",
+        filters: [100, 100, 100, 0],
+        links: [
+            "tg://resolve?domain=charbkabir",
+            "tg://resolve?domain=charbkabir",
+            "tg://resolve?domain=charbkabir",
+            "https://shad.ir/@hasanbaghaeel3489"
+        ],
+        profile: "profiles/7.webp"
+    },
+
+    8: {
+        age: "1405/07/01",
+        filters: [0, 100, 100, 0],
+        links: [
+            "tg://resolve?domain=realuser8",
+            "tg://resolve?domain=charbkabir",
+            "tg://resolve?domain=charbkabir",
+            "https://shad.ir/@itstahaaa"
+        ],
+        profile: "profiles/9.webp"
+    },
+
+    9: {
+        age: "1405/07/01",
+        filters: [0, 100, 100, 0],
+        links: [
+            "tg://resolve?domain=mohs_en_4",
+            "tg://resolve?domain=charbkabir",
+            "tg://resolve?domain=charbkabir",
+            "https://shad.ir/@iqozsv9880"
+        ],
+        profile: "profiles/10.webp"
+    },
+
+    10: {
+        age: "1405/07/01",
+        filters: [0, 100, 100, 0],
+        links: [
+            "tg://resolve?domain=zelaty",
+            "tg://resolve?domain=charbkabir",
+            "tg://resolve?domain=charbkabir",
+            "https://shad.ir/@iamirata"
+        ],
+        profile: "profiles/11.webp"
+    },
+
+    11: {
+        age: "1405/07/01",
+        filters: [0, 100, 100, 0],
+        links: [
+            "tg://resolve?domain=vempireboy",
+            "tg://resolve?domain=charbkabir",
+            "tg://resolve?domain=charbkabir",
+            "https://shad.ir/@knxcimc"
+        ],
+        profile: "profiles/12.webp"
+    },
+
+    12: {
+        age: "1405/07/01",
+        filters: [100, 100, 100, 0],
+        links: [
+            "tg://resolve?domain=charbkabir",
+            "tg://resolve?domain=charbkabir",
+            "tg://resolve?domain=charbkabir",
+            "https://shad.ir/@trrhxo4857"
+        ],
+        profile: "profiles/13.webp"
+    },
+
+    13: {
+        age: "1405/07/01",
+        filters: [100, 100, 100, 0],
+        links: [
+            "tg://resolve?domain=charbkabir",
+            "tg://resolve?domain=charbkabir",
+            "tg://resolve?domain=charbkabir",
+            "https://shad.ir/@mohamad138992"
+        ],
+        profile: "profiles/14.webp"
+    },
+
+    14: {
+        age: "1405/07/01",
+        filters: [100, 100, 100, 0],
+        links: [
+            "tg://resolve?domain=charbkabir",
+            "tg://resolve?domain=charbkabir",
+            "tg://resolve?domain=charbkabir",
+            "https://shad.ir/@pzpehh593"
+        ],
+        profile: "profiles/15.webp"
+    },
+
+    15: {
+        age: "1388/08/27",
+        filters: [0, 100, 100, 0],
+        links: [
+            "tg://resolve?domain=userhiden",
+            "tg://resolve?domain=charbkabir",
+            "tg://resolve?domain=charbkabir",
+            "https://shad.ir/@dejavopv"
+        ],
+        profile: "profiles/16.webp"
+    },
+
+    16: {
+        age: "1405/07/01",
+        filters: [100, 100, 100, 0],
+        links: [
+            "tg://resolve?domain=charbkabir",
+            "tg://resolve?domain=charbkabir",
+            "tg://resolve?domain=charbkabir",
+            "https://shad.ir/@ehsansalimi12"
+        ],
+        profile: "profiles/17.webp"
+    },
+
+    17: {
+        age: "1405/07/01",
+        filters: [0, 100, 100, 0],
+        links: [
+            "tg://resolve?domain=amirsh233",
+            "tg://resolve?domain=charbkabir",
+            "tg://resolve?domain=charbkabir",
+            "https://shad.ir/@amirsoli23"
+        ],
+        profile: "profiles/18.webp"
+    },
+
+    18: {
+        age: "1405/07/01",
+        filters: [0, 100, 100, 0],
+        links: [
+            "tg://resolve?domain=amirpersia_official",
+            "tg://resolve?domain=charbkabir",
+            "tg://resolve?domain=charbkabir",
+            "https://shad.ir/@amirsadri1"
+        ],
+        profile: "profiles/19.webp"
+    },
+
+    19: {
+        age: "1405/07/01",
+        filters: [100, 100, 100, 0],
+        links: [
+            "tg://resolve?domain=charbkabir",
+            "tg://resolve?domain=charbkabir",
+            "tg://resolve?domain=charbkabir",
+            "https://shad.ir/@amiralifatolah"
+        ],
+        profile: "profiles/20.webp"
+    },
+
+    20: {
+        age: "1405/07/01",
+        filters: [100, 100, 100, 0],
+        links: [
+            "tg://resolve?domain=charbkabir",
+            "tg://resolve?domain=charbkabir",
+            "tg://resolve?domain=charbkabir",
+            "https://shad.ir/@manimestr"
+        ],
+        profile: "profiles/21.webp"
+    },
+
+    21: {
+        age: "1405/07/01",
+        filters: [100, 100, 100, 0],
+        links: [
+            "tg://resolve?domain=charbkabir",
+            "tg://resolve?domain=charbkabir",
+            "tg://resolve?domain=charbkabir",
+            "https://shad.ir/@danirom"
+        ],
+        profile: "profiles/22.webp"
+    },
+
+    22: {
+        age: "1405/07/01",
+        filters: [100, 100, 100, 0],
+        links: [
+            "tg://resolve?domain=charbkabir",
+            "tg://resolve?domain=charbkabir",
+            "tg://resolve?domain=charbkabir",
+            "https://shad.ir/@amirkamali_i"
+        ],
+        profile: "profiles/23.webp"
+    },
+
+    23: {
+        age: "1405/07/01",
+        filters: [0, 100, 100, 0],
+        links: [
+            "tg://resolve?domain=goliy_tt",
+            "tg://resolve?domain=charbkabir",
+            "tg://resolve?domain=charbkabir",
+            "https://shad.ir/@amirali_201"
+        ],
+        profile: "profiles/24.webp"
+    },
+
+    24: {
+        age: "1405/07/01",
+        filters: [100, 100, 100, 0],
+        links: [
+            "tg://resolve?domain=charbkabir",
+            "tg://resolve?domain=charbkabir",
+            "tg://resolve?domain=charbkabir",
+            "https://shad.ir/@zewxec9359"
+        ],
+        profile: "profiles/25.webp"
+    },
+
+    25: {
+        age: "1405/07/01",
+        filters: [100, 100, 100, 0],
+        links: [
+            "tg://resolve?domain=charbkabir",
+            "tg://resolve?domain=charbkabir",
+            "tg://resolve?domain=charbkabir",
+            "https://shad.ir/@mahanmohseny"
+        ],
+        profile: "profiles/26.webp"
+    },
+
+    26: {
+        age: "1405/07/01",
+        filters: [100, 100, 100, 0],
+        links: [
+            "tg://resolve?domain=charbkabir",
+            "tg://resolve?domain=charbkabir",
+            "tg://resolve?domain=charbkabir",
+            "https://shad.ir/@alire20za10"
+        ],
+        profile: "profiles/27.webp"
+    },
+
+    27: {
+        age: "1405/07/01",
+        filters: [0, 100, 100, 0],
+        links: [
+            "tg://resolve?domain=limkasra",
+            "tg://resolve?domain=charbkabir",
+            "tg://resolve?domain=charbkabir",
+            "https://shad.ir/@limkasra"
+        ],
+        profile: "profiles/28.webp"
+    },
+
+    28: {
+        age: "1388/07/15",
+        filters: [0, 100, 0, 0],
+        links: [
+            "tg://resolve?domain=chqrb",
+            "tg://resolve?domain=charbkabir",
+            "https://rubika.ir/@AminCharb",
+            "https://shad.ir/@backgroundcolor"
+        ],
+        profile: "profiles/29.webp"
+    },
+
+    29: {
+        age: "1405/07/01",
+        filters: [100, 100, 100, 0],
+        links: [
+            "tg://resolve?domain=charbkabir",
+            "tg://resolve?domain=charbkabir",
+            "tg://resolve?domain=charbkabir",
+            "https://shad.ir/@alirezamacki"
+        ],
+        profile: "profiles/30.webp"
+    },
+
+    30: {
+        age: "1405/07/01",
+        filters: [100, 100, 100, 0],
+        links: [
+            "tg://resolve?domain=charbkabir",
+            "tg://resolve?domain=charbkabir",
+            "tg://resolve?domain=charbkabir",
+            "https://shad.ir/@saeedmehravar"
+        ],
+        profile: "profiles/31.webp"
+    },
+
+    31: {
+        age: "1405/07/01",
+        filters: [100, 100, 100, 0],
+        links: [
+            "tg://resolve?domain=charbkabir",
+            "tg://resolve?domain=charbkabir",
+            "tg://resolve?domain=charbkabir",
+            "https://shad.ir/@eevcgs25"
+        ],
+        profile: "profiles/32.webp"
+    },
+
+    32: {
+        age: "1388/08/28",
+        filters: [0, 100, 100, 0],
+        links: [
+            "tg://resolve?domain=a3ha1",
+            "tg://resolve?domain=charbkabir",
+            "tg://resolve?domain=charbkabir",
+            "https://shad.ir/@ashaaaa1"
+        ],
+        profile: "profiles/33.webp"
+    },
+
+    33: {
+        age: "1405/07/01",
+        filters: [100, 100, 100, 0],
+        links: [
+            "tg://resolve?domain=charbkabir",
+            "tg://resolve?domain=charbkabir",
+            "tg://resolve?domain=charbkabir",
+            "https://shad.ir/@arashnz89"
+        ],
+        profile: "profiles/34.webp"
+    },
+
+    34: {
+        age: "1405/07/01",
+        filters: [100, 100, 100, 100],
+        links: [
+            "tg://resolve?domain=MEHRSHAD1st",
+            "tg://resolve?domain=charbkabir",
+            "tg://resolve?domain=charbkabir",
+            "tg://resolve?domain=charbkabir"
+        ],
+        profile: "profiles/8.webp"
+    }
+
+};
+
+
+for (let i = 1; i <= 34; i++) {
+
+    const student = students[i];
+    const s = document.getElementById(`s${i}`);
+
+    s.onclick = () => {
+
+        fix.style.display = "flex";
+
+        const studentName = document.querySelector(`#s${i} .div-stdname p span`);
+        const studentFamily = document.querySelector(`#s${i} .div-stdname p span:nth-child(2)`);
+        const studentNum = document.querySelector(`#s${i} .div-stdnum p`);
+
+        names.textContent = studentName.textContent;
+        nameFamily.textContent = studentFamily.textContent;
+        age.textContent = student.age;
+        num.textContent = studentNum.textContent;
+
+        img_std1.style.filter = `grayscale(${student.filters[0]}%)`;
+        img_std2.style.filter = `grayscale(${student.filters[1]}%)`;
+        img_std3.style.filter = `grayscale(${student.filters[2]}%)`;
+        img_std4.style.filter = `grayscale(${student.filters[3]}%)`;
+
+        img_std1.onclick = () => {
+            window.location.href = student.links[0];
+        };
+
+        img_std2.onclick = () => {
+            window.location.href = student.links[1];
+        };
+
+        img_std3.onclick = () => {
+            window.location.href = student.links[2];
+        };
+
+        img_std4.onclick = () => {
+            window.location.href = student.links[3];
+        };
+
+        profile.src = student.profile;
+    };
+}
 
 
 const savedDarkMode = JSON.parse(localStorage.getItem("darkmode"));
