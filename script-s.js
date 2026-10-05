@@ -619,12 +619,12 @@ const students = {
 
     34: {
         age: "1405/07/01",
-        filters: [0, 100, 100, 100],
+        filters: [0, 100, 100, 0],
         links: [
             "tg://resolve?domain=MEHRSHAD1st",
             "tg://resolve?domain=charbkabir",
             "tg://resolve?domain=charbkabir",
-            "tg://resolve?domain=charbkabir"
+            "https://shad.ir/@gtdkrdesshiy"
         ],
         profile: "profiles/8.webp"
     }
