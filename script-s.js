@@ -403,9 +403,9 @@ const students = {
 
     16: {
         age: "1405/07/01",
-        filters: [100, 100, 100, 0],
+        filters: [0, 100, 100, 0],
         links: [
-            "tg://resolve?domain=charbkabir",
+            "tg://resolve?domain=ehsansalimi021",
             "tg://resolve?domain=charbkabir",
             "tg://resolve?domain=charbkabir",
             "https://shad.ir/@ehsansalimi12"
@@ -571,9 +571,9 @@ const students = {
 
     30: {
         age: "1405/07/01",
-        filters: [100, 100, 100, 0],
+        filters: [0, 100, 100, 0],
         links: [
-            "tg://resolve?domain=charbkabir",
+            "tg://resolve?domain=mr0saeed",
             "tg://resolve?domain=charbkabir",
             "tg://resolve?domain=charbkabir",
             "https://shad.ir/@saeedmehravar"
