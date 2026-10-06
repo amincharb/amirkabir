@@ -225,9 +225,9 @@ const students = {
         age: "1405/07/01",
         filters: [100, 100, 100, 0],
         links: [
-            "tg://resolve?domain=charbkabir",
-            "tg://resolve?domain=charbkabir",
-            "tg://resolve?domain=charbkabir",
+            "#1",
+            "#2",
+            "#3",
             "https://shad.ir/@paoluo2417"
         ],
         profile: "profiles/1.webp"
@@ -237,9 +237,9 @@ const students = {
         age: "1405/07/01",
         filters: [100, 100, 100, 0],
         links: [
-            "tg://resolve?domain=charbkabir",
-            "tg://resolve?domain=charbkabir",
-            "tg://resolve?domain=charbkabir",
+            "#4",
+            "#5",
+            "#6",
             "https://shad.ir/@mumied8653"
         ],
         profile: "profiles/2.webp"
@@ -249,9 +249,9 @@ const students = {
         age: "1405/07/01",
         filters: [100, 100, 100, 0],
         links: [
-            "tg://resolve?domain=charbkabir",
-            "tg://resolve?domain=charbkabir",
-            "tg://resolve?domain=charbkabir",
+            "#7",
+            "#8",
+            "#9",
             "https://shad.ir/@armin2h"
         ],
         profile: "profiles/3.webp"
@@ -261,9 +261,9 @@ const students = {
         age: "1405/07/01",
         filters: [100, 100, 100, 0],
         links: [
-            "tg://resolve?domain=charbkabir",
-            "tg://resolve?domain=charbkabir",
-            "tg://resolve?domain=charbkabir",
+            "#10",
+            "#11",
+            "#12",
             "https://shad.ir/@mk14151"
         ],
         profile: "profiles/4.webp"
@@ -273,9 +273,9 @@ const students = {
         age: "1405/07/01",
         filters: [100, 100, 100, 0],
         links: [
-            "tg://resolve?domain=charbkabir",
-            "tg://resolve?domain=charbkabir",
-            "tg://resolve?domain=charbkabir",
+            "#13",
+            "#14",
+            "#15",
             "https://shad.ir/@mqeask7060"
         ],
         profile: "profiles/5.webp"
@@ -285,9 +285,9 @@ const students = {
         age: "1405/07/01",
         filters: [100, 100, 100, 0],
         links: [
-            "tg://resolve?domain=charbkabir",
-            "tg://resolve?domain=charbkabir",
-            "tg://resolve?domain=charbkabir",
+            "#16",
+            "#17",
+            "#18",
             "https://shad.ir/@mohammadaminbaradary"
         ],
         profile: "profiles/6.webp"
@@ -297,9 +297,9 @@ const students = {
         age: "1405/07/01",
         filters: [100, 100, 100, 0],
         links: [
-            "tg://resolve?domain=charbkabir",
-            "tg://resolve?domain=charbkabir",
-            "tg://resolve?domain=charbkabir",
+            "#19",
+            "#20",
+            "#21",
             "https://shad.ir/@hasanbaghaeel3489"
         ],
         profile: "profiles/7.webp"
@@ -310,8 +310,8 @@ const students = {
         filters: [0, 100, 100, 0],
         links: [
             "tg://resolve?domain=realuser8",
-            "tg://resolve?domain=charbkabir",
-            "tg://resolve?domain=charbkabir",
+            "#22",
+            "#23",
             "https://shad.ir/@itstahaaa"
         ],
         profile: "profiles/9.webp"
@@ -322,8 +322,8 @@ const students = {
         filters: [0, 100, 100, 0],
         links: [
             "tg://resolve?domain=mohs_en_4",
-            "tg://resolve?domain=charbkabir",
-            "tg://resolve?domain=charbkabir",
+            "#24",
+            "#25",
             "https://shad.ir/@iqozsv9880"
         ],
         profile: "profiles/10.webp"
@@ -334,8 +334,8 @@ const students = {
         filters: [0, 100, 100, 0],
         links: [
             "tg://resolve?domain=zelaty",
-            "tg://resolve?domain=charbkabir",
-            "tg://resolve?domain=charbkabir",
+            "#26",
+            "#27",
             "https://shad.ir/@iamirata"
         ],
         profile: "profiles/11.webp"
@@ -346,8 +346,8 @@ const students = {
         filters: [0, 100, 100, 0],
         links: [
             "tg://resolve?domain=vempireboy",
-            "tg://resolve?domain=charbkabir",
-            "tg://resolve?domain=charbkabir",
+            "#28",
+            "#29",
             "https://shad.ir/@knxcimc"
         ],
         profile: "profiles/12.webp"
@@ -357,9 +357,9 @@ const students = {
         age: "1405/07/01",
         filters: [100, 100, 100, 0],
         links: [
-            "tg://resolve?domain=charbkabir",
-            "tg://resolve?domain=charbkabir",
-            "tg://resolve?domain=charbkabir",
+            "#30",
+            "#31",
+            "#32",
             "https://shad.ir/@trrhxo4857"
         ],
         profile: "profiles/13.webp"
@@ -369,9 +369,9 @@ const students = {
         age: "1405/07/01",
         filters: [100, 100, 100, 0],
         links: [
-            "tg://resolve?domain=charbkabir",
-            "tg://resolve?domain=charbkabir",
-            "tg://resolve?domain=charbkabir",
+            "#33",
+            "#34",
+            "#35",
             "https://shad.ir/@mohamad138992"
         ],
         profile: "profiles/14.webp"
@@ -381,9 +381,9 @@ const students = {
         age: "1405/07/01",
         filters: [100, 100, 100, 0],
         links: [
-            "tg://resolve?domain=charbkabir",
-            "tg://resolve?domain=charbkabir",
-            "tg://resolve?domain=charbkabir",
+            "#36",
+            "#37",
+            "#38",
             "https://shad.ir/@pzpehh593"
         ],
         profile: "profiles/15.webp"
@@ -394,8 +394,8 @@ const students = {
         filters: [0, 100, 100, 0],
         links: [
             "tg://resolve?domain=userhiden",
-            "tg://resolve?domain=charbkabir",
-            "tg://resolve?domain=charbkabir",
+            "#39",
+            "#40",
             "https://shad.ir/@dejavopv"
         ],
         profile: "profiles/16.webp"
@@ -406,8 +406,8 @@ const students = {
         filters: [0, 100, 100, 0],
         links: [
             "tg://resolve?domain=ehsansalimi021",
-            "tg://resolve?domain=charbkabir",
-            "tg://resolve?domain=charbkabir",
+            "#41",
+            "#42",
             "https://shad.ir/@ehsansalimi12"
         ],
         profile: "profiles/17.webp"
@@ -418,8 +418,8 @@ const students = {
         filters: [0, 100, 100, 0],
         links: [
             "tg://resolve?domain=amirsh233",
-            "tg://resolve?domain=charbkabir",
-            "tg://resolve?domain=charbkabir",
+            "#43",
+            "#44",
             "https://shad.ir/@amirsoli23"
         ],
         profile: "profiles/18.webp"
@@ -430,8 +430,8 @@ const students = {
         filters: [0, 100, 100, 0],
         links: [
             "tg://resolve?domain=amirpersia_official",
-            "tg://resolve?domain=charbkabir",
-            "tg://resolve?domain=charbkabir",
+            "#45",
+            "#46",
             "https://shad.ir/@amirsadri1"
         ],
         profile: "profiles/19.webp"
@@ -441,9 +441,9 @@ const students = {
         age: "1405/07/01",
         filters: [100, 100, 100, 0],
         links: [
-            "tg://resolve?domain=charbkabir",
-            "tg://resolve?domain=charbkabir",
-            "tg://resolve?domain=charbkabir",
+            "#47",
+            "#48",
+            "#49",
             "https://shad.ir/@amiralifatolah"
         ],
         profile: "profiles/20.webp"
@@ -453,9 +453,9 @@ const students = {
         age: "1405/07/01",
         filters: [100, 100, 100, 0],
         links: [
-            "tg://resolve?domain=charbkabir",
-            "tg://resolve?domain=charbkabir",
-            "tg://resolve?domain=charbkabir",
+            "#50",
+            "#51",
+            "#52",
             "https://shad.ir/@manimestr"
         ],
         profile: "profiles/21.webp"
@@ -465,9 +465,9 @@ const students = {
         age: "1405/07/01",
         filters: [100, 100, 100, 0],
         links: [
-            "tg://resolve?domain=charbkabir",
-            "tg://resolve?domain=charbkabir",
-            "tg://resolve?domain=charbkabir",
+            "#53",
+            "#54",
+            "#55",
             "https://shad.ir/@danirom"
         ],
         profile: "profiles/22.webp"
@@ -477,9 +477,9 @@ const students = {
         age: "1405/07/01",
         filters: [100, 100, 100, 0],
         links: [
-            "tg://resolve?domain=charbkabir",
-            "tg://resolve?domain=charbkabir",
-            "tg://resolve?domain=charbkabir",
+            "#56",
+            "#57",
+            "#58",
             "https://shad.ir/@amirkamali_i"
         ],
         profile: "profiles/23.webp"
@@ -490,8 +490,8 @@ const students = {
         filters: [0, 100, 100, 0],
         links: [
             "tg://resolve?domain=goliy_tt",
-            "tg://resolve?domain=charbkabir",
-            "tg://resolve?domain=charbkabir",
+            "#59",
+            "#60",
             "https://shad.ir/@amirali_201"
         ],
         profile: "profiles/24.webp"
@@ -501,9 +501,9 @@ const students = {
         age: "1405/07/01",
         filters: [100, 100, 100, 0],
         links: [
-            "tg://resolve?domain=charbkabir",
-            "tg://resolve?domain=charbkabir",
-            "tg://resolve?domain=charbkabir",
+            "#61",
+            "#62",
+            "#63",
             "https://shad.ir/@zewxec9359"
         ],
         profile: "profiles/25.webp"
@@ -513,9 +513,9 @@ const students = {
         age: "1405/07/01",
         filters: [100, 100, 100, 0],
         links: [
-            "tg://resolve?domain=charbkabir",
-            "tg://resolve?domain=charbkabir",
-            "tg://resolve?domain=charbkabir",
+            "#64",
+            "#65",
+            "#66",
             "https://shad.ir/@mahanmohseny"
         ],
         profile: "profiles/26.webp"
@@ -525,9 +525,9 @@ const students = {
         age: "1405/07/01",
         filters: [100, 100, 100, 0],
         links: [
-            "tg://resolve?domain=charbkabir",
-            "tg://resolve?domain=charbkabir",
-            "tg://resolve?domain=charbkabir",
+            "#67",
+            "#68",
+            "#69",
             "https://shad.ir/@alire20za10"
         ],
         profile: "profiles/27.webp"
@@ -538,8 +538,8 @@ const students = {
         filters: [0, 100, 100, 0],
         links: [
             "tg://resolve?domain=limkasra",
-            "tg://resolve?domain=charbkabir",
-            "tg://resolve?domain=charbkabir",
+            "#70",
+            "#71",
             "https://shad.ir/@limkasra"
         ],
         profile: "profiles/28.webp"
@@ -550,7 +550,7 @@ const students = {
         filters: [0, 100, 0, 0],
         links: [
             "tg://resolve?domain=chqrb",
-            "tg://resolve?domain=charbkabir",
+            "#72",
             "https://rubika.ir/@AminCharb",
             "https://shad.ir/@backgroundcolor"
         ],
@@ -561,9 +561,9 @@ const students = {
         age: "1405/07/01",
         filters: [100, 100, 100, 0],
         links: [
-            "tg://resolve?domain=charbkabir",
-            "tg://resolve?domain=charbkabir",
-            "tg://resolve?domain=charbkabir",
+            "#73",
+            "#74",
+            "#75",
             "https://shad.ir/@alirezamacki"
         ],
         profile: "profiles/30.webp"
@@ -574,8 +574,8 @@ const students = {
         filters: [0, 100, 100, 0],
         links: [
             "tg://resolve?domain=mr0saeed",
-            "tg://resolve?domain=charbkabir",
-            "tg://resolve?domain=charbkabir",
+            "#76",
+            "#77",
             "https://shad.ir/@saeedmehravar"
         ],
         profile: "profiles/31.webp"
@@ -585,9 +585,9 @@ const students = {
         age: "1405/07/01",
         filters: [100, 100, 100, 0],
         links: [
-            "tg://resolve?domain=charbkabir",
-            "tg://resolve?domain=charbkabir",
-            "tg://resolve?domain=charbkabir",
+            "#78",
+            "#79",
+            "#80",
             "https://shad.ir/@eevcgs25"
         ],
         profile: "profiles/32.webp"
@@ -598,8 +598,8 @@ const students = {
         filters: [0, 100, 100, 0],
         links: [
             "tg://resolve?domain=a3ha1",
-            "tg://resolve?domain=charbkabir",
-            "tg://resolve?domain=charbkabir",
+            "#81",
+            "#82",
             "https://shad.ir/@ashaaaa1"
         ],
         profile: "profiles/33.webp"
@@ -609,9 +609,9 @@ const students = {
         age: "1405/07/01",
         filters: [100, 100, 100, 0],
         links: [
-            "tg://resolve?domain=charbkabir",
-            "tg://resolve?domain=charbkabir",
-            "tg://resolve?domain=charbkabir",
+            "#83",
+            "#84",
+            "#85",
             "https://shad.ir/@arashnz89"
         ],
         profile: "profiles/34.webp"
@@ -619,11 +619,11 @@ const students = {
 
     34: {
         age: "1405/07/01",
-        filters: [0, 100, 100, 0],
+        filters: [0 , 100, 100, 0],
         links: [
             "tg://resolve?domain=MEHRSHAD1st",
-            "tg://resolve?domain=charbkabir",
-            "tg://resolve?domain=charbkabir",
+            "#86",
+            "#87",
             "https://shad.ir/@gtdkrdesshiy"
         ],
         profile: "profiles/8.webp"
