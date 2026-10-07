@@ -29,7 +29,7 @@ sm.addEventListener("click" , ()=>{
         main_t.style.color = "white"
         bigs.style.border = "1px solid white"
 
-            for (let i = 1; i <= 11; i++) {
+            for (let i = 1; i <= 10; i++) {
                 const s = document.getElementById(`s${i}`)
 
                 s.style.color = "white"
@@ -52,7 +52,7 @@ sm.addEventListener("click" , ()=>{
         main_t.style.color = "black"
         back.style.color = "black"
         bigs.style.border = "1px solid black"
-            for (let i = 1; i <= 11; i++) {
+            for (let i = 1; i <= 10; i++) {
                 const s = document.getElementById(`s${i}`)
 
                 s.style.color = "black"
@@ -84,7 +84,7 @@ if (savedDarkMode) {
     main_t.style.color = "white"
     bigs.style.border = "1px solid white"
 
-        for (let i = 1; i <= 11; i++) {
+        for (let i = 1; i <= 10; i++) {
             const s = document.getElementById(`s${i}`)
 
             s.style.color = "white"
@@ -111,7 +111,7 @@ if (savedDarkMode) {
     s1.style.color = "black"
     s1.style.backgroundColor = "white"
     s1.style.borderTop = "1px solid black"
-        for (let i = 1; i <= 11; i++) {
+        for (let i = 1; i <= 10; i++) {
             const s = document.getElementById(`s${i}`)
 
             s.style.color = "black"
