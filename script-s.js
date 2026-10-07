@@ -624,7 +624,7 @@ const students = {
             "tg://resolve?domain=MEHRSHAD1st",
             "#86",
             "#87",
-            "https://shad.ir/@gtdkrdesshiy"
+            "https://shad.ir/@peimansanikhani"
         ],
         profile: "profiles/8.webp"
     }
