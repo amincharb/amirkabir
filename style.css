@@ -2223,6 +2223,220 @@ tr , td , th {
         white-space: nowrap;
     }
 }
+.std-card {
+    width: 450px;
+    min-height: 270px;
+    background: white;
+    border-radius: 22px;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    box-shadow:
+        0 20px 50px rgba(0, 0, 0, 0.22),
+        0 4px 12px rgba(0, 0, 0, 0.08);
+    border: 1px solid rgba(255, 255, 255, 0.8);
+    animation: stdCardIn .25s ease;
+}
+
+
+/* بخش بالایی کارت */
+
+.std-deta {
+    width: 100%;
+    min-height: 125px;
+    display: flex;
+    align-items: center;
+    background:
+        linear-gradient(
+            135deg,
+            #f5f9ff,
+            #ffffff
+        );
+}
+
+
+/* اطلاعات دانش‌آموز */
+
+.details-std {
+    width: 70%;
+    height: 125px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+
+.details-std p {
+    padding-right: 20px;
+    padding-top: 7px;
+    margin: 0;
+}
+
+
+/* بخش جزئیات */
+
+.details-std2 {
+    width: 100%;
+    flex: 1;
+}
+
+
+.details-std2 p {
+    padding-right: 20px;
+    margin: 0;
+}
+
+
+.details-std2 p:nth-child(2) {
+    padding: 15px 20px;
+    margin: 0;
+    display: flex;
+    align-items: center;
+}
+
+
+/* عکس پروفایل */
+
+.std-prof {
+    width: 30%;
+    height: 125px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.circle-std {
+    width: 82px;
+    height: 82px;
+    aspect-ratio: 1 / 1;
+    object-fit: cover;
+    border-radius: 50%;
+    border: 3px solid white;
+    box-shadow:
+        0 4px 14px rgba(0, 0, 0, 0.18);
+}
+
+
+/* آیکون‌های ارتباطی */
+
+.img-stds {
+    width: 38px;
+    height: 38px;
+    object-fit: contain;
+    padding-right: 10px;
+    cursor: pointer;
+    transition:
+        transform .2s ease,
+        opacity .2s ease;
+}
+
+
+.img-stds:hover {
+    transform: translateY(-3px) scale(1.08);
+    opacity: .8;
+}
+
+
+#img-std1,
+#img-std2,
+#img-std3,
+#img-std4 {
+    filter: grayscale(100%);
+}
+
+
+/* انیمیشن باز شدن کارت */
+
+@keyframes stdCardIn {
+    from {
+        opacity: 0;
+        transform: scale(.94) translateY(8px);
+    }
+
+    to {
+        opacity: 1;
+        transform: scale(1) translateY(0);
+    }
+}
+@media (min-width: 1600px) {
+    .std-card {
+        width: 450px;
+    }
+}
+
+
+@media (max-width: 700px) {
+    .std-card {
+        width: 80%;
+        min-height: 260px;
+    }
+
+    .std-prof {
+        width: 35%;
+    }
+
+    .details-std {
+        width: 65%;
+    }
+
+    .circle-std {
+        width: 115px;
+        height: 115px;
+    }
+}
+
+
+@media (max-width: 500px) {
+    .std-card {
+        width: 88%;
+        min-height: 250px;
+        border-radius: 18px;
+    }
+
+    .std-prof {
+        width: 36%;
+    }
+
+    .details-std {
+        width: 64%;
+    }
+
+    .circle-std {
+        width: 100px;
+        height: 100px;
+    }
+
+    .details-std p,
+    .details-std2 p {
+        padding-right: 14px;
+    }
+
+    .img-stds {
+        width: 32px;
+        height: 32px;
+    }
+}
+
+
+@media (max-width: 400px) {
+    .std-card {
+        width: 92%;
+    }
+
+    .circle-std {
+        width: 90px;
+        height: 90px;
+    }
+
+    .details-std p {
+        font-size: 13px;
+    }
+
+    .details-std2 p {
+        font-size: 12px;
+    }
+}
 
 
 
