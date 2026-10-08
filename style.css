@@ -33,6 +33,11 @@ body {
     justify-content: flex-start;
     position: sticky;
     top: 0;
+    background: rgba(255, 255, 255, 0);
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    border-top-left-radius: 12px;
+    border-top-right-radius: 12px;
 }
 .div-hat {
     width: 50px;
