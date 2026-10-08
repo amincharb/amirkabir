@@ -802,6 +802,8 @@ tr , td , th {
             repeat(3, minmax(0, 1fr));
 
         gap: 5px;
+        position: sticky;
+        top: 60px;
     }
 
     .deta-fstk {
