@@ -808,6 +808,8 @@ tr , td , th {
         background: rgba(255, 255, 255, 0);
         backdrop-filter: blur(10px);
         -webkit-backdrop-filter: blur(10px);
+
+        z-index: 20;
     }
 
     .deta-fstk {
