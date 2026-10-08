@@ -738,8 +738,8 @@ let startAtTop = false;
 let startAtBottom = false;
 let pulling = false;
 
-const maxPull = 500;
-const resistance = 0.2;
+const maxPull = 800;
+const resistance = 0.35;
 
 function setElastic(y, animate = false) {
     main_s.style.setProperty("--elastic-y", `${y}px`);

@@ -156,22 +156,23 @@ body {
     cursor: pointer;
     margin: 20px;
     display: flex;
+    border: 1px solid currentColor;
 }
 
 .box1 {
-    background-color: #38BDF8;
+    background: linear-gradient(200deg , #04dcfd , #04dcfd , #1ea7fb , #04dcfd , #04dcfd);
     color: rgb(6, 68, 150);
 }
 .box2 {
-    background-color: #4ADE80;
+    background: linear-gradient(200deg , #0cf614 , #0cf614 , #65f299 , #0cf614 , #0cf614);
     color: rgb(6, 150, 6);
 }
 .box3 {
-    background-color: #A78BFA;
-    color: rgb(150, 6, 126);
+    background: linear-gradient(200deg , #602ff5 , #602ff5 , #8660f9 , #602ff5 , #602ff5);
+    color: rgb(133 13 113)
 }
 .box4 {
-    background-color: #FDE047;
+    background: linear-gradient(200deg , #FDE047 , #FDE047 , #fbff00 , #FDE047 , #FDE047);
     color: rgb(150, 92, 6);
 }
 .besti2 {
@@ -849,7 +850,7 @@ tr , td , th {
     }
 
     .boxs {
-        width: calc(50% - 16px);
+        width: calc(50% - 18px);
         height: 90px;
         margin: 8px;
     }
