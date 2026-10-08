@@ -804,6 +804,10 @@ tr , td , th {
         gap: 5px;
         position: sticky;
         top: 60px;
+
+        background: rgba(255, 255, 255, 0);
+        backdrop-filter: blur(10px);
+        -webkit-backdrop-filter: blur(10px);
     }
 
     .deta-fstk {
@@ -849,6 +853,8 @@ tr , td , th {
     .main {
         width: 100%;
         overflow-x: hidden;
+        position: sticky;
+        top: 164px;
     }
 
 
@@ -1024,6 +1030,11 @@ tr , td , th {
     .menu {
         grid-template-columns:
             repeat(2, minmax(0, 1fr));
+    }
+
+    .main {
+        position: sticky;
+        top: 213px;
     }
 
 
