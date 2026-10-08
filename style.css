@@ -92,7 +92,7 @@ body {
     display: flex;
     align-items: center;
     justify-content: flex-start;
-    background-color: aliceblue;
+    background-color: #8cdbcf;
 }
 .bhs:hover {
     background-color: rgb(228 236 255);
@@ -268,8 +268,9 @@ body {
 .deta-fstk {
     width: 40%;
     height: auto;
-    background-color: aliceblue;
+    background-color: white;
     border-radius: 12px;
+    animation: stdCardIn .25s ease;
 }
 .deta-head {
     width: 100%;
@@ -380,7 +381,7 @@ body {
     padding-left: 24px;
     padding-right: 24px;
     cursor: pointer;
-    background-color: aliceblue;
+    background-color: #acf1e4;
     border-radius: 10px;
     border: none;
     font-family: "sb";
@@ -564,7 +565,7 @@ tr , td , th {
     padding-left: 24px;
     padding-right: 24px;
     cursor: pointer;
-    background-color: aliceblue;
+    background-color: #acf1e4;
     border-radius: 10px;
     border: none;
     font-family: "sb";
