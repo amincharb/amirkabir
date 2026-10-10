@@ -49,6 +49,7 @@ const mtnf = document.querySelector(".mtnf")
 const fstk1 = document.querySelector(".fstk-1")
 const fstk2 = document.querySelector(".fstk-2")
 const fstk3 = document.querySelector(".fstk-3")
+const fstk4 = document.querySelector(".fstk-4")
 const besti2 = document.querySelector(".besti2")
 const besti3 = document.querySelector(".besti3")
 const besti4 = document.querySelector(".besti4")
@@ -65,7 +66,7 @@ close.addEventListener("click" , ()=>{
 })
 
 // 
-mtnf.textContent = "متن کامل تکالیف : " + fstk1.textContent
+mtnf.textContent = "متن کامل تکالیف : " + fstk1.textContent + fstk2.textContent + fstk3.textContent + fstk4.textContent
 // 
 
 

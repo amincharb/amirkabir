@@ -30,7 +30,7 @@ sm.addEventListener("click" , ()=>{
         main_ahw.style.color = "black"
         back.style.color = "black"
         hminp.style.color = "black"
-        hmbtn.style.backgroundColor = "aliceblue"
+        hmbtn.style.backgroundColor = "#acf1e4"
         hmbtn.style.color = "black"
         hmbtn.style.border = "none"
     }
@@ -529,7 +529,7 @@ if (savedDarkMode) {
     hminp.style.backgroundColor = "";
     hminp.style.color = "black";
 
-    hmbtn.style.backgroundColor = "aliceblue";
+    hmbtn.style.backgroundColor = "#acf1e4";
     hmbtn.style.color = "black";
     hmbtn.style.border = "none";
 }

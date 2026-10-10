@@ -112,6 +112,10 @@ body {
     text-align: center;
     padding: 4px;
 }
+
+.greenspan {
+    color: green;
+}
 .main {
     flex: 1;
     min-width: 0;
@@ -1257,7 +1261,7 @@ tr , td , th {
     height: 55px;
     padding-right: 20px;
     font-size: 20px;
-    border: 1px solid rgb(202, 198, 198);
+    border: 1px solid ;
     border-radius: 8px;
 }
 #hm-btn {
@@ -1268,10 +1272,10 @@ tr , td , th {
     border-radius: 8px;
     cursor: pointer;
     border: none;
-    background-color: aliceblue;
+    background-color: #acf1e4;
 }
 #hm-btn:hover {
-    background-color: rgb(228 236 255);
+    background-color: rgb(202, 198, 198);
 }
 .hm-mtnt {
     text-align: justify;
