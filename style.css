@@ -249,6 +249,7 @@ body {
 .img-tk {
     width: 100%;
     filter: brightness(0) saturate(100%) invert(15%) sepia(98%) saturate(7471%) hue-rotate(358deg) brightness(101%) contrast(118%);
+    padding: 6px;
 }
 .div-mtntk {
     width: 120px;
