@@ -67,6 +67,9 @@ close.addEventListener("click" , ()=>{
 
 // 
 mtnf.textContent = "متن کامل تکالیف : " + fstk1.textContent
+ + fstk2.textContent
+  + fstk3.textContent
+//    + fstk4.textContent
 // 
 
 
