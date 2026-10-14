@@ -1,6 +1,9 @@
 {
+  "id": "/amirkabir/",
   "name": "کلاس ما",
   "short_name": "امیرکبیر",
+  "lang": "fa",
+  "dir": "rtl",
   "start_url": "/amirkabir/",
   "scope": "/amirkabir/",
   "display": "standalone",
