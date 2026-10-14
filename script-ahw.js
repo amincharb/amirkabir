@@ -1128,6 +1128,18 @@ document.querySelectorAll(".hm-download-all").forEach(function (button) {
     });
 
 });
+
+document.querySelectorAll(".hm-gallery img").forEach(function (img) {
+    const wrap = document.createElement("div");
+    wrap.className = "hm-img-wrap";
+
+    // متن از attribute خود عکس خونده میشه
+    wrap.setAttribute("data-text", img.dataset.text || "برای بزرگ‌نمایی کلیک کنید");
+
+    img.parentNode.insertBefore(wrap, img);
+    wrap.appendChild(img);
+});
+
 /* =========================
    گالری تصاویر تکالیف
    ========================= */
