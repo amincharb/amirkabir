@@ -298,6 +298,10 @@ body {
     width: 85%;
     padding: 15px;
 }
+.mtnf-line {
+    margin-top: 10px;
+    line-height: 1.9;
+}
 .div-mtnf:nth-child(2) {
     padding: 0px 15px 0px 0px;
 }

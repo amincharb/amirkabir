@@ -65,12 +65,19 @@ close.addEventListener("click" , ()=>{
     divnone.style.display = "none"
 })
 
-// 
-mtnf.textContent = "متن کامل تکالیف : " + fstk1.textContent
-//  + fstk2.textContent
-//   + fstk3.textContent
-//    + fstk4.textContent
-// 
+mtnf.textContent = ""
+const mtnfTitle = document.createElement("div")
+mtnfTitle.className = "mtnf-title"
+mtnfTitle.textContent = "متن کامل تکالیف :"
+mtnf.appendChild(mtnfTitle)
+document.querySelectorAll(".fstk-1 , .fstk-2 , .fstk-3 , .fstk-4").forEach((hw)=>{
+    const text = hw.textContent.replace(/\s+/g, " ").trim()
+    if (!text) return
+    const line = document.createElement("div")
+    line.className = "mtnf-line"
+    line.textContent = text
+    mtnf.appendChild(line)
+})
 
 
 sm.addEventListener("click" , ()=>{
