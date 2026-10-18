@@ -55,6 +55,8 @@ const besti3 = document.querySelector(".besti3")
 const besti4 = document.querySelector(".besti4")
 const besti5 = document.querySelector(".besti5")
 const besti6 = document.querySelector(".besti6")
+const close_msg = document.getElementById("close-msg")
+const besti_msg = document.getElementById("besti-msg")
 let darkmode = false
 
 
@@ -64,6 +66,23 @@ btnball.addEventListener("click" , ()=>{
 close.addEventListener("click" , ()=>{
     divnone.style.display = "none"
 })
+
+
+if (true) {
+    besti_msg.style.display = "flex"
+}
+close_msg.addEventListener("click" , ()=>{
+    besti_msg.style.display = "none"
+    localStorage.setItem("close_msg1" , JSON.stringify(besti_msg.style.display))
+})
+const close_local = JSON.parse(localStorage.getItem("close_msg1"))
+if (close_local) {
+    besti_msg.style.display = "none"
+}
+
+
+
+
 
 mtnf.textContent = ""
 const mtnfTitle = document.createElement("div")

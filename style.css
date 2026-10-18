@@ -149,6 +149,8 @@ body {
 .main.dark::-webkit-scrollbar-track {
     background-color: black;
 }
+
+
 .besti {
     width: 100%;
     height: auto;
@@ -184,6 +186,32 @@ body {
     background: linear-gradient(200deg , #FDE047 , #FDE047 , #fbff00 , #FDE047 , #FDE047);
     color: rgb(150, 92, 6);
 }
+.besti-msg {
+    width: 80%;
+    height: auto;
+    margin: 20px auto;
+    border-radius: 10px;
+    display: none;
+    justify-content: center;
+    align-items: center;
+}
+.div-msg {
+    width: 60%;
+    height: auto;
+    background-color: rgb(36 213 148);
+}
+.div-msg p {
+    padding: 10px;
+    padding-top: 0px;
+    margin: 0 auto;
+    text-align: justify;
+}
+.close-msg {
+    width: 24px;
+    cursor: pointer;
+    padding: 5px;
+    padding-bottom: 0px;
+}
 .besti2 {
     overflow: hidden;
 }
@@ -209,12 +237,21 @@ body {
 }
 .ic2 {
     filter: brightness(0) saturate(100%) invert(47%) sepia(97%) saturate(1467%) hue-rotate(82deg) brightness(89%) contrast(105%);
+    animation: ic2 1s ease-in-out infinite;
 }
 .ic3 {
     filter: brightness(0) saturate(100%) invert(15%) sepia(98%) saturate(2705%) hue-rotate(303deg) brightness(89%) contrast(105%);
 }
 .ic4 {
     filter: brightness(0) saturate(100%) invert(35%) sepia(91%) saturate(1221%) hue-rotate(4deg) brightness(91%) contrast(105%);
+}
+@keyframes ic2 {
+    to {
+        transform: rotate(0deg);
+    }
+    from {
+        transform: rotate(-360deg);
+    }
 }
 .sgbt {
     /* border: 1px solid black; */
@@ -729,6 +766,9 @@ tr , td , th {
     .hm {
         width: 80%;
     }
+    .div-msg {
+        width: 90%;
+    }
 }
 
 /* ========================================
@@ -1014,6 +1054,9 @@ tr , td , th {
 
     .mtnn {
         font-size: 15px;
+    }
+    .div-msg {
+        font-size: 14px;
     }
 }
 
