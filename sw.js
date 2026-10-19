@@ -21,6 +21,10 @@ const MEDIA_CACHE = `${PREFIX}media-${VERSION}`;  // عکس‌ها و PDFها
 const ALL_CACHES = [CORE_CACHE, PAGE_CACHE, MEDIA_CACHE];
 
 const NETWORK_TIMEOUT = 4000; // میلی‌ثانیه؛ بعدش از کش خونده می‌شه
+const BYPASS = [
+  "exams.html"
+  ,"script-e.js"
+]
 
 /* مسیرها نسبت به محل sw.js هستن (یعنی /amirkabir/) */
 const CORE_ASSETS = [
@@ -150,6 +154,7 @@ self.addEventListener("fetch", (event) => {
   if (url.origin !== self.location.origin) return;           // سایت‌های بیرونی دست‌نخورده
   if (!url.href.startsWith(self.registration.scope)) return;  // فقط داخل /amirkabir/
   if (url.pathname.endsWith("/sw.js")) return;
+  if (BYPASS.some((name) => url.pathname.endsWith("/" + name))) return;
 
   if (request.mode === "navigate") {
     event.respondWith(pageStrategy(event, request));
