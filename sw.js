@@ -22,8 +22,9 @@ const ALL_CACHES = [CORE_CACHE, PAGE_CACHE, MEDIA_CACHE];
 
 const NETWORK_TIMEOUT = 4000; // میلی‌ثانیه؛ بعدش از کش خونده می‌شه
 const BYPASS = [
-  "exams.html"
-  ,"script-e.js"
+  "exams.html",
+  "script-e.js"
+  // ,"style.css"
 ]
 
 /* مسیرها نسبت به محل sw.js هستن (یعنی /amirkabir/) */
