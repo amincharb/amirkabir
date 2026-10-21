@@ -24,7 +24,7 @@ const NETWORK_TIMEOUT = 4000; // میلی‌ثانیه؛ بعدش از کش خو
 const BYPASS = [
   "exams.html",
   "script-e.js"
-  // ,"style.css"
+  ,"style.css"
 ]
 
 /* مسیرها نسبت به محل sw.js هستن (یعنی /amirkabir/) */
