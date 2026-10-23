@@ -6,6 +6,13 @@
     <meta name="description" content="کلاس 203 امیرکبیر , روانی ترین انسان های کره زمین توی این کلاسن!">
     <title>کلاس 203 امیرکبیر | صفحه اصلی</title>
     <link rel="stylesheet" href="style.css">
+    <script>
+        try {
+            if (JSON.parse(localStorage.getItem("darkmode"))) {
+                document.documentElement.classList.add("pre-dark");
+            }
+        } catch (e) {}
+    </script>
     <link rel="icon" type="image/png" href="icon/student.png">
     <link rel="manifest" href="/amirkabir/manifest.json">
     <meta name="theme-color" content="#000000">
@@ -31,6 +38,21 @@
                 <!-- <div class="mtnf-time randomaqua" onclick="window.location.href = 'AllHomeWork.html?homework=22mehr'"><b>منبع : </b>تکلیف شماره 22# <span>22 مهر</span></div> -->
                 <div class="mtnf-time"><b>مهلت انجام تکالیف :</b> تا فردا شنبه <span>1405/08/02</span></div>
             </div>
+        </div>
+    </div>
+
+    <div class="div-fix-update" id="update">
+        <div class="fix-update">
+            <p>سایت آپدیت شد !!!</p>
+            <p>- صفحه جدید : </p>
+            <p>به دلیل درخواست های فراوان برخی افراد کلاس بلاخره صفحه و بخش جدید امتحانات ساخته شد . در این بخش اطلاعاتی درباره زمان برگزاری امتحان و نمونه سوالات و ... قرار میگیرن</p>
+            <p>- رفع باگ های ریز :</p>
+            <p>وقتی حالت صفحه تاریک میشد و صفحه رفرش میشد یه چشمک بدی میزد الان رفع شده</p>
+
+            <!--  -->
+
+            <p class="up-nos">نسخه جدید : 1.2</p>
+            <button class="up-btn" id="upbtn">فهمیدم</button>
         </div>
     </div>
 
@@ -96,13 +118,13 @@
                             <p class="lg2 sgbt-mtn2">مشاهده تکالیف</p>
                         </div>
                     </div>
-                    <div class="boxs box2" onclick="alert('این صفحه در دست ساخت هست .')">
+                    <div class="boxs box2" onclick="window.location.href = 'exams.html'">
                         <div class="div-icon">
-                            <img src="icon/refresh.png" alt="" class="ic ic2">
+                            <img src="icon/exam.png" alt="" class="ic ic2">
                         </div>
                         <div class="sgbt">
-                            <p class="lg sgbt-mtn3">به</p>
-                            <p class="lg2 sgbt-mtn4">زودی</p>
+                            <p class="lg sgbt-mtn3">امتحانات</p>
+                            <p class="lg2 sgbt-mtn4">لیست دروس</p>
                         </div>
                     </div>
                     <div class="boxs box3" onclick="window.location.href = 'students.html'">
@@ -124,14 +146,14 @@
                         </div>
                     </div>
                 </div>
-                <div id="besti-msg" class="besti-msg">
+                <!-- <div id="besti-msg" class="besti-msg">
                     <div class="div-msg">
                         <div class="close-msg-div">
                             <img src="icon/close.png" alt="" class="close-msg" id="close-msg">
                         </div>
                         <p>به دلیل درخواست ها و التماس های زیاد برخی افراد کلاس صفحه و بخش جدید امتحانات در دست ساخت قرار گرفت . اگر ایده خاصی برای این صفحه مدنظر شما است ممنون میشم به آیدی من در تلگرام <a href="tg://resolve?domain=chqrb" class="a-1">chqrb@</a> اطلاع دهید .</p>
                     </div>
-                </div>
+                </div> -->
                 <div class="besti2" id="target-hw">
                     <div class="tks">
                         <div class="tks-head">
@@ -371,7 +393,7 @@
                     </p>
 
                     <p class="footer-version">
-                        نسخه سایت <b>1.1</b>
+                        نسخه سایت <b>1.2</b>
                     </p>
                 </div>
             </div>

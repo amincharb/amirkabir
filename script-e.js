@@ -52,8 +52,21 @@ const down10 = document.querySelector(".b10")
 const down11 = document.querySelector(".b11")
 const down12 = document.querySelector(".b12")
 const down13 = document.querySelector(".b13")
+const book_down = document.querySelectorAll(".book-down")
+const rb = document.querySelectorAll(".random-box")
+const rq = document.querySelectorAll(".random-que")
 const div_books = document.querySelector(".div-books")
 const main_e = document.querySelector(".main-e")
+const sm = document.getElementById("sm")
+const myc = document.querySelector(".myc")
+const back = document.querySelector(".back-home")
+const pao = document.querySelector(".besti-pao")
+const park = document.querySelector(".besti-park")
+const book_name = document.querySelectorAll(".book-name")
+const lock = document.querySelectorAll(".lock")
+let darkmode = false
+
+
 
 box1.addEventListener("click" , ()=>{
     box1.style.backgroundColor = "#1ea7fb"
@@ -177,6 +190,127 @@ div_book13.addEventListener("click" , ()=>{
     book13.classList.toggle("book-toggle")
     down13.classList.toggle("book-rotate")
 })
+
+
+
+
+
+sm.addEventListener("click" , ()=>{
+    darkmode = !darkmode
+    main_e.classList.toggle("dark")
+    if (darkmode) {
+        sm.src = "icon/wsun.png"
+        document.body.style.backgroundColor = "black"
+        myc.style.color = "white"
+        back.style.color = "white";
+        pao.style.color = "white";
+        park.style.color = "white";
+        book_name.forEach(book => {
+            book.style.color = "white";
+        })
+        rb.forEach(rbo => {
+            rbo.style.color = "white";
+        })
+        rq.forEach(rqu => {
+            rqu.style.color = "white";
+        })
+        book_down.forEach(down => {
+            down.style.filter = "brightness(0) invert(1)"
+        })
+        lock.forEach(lk => {
+            lk.style.filter = "brightness(0) invert(1)"
+        })
+    }else {
+        sm.src = "icon/moon.png"
+        document.body.style.backgroundColor = "white"
+        myc.style.color = "black"
+        back.style.color = "black";
+        pao.style.color = "black";
+        park.style.color = "black";
+        book_name.forEach(book => {
+            book.style.color = "black";
+        })
+        rb.forEach(rbo => {
+            rbo.style.color = "black";
+        })
+        rq.forEach(rqu => {
+            rqu.style.color = "black";
+        })
+        book_down.forEach(down => {
+            down.style.filter = "brightness(0)"
+        })
+        lock.forEach(lk => {
+            lk.style.filter = "brightness(0)"
+        })
+    }
+    localStorage.setItem("darkmode" , darkmode);
+})
+
+const savedDarkMode = JSON.parse(localStorage.getItem("darkmode"));
+
+if (savedDarkMode) {
+    darkmode = true;
+    main_e.classList.add("dark");
+
+    sm.src = "icon/wsun.png";
+    document.body.style.backgroundColor = "black";
+    myc.style.color = "white";
+    back.style.color = "white";
+    pao.style.color = "white";
+    park.style.color = "white";
+    book_name.forEach(book => {
+        book.style.color = "white";
+    })
+    rb.forEach(rbo => {
+        rbo.style.color = "white";
+    })
+    rq.forEach(rqu => {
+        rqu.style.color = "white";
+    })
+    book_down.forEach(down => {
+        down.style.filter = "brightness(0) invert(1)"
+    })
+    lock.forEach(lk => {
+            lk.style.filter = "brightness(0) invert(1)"
+        })
+} else {
+    darkmode = false;
+    main_e.classList.remove("dark");
+
+    sm.src = "icon/moon.png";
+    document.body.style.backgroundColor = "white";
+    myc.style.color = "black";
+    back.style.color = "black";
+    pao.style.color = "black";
+    park.style.color = "black";
+    book_name.forEach(book => {
+        book.style.color = "black";
+    })
+    rb.forEach(rbo => {
+        rbo.style.color = "black";
+    })
+    rq.forEach(rqu => {
+        rqu.style.color = "black";
+    })
+    book_down.forEach(down => {
+        down.style.filter = "brightness(0)"
+    })
+    lock.forEach(lk => {
+        lk.style.filter = "brightness(0)"
+    })
+}
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 

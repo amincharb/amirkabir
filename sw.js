@@ -13,7 +13,7 @@
  *    عدد VERSION رو یکی بالا ببر تا کش قدیمی پاک بشه.
  */
 
-const VERSION = "v2";
+const VERSION = "v3";
 const PREFIX = "amirkabir-";
 const CORE_CACHE = `${PREFIX}core-${VERSION}`;   // فایل‌های اصلی سایت (حتماً باید کش بشن)
 const PAGE_CACHE = `${PREFIX}pages-${VERSION}`;   // صفحات HTML
@@ -21,11 +21,11 @@ const MEDIA_CACHE = `${PREFIX}media-${VERSION}`;  // عکس‌ها و PDFها
 const ALL_CACHES = [CORE_CACHE, PAGE_CACHE, MEDIA_CACHE];
 
 const NETWORK_TIMEOUT = 4000; // میلی‌ثانیه؛ بعدش از کش خونده می‌شه
-const BYPASS = [
-  "exams.html",
-  "script-e.js"
-  // ,"style.css"
-]
+// const BYPASS = [
+//   "exams.html",
+//   "script-e.js"
+//   ,"style.css"
+// ]
 
 /* مسیرها نسبت به محل sw.js هستن (یعنی /amirkabir/) */
 const CORE_ASSETS = [
@@ -35,8 +35,10 @@ const CORE_ASSETS = [
   "students.html",
   "teachers.html",
   "offline.html",
+  "exams.html",
   "style.css",
   "script.js",
+  "script-e.js",
   "script-s.js",
   "script-t.js",
   "script-ahw.js",
@@ -44,6 +46,9 @@ const CORE_ASSETS = [
   "manifest.json",
   "icon/announcement.png",
   "icon/close.png",
+  "icon/down.png",
+  "icon/lock.png",
+  "icon/exam.png",
   "icon/home.png",
   "icon/homework.png",
   "icon/icon-192.png",
@@ -75,7 +80,7 @@ const CORE_ASSETS = [
    اگه فایلی وجود نداشته باشه نادیده گرفته می‌شه (نصب خراب نمی‌شه). */
 const MEDIA_ASSETS = [
   ...Array.from({ length: 34 }, (_, i) => `profiles/${i + 1}.webp`),
-  ...Array.from({ length: 76 }, (_, i) => `homeworks/${i + 1}.webp`),
+  ...Array.from({ length: 150 }, (_, i) => `homeworks/${i + 1}.webp`),
 ];
 
 /* PDFها (حدود ۱۰ مگابایت) خودکار دانلود نمی‌شن؛ اولین باری که کاربر بازشون کنه کش می‌شن.
@@ -155,7 +160,7 @@ self.addEventListener("fetch", (event) => {
   if (url.origin !== self.location.origin) return;           // سایت‌های بیرونی دست‌نخورده
   if (!url.href.startsWith(self.registration.scope)) return;  // فقط داخل /amirkabir/
   if (url.pathname.endsWith("/sw.js")) return;
-  if (BYPASS.some((name) => url.pathname.endsWith("/" + name))) return;
+  // if (BYPASS.some((name) => url.pathname.endsWith("/" + name))) return;
 
   if (request.mode === "navigate") {
     event.respondWith(pageStrategy(event, request));

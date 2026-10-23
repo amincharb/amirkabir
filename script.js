@@ -57,6 +57,8 @@ const besti5 = document.querySelector(".besti5")
 const besti6 = document.querySelector(".besti6")
 const close_msg = document.getElementById("close-msg")
 const besti_msg = document.getElementById("besti-msg")
+const update = document.getElementById("update")
+const upbtn = document.getElementById("upbtn")
 let darkmode = false
 
 
@@ -68,16 +70,27 @@ close.addEventListener("click" , ()=>{
 })
 
 
+// if (true) {
+//     besti_msg.style.display = "flex"
+// }
+// close_msg.addEventListener("click" , ()=>{
+//     besti_msg.style.display = "none"
+//     localStorage.setItem("close_msg1" , JSON.stringify(besti_msg.style.display))
+// })
+// const close_local = JSON.parse(localStorage.getItem("close_msg1"))
+// if (close_local) {
+//     besti_msg.style.display = "none"
+// }
 if (true) {
-    besti_msg.style.display = "flex"
+    update.style.display = "flex"
 }
-close_msg.addEventListener("click" , ()=>{
-    besti_msg.style.display = "none"
-    localStorage.setItem("close_msg1" , JSON.stringify(besti_msg.style.display))
+upbtn.addEventListener("click" , ()=> {
+    update.style.display = "none"
+    localStorage.setItem("close_msg2" , JSON.stringify(update.style.display))
 })
-const close_local = JSON.parse(localStorage.getItem("close_msg1"))
-if (close_local) {
-    besti_msg.style.display = "none"
+const close_local2 = JSON.parse(localStorage.getItem("close_msg2"))
+if (close_local2) {
+    update.style.display = "none"
 }
 
 
@@ -122,61 +135,7 @@ sm.addEventListener("click" , ()=>{
         myc.style.color = "black"
     }
     localStorage.setItem("darkmode" , darkmode);
-    // localStorage.setItem("darkness" , JSON.stringify({
-    //     main: main.classList.contains("dark") ,
-    //     src: sm.src ,
-    //     body: document.body.style.backgroundColor,
-    //     besti2: besti2.style.color,
-    //     besti3: besti3.style.color,
-    //     besti4: besti4.style.color,
-    //     besti5: besti5.style.color,
-    //     besti6: besti6.style.color,
-    //     myc: myc.style.color
-    // }))
-    // localStorage.setItem("darkness2" , JSON.stringify({
-    //     src: sm.src,
-    //     body: document.body.style.backgroundColor,
-    //     myc: myc.style.color,
-    //     main_ahw: main_ahw.style.color,
-    //     back: back.style.color,
-    //     hminpbc: hminp.style.backgroundColor,
-    //     hminpc: hminp.style.color,
-    //     hmbtnbc: hmbtn.style.backgroundColor,
-    //     hmbtnc: hmbtn.style.color,
-    //     hmbtnb: hmbtn.style.border
-    // }))
 })
-// const getTheme = JSON.parse(localStorage.getItem("darkness"))
-
-// if (getTheme) {
-//     darkmode = getTheme.main
-//     main.classList.toggle("dark" , getTheme.main)
-//     sm.src = getTheme.src
-//     document.body.style.backgroundColor = getTheme.body
-//     besti2.style.color = getTheme.besti2
-//     besti3.style.color = getTheme.besti3
-//     besti4.style.color = getTheme.besti4
-//     besti5.style.color = getTheme.besti5
-//     besti6.style.color = getTheme.besti6
-//     myc.style.color = getTheme.myc
-// }
-
-// const getTheme2 = JSON.parse(localStorage.getItem("darkness2"))
-
-// if (getTheme2) {
-//     darkmode = getTheme2.main_ahw
-//     main_ahw.classList.toggle("dark" , getTheme.main_ahw)
-//     sm.src
-//     document.body.style.backgroundColor = getTheme2.body
-//     myc.style.color = getTheme2.myc
-//     main_ahw.style.color = getTheme2.main_ahw
-//     back.style.color = getTheme2.back
-//     hminp.style.backgroundColor = getTheme2.hminpbc
-//     hminp.style.color = getTheme2.hminpc
-//     hmbtn.style.backgroundColor = getTheme2.hmbtnbc
-//     hmbtn.style.color = getTheme2.hmbtnc
-//     hmbtn.style.border = getTheme2.hmbtnb
-// }
 const savedDarkMode = JSON.parse(localStorage.getItem("darkmode"));
 
 if (savedDarkMode) {
