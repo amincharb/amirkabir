@@ -81,17 +81,19 @@ close.addEventListener("click" , ()=>{
 // if (close_local) {
 //     besti_msg.style.display = "none"
 // }
-if (true) {
-    update.style.display = "flex"
-}
-upbtn.addEventListener("click" , ()=> {
-    update.style.display = "none"
-    localStorage.setItem("close_msg2" , JSON.stringify(update.style.display))
-})
-const close_local2 = JSON.parse(localStorage.getItem("close_msg2"))
-if (close_local2) {
-    update.style.display = "none"
-}
+
+
+// if (true) {
+//     update.style.display = "flex"
+// }
+// upbtn.addEventListener("click" , ()=> {
+//     update.style.display = "none"
+//     localStorage.setItem("close_msg2" , JSON.stringify(update.style.display))
+// })
+// const close_local2 = JSON.parse(localStorage.getItem("close_msg2"))
+// if (close_local2) {
+//     update.style.display = "none"
+// }
 
 
 
