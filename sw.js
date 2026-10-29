@@ -13,7 +13,7 @@
  *    عدد VERSION رو یکی بالا ببر تا کش قدیمی پاک بشه.
  */
 
-const VERSION = "v3";
+const VERSION = "v4";
 const PREFIX = "amirkabir-";
 const CORE_CACHE = `${PREFIX}core-${VERSION}`;   // فایل‌های اصلی سایت (حتماً باید کش بشن)
 const PAGE_CACHE = `${PREFIX}pages-${VERSION}`;   // صفحات HTML

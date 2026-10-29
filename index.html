@@ -6,6 +6,36 @@
     <meta name="description" content="کلاس 203 امیرکبیر , روانی ترین انسان های کره زمین توی این کلاسن!">
     <title>کلاس 203 امیرکبیر | صفحه اصلی</title>
     <link rel="stylesheet" href="style.css">
+    <style>
+        #page-loader {
+            position: fixed;
+            inset: 0;
+            z-index: 9999;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            background: white;
+            opacity: 0;
+            animation: loader-in .3s ease .1s forwards;
+        }
+        html.pre-dark #page-loader { background: black; }
+        #page-loader.hide {
+            opacity: 0 !important;
+            visibility: hidden;
+            transition: opacity .25s ease, visibility .25s;
+            animation: none;
+        }
+        .loader-ring {
+            width: 44px;
+            height: 44px;
+            border: 4px solid rgb(145 192 255 / 0.3);
+            border-top-color: rgb(145 192 255);
+            border-radius: 50%;
+            animation: loader-spin .8s linear infinite;
+        }
+        @keyframes loader-in { to { opacity: 1; } }
+        @keyframes loader-spin { to { transform: rotate(360deg); } }
+    </style>
     <script>
         try {
             if (JSON.parse(localStorage.getItem("darkmode"))) {
@@ -27,6 +57,19 @@
     </script>
 </head>
 <body>
+    <div id="page-loader" aria-hidden="true"><div class="loader-ring"></div></div>
+    <script>
+        (function () {
+            const loader = document.getElementById("page-loader");
+            const hide = () => loader.classList.add("hide");
+
+            if (document.readyState === "complete") hide();
+            else window.addEventListener("load", hide);
+
+            window.addEventListener("pageshow", hide);
+            setTimeout(hide, 10000);
+        })();
+    </script>
 
     <div class="fix-fstk">
         <div class="deta-fstk">

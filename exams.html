@@ -6,6 +6,36 @@
     <meta name="description" content="کلاس 203 امیرکبیر , روانی ترین انسان های کره زمین توی این کلاسن!">
     <title>کلاس 203 امیرکبیر | امتحانات</title>
     <link rel="stylesheet" href="style.css">
+    <style>
+        #page-loader {
+            position: fixed;
+            inset: 0;
+            z-index: 9999;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            background: white;
+            opacity: 0;
+            animation: loader-in .3s ease .1s forwards;
+        }
+        html.pre-dark #page-loader { background: black; }
+        #page-loader.hide {
+            opacity: 0 !important;
+            visibility: hidden;
+            transition: opacity .25s ease, visibility .25s;
+            animation: none;
+        }
+        .loader-ring {
+            width: 44px;
+            height: 44px;
+            border: 4px solid rgb(145 192 255 / 0.3);
+            border-top-color: rgb(145 192 255);
+            border-radius: 50%;
+            animation: loader-spin .8s linear infinite;
+        }
+        @keyframes loader-in { to { opacity: 1; } }
+        @keyframes loader-spin { to { transform: rotate(360deg); } }
+    </style>
     <script>
         try {
             if (JSON.parse(localStorage.getItem("darkmode"))) {
@@ -18,6 +48,19 @@
     <meta name="theme-color" content="#000000">
 </head>
 <body>
+    <div id="page-loader" aria-hidden="true"><div class="loader-ring"></div></div>
+    <script>
+        (function () {
+            const loader = document.getElementById("page-loader");
+            const hide = () => loader.classList.add("hide");
+
+            if (document.readyState === "complete") hide();
+            else window.addEventListener("load", hide);
+
+            window.addEventListener("pageshow", hide);
+            setTimeout(hide, 10000);
+        })();
+    </script>
     
     <div class="big-cont">
         <div class="head">
@@ -637,7 +680,7 @@
                                 <div class="div-book-det">
                                     <div class="div-book-nt">
                                         <div class="book-name">ریاضی</div>
-                                        <div class="book-what book-purple">هنوز برگزار نشده</div>
+                                        <div class="book-what book-green">برگزار شده</div>
                                     </div>
                                     <div class="book-deta">0 فایل 0 سوال امتحانی</div>
                                 </div>
@@ -649,15 +692,15 @@
                             <div class="div-random-box">
                                 <div class="random-box">
                                     <div class="p-t">روز هفته</div>
-                                    <div class="p-d">نامشخص</div>
+                                    <div class="p-d">چهارشنبه</div>
                                 </div>
                                 <div class="random-box">
                                     <div class="p-t">تاریخ</div>
-                                    <div class="p-d">00/00</div>
+                                    <div class="p-d">08/06</div>
                                 </div>
                                 <div class="random-box">
                                     <div class="p-t">ساعت</div>
-                                    <div class="p-d">00:00</div>
+                                    <div class="p-d">08:00</div>
                                 </div>
                             </div>
                             <p class="p-time">فایل ها و نمونه سوالات</p>
@@ -695,7 +738,7 @@
                                 <div class="div-book-det">
                                     <div class="div-book-nt">
                                         <div class="book-name">شیمی</div>
-                                        <div class="book-what book-purple">هنوز برگزار نشده</div>
+                                        <div class="book-what book-yellow">به زودی برگزار میشود</div>
                                     </div>
                                     <div class="book-deta">0 فایل 0 سوال امتحانی</div>
                                 </div>
@@ -707,15 +750,15 @@
                             <div class="div-random-box">
                                 <div class="random-box">
                                     <div class="p-t">روز هفته</div>
-                                    <div class="p-d">نامشخص</div>
+                                    <div class="p-d">چهارشنبه</div>
                                 </div>
                                 <div class="random-box">
                                     <div class="p-t">تاریخ</div>
-                                    <div class="p-d">00/00</div>
+                                    <div class="p-d">08/13</div>
                                 </div>
                                 <div class="random-box">
                                     <div class="p-t">ساعت</div>
-                                    <div class="p-d">00:00</div>
+                                    <div class="p-d">11:30</div>
                                 </div>
                             </div>
                             <p class="p-time">فایل ها و نمونه سوالات</p>
@@ -753,7 +796,7 @@
                                 <div class="div-book-det">
                                     <div class="div-book-nt">
                                         <div class="book-name">نوآوری</div>
-                                        <div class="book-what book-purple">هنوز برگزار نشده</div>
+                                        <div class="book-what book-yellow">به زودی برگزار میشود</div>
                                     </div>
                                     <div class="book-deta">0 فایل 0 سوال امتحانی</div>
                                 </div>
@@ -765,15 +808,15 @@
                             <div class="div-random-box">
                                 <div class="random-box">
                                     <div class="p-t">روز هفته</div>
-                                    <div class="p-d">نامشخص</div>
+                                    <div class="p-d">یکشنبه</div>
                                 </div>
                                 <div class="random-box">
                                     <div class="p-t">تاریخ</div>
-                                    <div class="p-d">00/00</div>
+                                    <div class="p-d">08/10</div>
                                 </div>
                                 <div class="random-box">
                                     <div class="p-t">ساعت</div>
-                                    <div class="p-d">00:00</div>
+                                    <div class="p-d">10:00</div>
                                 </div>
                             </div>
                             <p class="p-time">فایل ها و نمونه سوالات</p>
