@@ -13,7 +13,7 @@
  *    عدد VERSION رو یکی بالا ببر تا کش قدیمی پاک بشه.
  */
 
-const VERSION = "v4";
+const VERSION = "v5";
 const PREFIX = "amirkabir-";
 const CORE_CACHE = `${PREFIX}core-${VERSION}`;   // فایل‌های اصلی سایت (حتماً باید کش بشن)
 const PAGE_CACHE = `${PREFIX}pages-${VERSION}`;   // صفحات HTML
@@ -80,7 +80,7 @@ const CORE_ASSETS = [
    اگه فایلی وجود نداشته باشه نادیده گرفته می‌شه (نصب خراب نمی‌شه). */
 const MEDIA_ASSETS = [
   ...Array.from({ length: 34 }, (_, i) => `profiles/${i + 1}.webp`),
-  ...Array.from({ length: 150 }, (_, i) => `homeworks/${i + 1}.webp`),
+  ...Array.from({ length: 200 }, (_, i) => `homeworks/${i + 1}.webp`),
 ];
 
 /* PDFها (حدود ۱۰ مگابایت) خودکار دانلود نمی‌شن؛ اولین باری که کاربر بازشون کنه کش می‌شن.
