@@ -300,6 +300,9 @@ if (savedDarkMode) {
     })
 }
 
+function openpdfTolidmohtava() {
+    window.open("homeworks/نمونه_سوالات_پودمان_1،_درس_تولید_محتوا_1.pdf")
+}
 
 
 
