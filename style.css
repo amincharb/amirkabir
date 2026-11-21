@@ -327,6 +327,33 @@ body {
     width: 100%;
     height: auto;
 }
+.mtnf-turk {
+    font-size: 16px;
+    padding: 8px;
+}
+@media (max-width: 700px) {
+    .mtnf-turk {
+        font-size: 14px;
+    }
+}
+@media (max-width: 420px) {
+    .mtnf-turk {
+        font-size: 13px;
+    }
+}
+@media (max-width: 380px) {
+    .mtnf-turk {
+        font-size: 12px;
+    }
+}
+@media (max-width: 350px) {
+    .mtnf-turk {
+        font-size: 10px;
+    }
+}
+.mtnf-turk span {
+    color: green;
+}
 .mtnf-time {
     text-align: justify;
     padding: 8px;
